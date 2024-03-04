@@ -2,8 +2,8 @@
     "versions": [
         {
             "package_version": "0.1",
-            "download_url": "TODO",
-            "sha256": "TODO",
+            "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.1/SOTN-AP-MapTracker.zip",
+            "sha256": "9a4714d50eea3a58b84eea0fbef11ef1ced75ccda4976bb5369eff1374517add",
             "changelog": [
                 "Initial release of the pack."
             ]
