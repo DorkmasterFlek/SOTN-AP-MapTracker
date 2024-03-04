@@ -1,0 +1,165 @@
+[
+    {
+        "name": "Reverse Outer Wall",
+        "access_rules": [
+            "$canAccessInvertedCastle"
+        ],
+        "children": [
+            {
+                "name": "Behind Grate",
+                "access_rules": [
+                    "formofmist"
+                ],
+                "sections": [
+                    {
+                        "name": "Shotel",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hammer",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 72,
+                        "y": 512
+                    }
+                ]
+            },
+            {
+                "name": "Garnet",
+                "sections": [
+                    {
+                        "name": "Garnet",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 52,
+                        "y": 752
+                    }
+                ]
+            },
+            {
+                "name": "Luck potion",
+                "sections": [
+                    {
+                        "name": "Luck potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 32,
+                        "y": 572
+                    }
+                ]
+            },
+            {
+                "name": "Shield potion",
+                "sections": [
+                    {
+                        "name": "Shield potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 72,
+                        "y": 592
+                    }
+                ]
+            },
+            {
+                "name": "High potion",
+                "sections": [
+                    {
+                        "name": "High potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 32,
+                        "y": 592
+                    }
+                ]
+            },
+            {
+                "name": "Life Vessel",
+                "sections": [
+                    {
+                        "name": "Life Vessel",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 32,
+                        "y": 552
+                    }
+                ]
+            },
+            {
+                "name": "Dim Sum set",
+                "sections": [
+                    {
+                        "name": "Dim Sum set",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 72,
+                        "y": 532
+                    }
+                ]
+            },
+            {
+                "name": "The Creature",
+                "sections": [
+                    {
+                        "name": "Creature kill",
+                        "hosted_item": "creature"
+                    },
+                    {
+                        "name": "Tooth of Vlad",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 102,
+                        "y": 592
+                    }
+                ]
+            },
+            {
+                "name": "Heart Vessel",
+                "sections": [
+                    {
+                        "name": "Heart Vessel",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 32,
+                        "y": 492
+                    }
+                ]
+            }
+        ]
+    }
+]

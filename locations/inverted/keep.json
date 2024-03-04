@@ -1,0 +1,170 @@
+[
+    {
+        "name": "Reverse Castle Keep",
+        "access_rules": [
+            "$canAccessInvertedCastle"
+        ],
+        "children": [
+            {
+                "name": "Keep Top",
+                "sections": [
+                    {
+                        "name": "Sword of dawn",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Garnet",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 632,
+                        "y": 832
+                    }
+                ]
+            },
+            {
+                "name": "Iron ball(Above Richter)",
+                "sections": [
+                    {
+                        "name": "Iron ball(Above Richter)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 632,
+                        "y": 872
+                    }
+                ]
+            },
+            {
+                "name": "Lightning mail",
+                "sections": [
+                    {
+                        "name": "Lightning mail",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 472,
+                        "y": 832
+                    }
+                ]
+            },
+            {
+                "name": "Below Throne",
+                "sections": [
+                    {
+                        "name": "Bastard sword",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Life Vessel 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heart Vessel 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Life Vessel 2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heart Vessel 2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Life Vessel 3",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heart Vessel 4",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Royal cloak",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 572,
+                        "y": 932
+                    }
+                ]
+            },
+            {
+                "name": "Library card",
+                "sections": [
+                    {
+                        "name": "Library card",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 472,
+                        "y": 892
+                    }
+                ]
+            },
+            {
+                "name": "Viewing Room",
+                "sections": [
+                    {
+                        "name": "Resist fire(Viewing room)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Resist ice(Viewing room)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Resist thunder(Viewing room)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Resist stone(Viewing room)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "High potion(Viewing room)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 482,
+                        "y": 932
+                    }
+                ]
+            },
+            {
+                "name": "Zircon",
+                "sections": [
+                    {
+                        "name": "Zircon",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 572,
+                        "y": 892
+                    }
+                ]
+            }
+        ]
+    }
+]

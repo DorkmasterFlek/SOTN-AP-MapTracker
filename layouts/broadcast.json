@@ -1,0 +1,13 @@
+{
+    "tracker_broadcast": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "layout",
+                "key": "broadcast_item_grid"
+            }
+        ]
+    }
+}

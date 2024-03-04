@@ -1,0 +1,233 @@
+[
+    {
+        "name": "Floating Catacombs",
+        "access_rules": [
+            "$canAccessInvertedCastle"
+        ],
+        "children": [
+            {
+                "name": "Catacombs Entrance",
+                "sections": [
+                    {
+                        "name": "Magic missile",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Buffalo star",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 692,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Necklace of j",
+                "sections": [
+                    {
+                        "name": "Necklace of j",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 772,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Diamond",
+                "sections": [
+                    {
+                        "name": "Diamond",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 792,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "After Galamoth",
+                "sections": [
+                    {
+                        "name": "Heart Vessel(After Galamoth)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Life Vessel(After Galamoth)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 912,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Gas Cloud Room",
+                "sections": [
+                    {
+                        "name": "Ruby circlet",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gas Cloud",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 912,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Lava Bridge",
+                "sections": [
+                    {
+                        "name": "Shield potion",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Attack potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 732,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Crypt",
+                "sections": [
+                    {
+                        "name": "Life Vessel(9)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heart Vessel(10)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 612,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Beyond Spike Maze",
+                "access_rules": [
+                    "soulofbat",
+                    "formofmist,powerofmist",
+                    "spikebreaker,leapstone",
+                    "spikebreaker,gravityboots"
+                ],
+                "children": [
+                    {
+                        "name": "Spike Hallway",
+                        "sections": [
+                            {
+                                "name": "Resist thunder",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Resist fire",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Karma coin(4)(Spike breaker)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Karma coin(5)(Spike breaker)",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "inverted",
+                                "x": 292,
+                                "y": 52
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Red bean bun",
+                        "sections": [
+                            {
+                                "name": "Red bean bun",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "inverted",
+                                "x": 292,
+                                "y": 32
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Spike Breaker Room",
+                        "sections": [
+                            {
+                                "name": "Elixir",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Library card",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "inverted",
+                                "x": 432,
+                                "y": 32
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Galamoth",
+                "sections": [
+                    {
+                        "name": "Galamoth kill",
+                        "hosted_item": "galamoth"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 882,
+                        "y": 42
+                    }
+                ]
+            }
+        ]
+    }
+]

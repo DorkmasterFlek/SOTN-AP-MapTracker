@@ -1,0 +1,12 @@
+{
+    "versions": [
+        {
+            "package_version": "0.1",
+            "download_url": "TODO",
+            "sha256": "TODO",
+            "changelog": [
+                "Initial release of the pack."
+            ]
+        }
+    ]
+}

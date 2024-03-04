@@ -1,0 +1,14 @@
+[
+    {
+        "name": "normal",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/map_normal.png"
+    },
+    {
+        "name": "inverted",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/map_inverted.png"
+    }
+]

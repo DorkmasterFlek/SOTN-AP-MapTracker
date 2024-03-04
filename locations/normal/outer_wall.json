@@ -1,0 +1,158 @@
+[
+    {
+        "name": "Outer Wall",
+        "children": [
+            {
+                "name": "Secret Elevator",
+                "sections": [
+                    {
+                        "name": "Jewel knuckles",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mirror cuirass",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 1172,
+                        "y": 472
+                    }
+                ]
+            },
+            {
+                "name": "Heart Vessel",
+                "sections": [
+                    {
+                        "name": "Heart Vessel",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 1192,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Garnet",
+                "access_rules": [
+                    "$canJump"
+                ],
+                "sections": [
+                    {
+                        "name": "Garnet",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 1212,
+                        "y": 412
+                    }
+                ]
+            },
+            {
+                "name": "Gladius",
+                "sections": [
+                    {
+                        "name": "Gladius",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 1172,
+                        "y": 392
+                    }
+                ]
+            },
+            {
+                "name": "Life Vessel",
+                "sections": [
+                    {
+                        "name": "Life Vessel",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 1212,
+                        "y": 392
+                    }
+                ]
+            },
+            {
+                "name": "Zircon",
+                "sections": [
+                    {
+                        "name": "Zircon",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 1212,
+                        "y": 432
+                    }
+                ]
+            },
+            {
+                "name": "Pot Roast",
+                "sections": [
+                    {
+                        "name": "Pot Roast",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 1172,
+                        "y": 452
+                    }
+                ]
+            },
+            {
+                "name": "Doppleganger 10",
+                "sections": [
+                    {
+                        "name": "Doppleganger 10 kill",
+                        "hosted_item": "doppleganger10"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 1142,
+                        "y": 392
+                    }
+                ]
+            },
+            {
+                "name": "Soul of Wolf",
+                "sections": [
+                    {
+                        "name": "Soul of Wolf",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 1212,
+                        "y": 292
+                    }
+                ]
+            }
+        ]
+    }
+]

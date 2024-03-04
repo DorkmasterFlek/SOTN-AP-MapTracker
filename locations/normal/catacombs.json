@@ -1,0 +1,241 @@
+[
+    {
+        "name": "Catacombs",
+        "access_rules": [
+            "@Abandoned Mine"
+        ],
+        "children": [
+            {
+                "name": "Catacombs Entrance",
+                "sections": [
+                    {
+                        "name": "Cat-eye circl.",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodstone",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 552,
+                        "y": 932
+                    }
+                ]
+            },
+            {
+                "name": "Icebrand",
+                "access_rules": [
+                    "$canHighJump"
+                ],
+                "sections": [
+                    {
+                        "name": "Icebrand",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 472,
+                        "y": 932
+                    }
+                ]
+            },
+            {
+                "name": "Walk armor",
+                "sections": [
+                    {
+                        "name": "Walk armor",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 452,
+                        "y": 932
+                    }
+                ]
+            },
+            {
+                "name": "Mormegil",
+                "sections": [
+                    {
+                        "name": "Mormegil",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 332,
+                        "y": 932
+                    }
+                ]
+            },
+            {
+                "name": "Lava Bridge",
+                "access_rules": [
+                    "$canHighJump"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Vessel(Ballroom mask)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ballroom mask",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 512,
+                        "y": 932
+                    }
+                ]
+            },
+            {
+                "name": "Crypt",
+                "sections": [
+                    {
+                        "name": "Life Vessel(Crypt)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heart Vessel(Crypt)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 632,
+                        "y": 952
+                    }
+                ]
+            },
+            {
+                "name": "Sarcophagus",
+                "sections": [
+                    {
+                        "name": "Monster vial 3 1(Sarcophagus)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Monster vial 3 2(Sarcophagus)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Monster vial 3 3(Sarcophagus)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Monster vial 3 4(Sarcophagus)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 662,
+                        "y": 952
+                    }
+                ]
+            },
+            {
+                "name": "Legion",
+                "sections": [
+                    {
+                        "name": "Legion kill",
+                        "hosted_item": "legion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 362,
+                        "y": 942
+                    }
+                ]
+            },
+            {
+                "name": "Beyond Spike Maze",
+                "access_rules": [
+                    "soulofbat,echoofbat",
+                    "spikebreaker,$canJump"
+                ],
+                "children": [
+                    {
+                        "name": "Spike Hallway",
+                        "sections": [
+                            {
+                                "name": "Cross shuriken 1(Spike breaker)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Cross shuriken 2(Spike breaker)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Karma coin 1(Spike breaker)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Karma coin 2(Spike breaker)",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 952,
+                                "y": 932
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pork bun",
+                        "sections": [
+                            {
+                                "name": "Pork bun",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 952,
+                                "y": 952
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Spike Breaker Room",
+                        "sections": [
+                            {
+                                "name": "Library card(Spike breaker)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Spike breaker",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 812,
+                                "y": 952
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

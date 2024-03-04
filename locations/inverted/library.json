@@ -1,0 +1,109 @@
+[
+    {
+        "name": "Forbidden Library",
+        "access_rules": [
+            "$canAccessInvertedCastle"
+        ],
+        "children": [
+            {
+                "name": "Neutron bomb",
+                "sections": [
+                    {
+                        "name": "Neutron bomb",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 272,
+                        "y": 692
+                    }
+                ]
+            },
+            {
+                "name": "Badelaire",
+                "sections": [
+                    {
+                        "name": "Badelaire",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 252,
+                        "y": 692
+                    }
+                ]
+            },
+            {
+                "name": "Side Room",
+                "sections": [
+                    {
+                        "name": "Resist fire",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Resist ice",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Resist stone",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 212,
+                        "y": 692
+                    }
+                ]
+            },
+            {
+                "name": "Staurolite",
+                "access_rules": [
+                    "formofmist"
+                ],
+                "sections": [
+                    {
+                        "name": "Staurolite",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 292,
+                        "y": 632
+                    }
+                ]
+            },
+            {
+                "name": "Reverse Librarian",
+                "sections": [
+                    {
+                        "name": "Turquoise",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Opal",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Library card",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 272,
+                        "y": 652
+                    }
+                ]
+            }
+        ]
+    }
+]

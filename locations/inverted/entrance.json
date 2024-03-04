@@ -1,0 +1,153 @@
+[
+    {
+        "name": "Reverse Entrance",
+        "access_rules": [
+            "$canAccessInvertedCastle"
+        ],
+        "children": [
+            {
+                "name": "Life Vessel",
+                "sections": [
+                    {
+                        "name": "Life Vessel",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 872,
+                        "y": 272
+                    }
+                ]
+            },
+            {
+                "name": "Talisman",
+                "sections": [
+                    {
+                        "name": "Talisman",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 852,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Room",
+                "access_rules": [
+                    "soulofbat,soulofwolf"
+                ],
+                "sections": [
+                    {
+                        "name": "Zircon",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Opal",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Beryl circlet",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 1052,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Heart Vessel",
+                "sections": [
+                    {
+                        "name": "Heart Vessel",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 872,
+                        "y": 332
+                    }
+                ]
+            },
+            {
+                "name": "Fire boomerang",
+                "sections": [
+                    {
+                        "name": "Fire boomerang",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 1152,
+                        "y": 292
+                    }
+                ]
+            },
+            {
+                "name": "Below Entrance",
+                "sections": [
+                    {
+                        "name": "Hammer",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Antivenom",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 1202,
+                        "y": 292
+                    }
+                ]
+            },
+            {
+                "name": "Pot roast",
+                "sections": [
+                    {
+                        "name": "Pot roast",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 1012,
+                        "y": 252
+                    }
+                ]
+            },
+            {
+                "name": "High potion",
+                "sections": [
+                    {
+                        "name": "High potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 872,
+                        "y": 252
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,200 @@
+[
+    {
+        "name": "Soul of Bat",
+        "type": "toggle",
+        "img": "images/items/bat_soul.png",
+        "codes": "bat,soulofbat"
+    },
+    {
+        "name": "Fire of Bat",
+        "type": "toggle",
+        "img": "images/items/bat_fire.png",
+        "codes": "fire,fireofbat"
+    },
+    {
+        "name": "Echo of Bat",
+        "type": "toggle",
+        "img": "images/items/bat_echo.png",
+        "codes": "echo,echoofbat"
+    },
+    {
+        "name": "Force of Echo",
+        "type": "toggle",
+        "img": "images/items/bat_force.png",
+        "codes": "force,forceofecho"
+    },
+    {
+        "name": "Soul of Wolf",
+        "type": "toggle",
+        "img": "images/items/wolf_soul.png",
+        "codes": "wolf,soulofwolf"
+    },
+    {
+        "name": "Power of Wolf",
+        "type": "toggle",
+        "img": "images/items/wolf_power.png",
+        "codes": "powerofwolf"
+    },
+    {
+        "name": "Skill of Wolf",
+        "type": "toggle",
+        "img": "images/items/wolf_skill.png",
+        "codes": "skill,skillofwolf"
+    },
+    {
+        "name": "Form of Mist",
+        "type": "toggle",
+        "img": "images/items/mist_form.png",
+        "codes": "mist,formofmist"
+    },
+    {
+        "name": "Power of Mist",
+        "type": "toggle",
+        "img": "images/items/mist_power.png",
+        "codes": "powerofmist"
+    },
+    {
+        "name": "Gas Cloud",
+        "type": "toggle",
+        "img": "images/items/mist_gas.png",
+        "codes": "gas,gascloud"
+    },
+    {
+        "name": "Cube of Zoe",
+        "type": "toggle",
+        "img": "images/items/cube_of_zoe.png",
+        "codes": "zoe,cubeofzoe"
+    },
+    {
+        "name": "Spirit Orb",
+        "type": "toggle",
+        "img": "images/items/spirit_orb.png",
+        "codes": "orb,spiritorb"
+    },
+    {
+        "name": "Jewel of Open",
+        "type": "toggle",
+        "img": "images/items/jewel_of_open.png",
+        "codes": "jewel,jewelofopen"
+    },
+    {
+        "name": "Gravity Boots",
+        "type": "toggle",
+        "img": "images/items/gravity_boots.png",
+        "codes": "boots,gravityboots"
+    },
+    {
+        "name": "Leap Stone",
+        "type": "toggle",
+        "img": "images/items/leap_stone.png",
+        "codes": "leap,leapstone"
+    },
+    {
+        "name": "Holy Symbol",
+        "type": "toggle",
+        "img": "images/items/holy_symbol.png",
+        "codes": "holy,holysymbol"
+    },
+    {
+        "name": "Faerie Scroll",
+        "type": "toggle",
+        "img": "images/items/faerie_scroll.png",
+        "codes": "faeriescroll"
+    },
+    {
+        "name": "Merman Statue",
+        "type": "toggle",
+        "img": "images/items/merman_statue.png",
+        "codes": "merman,mermanstatue"
+    },
+    {
+        "name": "Claymore",
+        "type": "toggle",
+        "img": "images/items/claymore.png",
+        "codes": "claymore"
+    },
+    {
+        "name": "Bat Card",
+        "type": "toggle",
+        "img": "images/items/card_bat.png",
+        "codes": "batcard"
+    },
+    {
+        "name": "Ghost Card",
+        "type": "toggle",
+        "img": "images/items/card_ghost.png",
+        "codes": "ghostcard"
+    },
+    {
+        "name": "Faerie Card",
+        "type": "toggle",
+        "img": "images/items/card_faerie.png",
+        "codes": "faeriecard"
+    },
+    {
+        "name": "Demon Card",
+        "type": "toggle",
+        "img": "images/items/card_demon.png",
+        "codes": "demoncard"
+    },
+    {
+        "name": "Sword Card",
+        "type": "toggle",
+        "img": "images/items/card_sword.png",
+        "codes": "swordcard"
+    },
+    {
+        "name": "Gold Ring",
+        "type": "toggle",
+        "img": "images/items/ring_gold.png",
+        "codes": "gold,goldring"
+    },
+    {
+        "name": "Spike Breaker",
+        "type": "toggle",
+        "img": "images/items/spike_breaker.png",
+        "codes": "spike,spikebreaker"
+    },
+    {
+        "name": "Holy Glasses",
+        "type": "toggle",
+        "img": "images/items/holy_glasses.png",
+        "codes": "glasses,holyglasses"
+    },
+    {
+        "name": "Silver Ring",
+        "type": "toggle",
+        "img": "images/items/ring_silver.png",
+        "codes": "silver,silverring"
+    },
+    {
+        "name": "Heart of Vlad",
+        "type": "toggle",
+        "img": "images/items/vlad_heart.png",
+        "codes": "pieceofvlad,heartofvlad"
+    },
+    {
+        "name": "Tooth of Vlad",
+        "type": "toggle",
+        "img": "images/items/vlad_tooth.png",
+        "codes": "pieceofvlad,toothofvlad"
+    },
+    {
+        "name": "Rib of Vlad",
+        "type": "toggle",
+        "img": "images/items/vlad_rib.png",
+        "codes": "pieceofvlad,ribofvlad"
+    },
+    {
+        "name": "Ring of Vlad",
+        "type": "toggle",
+        "img": "images/items/vlad_ring.png",
+        "codes": "pieceofvlad,ringofvlad"
+    },
+    {
+        "name": "Eye of Vlad",
+        "type": "toggle",
+        "img": "images/items/vlad_eye.png",
+        "codes": "pieceofvlad,eyeofvlad"
+    }
+]

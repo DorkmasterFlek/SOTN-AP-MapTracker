@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Slogra and Gaibon",
+        "type": "toggle",
+        "img": "images/items/bosses_killed.png",
+        "codes": "boss,slogragaibon"
+    },
+    {
+        "name": "Doppleganger 10",
+        "type": "toggle",
+        "img": "images/items/bosses_killed.png",
+        "codes": "boss,doppleganger10"
+    },
+    {
+        "name": "Lesser Demon",
+        "type": "toggle",
+        "img": "images/items/bosses_killed.png",
+        "codes": "boss,lesserdemon"
+    },
+    {
+        "name": "Hippogryph",
+        "type": "toggle",
+        "img": "images/items/bosses_killed.png",
+        "codes": "boss,hippogryph"
+    },
+    {
+        "name": "Succubus",
+        "type": "toggle",
+        "img": "images/items/bosses_killed.png",
+        "codes": "boss,succubus"
+    },
+    {
+        "name": "Scylla",
+        "type": "toggle",
+        "img": "images/items/bosses_killed.png",
+        "codes": "boss,scylla"
+    },
+    {
+        "name": "Cerberos",
+        "type": "toggle",
+        "img": "images/items/bosses_killed.png",
+        "codes": "boss,cerberos"
+    },
+    {
+        "name": "Legion",
+        "type": "toggle",
+        "img": "images/items/bosses_killed.png",
+        "codes": "boss,legion"
+    },
+    {
+        "name": "Minotaurus & Werewolf",
+        "type": "toggle",
+        "img": "images/items/bosses_killed.png",
+        "codes": "boss,minotauruswerewolf"
+    },
+    {
+        "name": "Olrox",
+        "type": "toggle",
+        "img": "images/items/bosses_killed.png",
+        "codes": "boss,olrox"
+    },
+    {
+        "name": "Karasuman",
+        "type": "toggle",
+        "img": "images/items/bosses_killed.png",
+        "codes": "boss,karasuman"
+    },
+    {
+        "name": "Beezelbub",
+        "type": "toggle",
+        "img": "images/items/bosses_killed.png",
+        "codes": "boss,beezelbub"
+    },
+    {
+        "name": "The Creature",
+        "type": "toggle",
+        "img": "images/items/bosses_killed.png",
+        "codes": "boss,creature"
+    },
+    {
+        "name": "Medusa",
+        "type": "toggle",
+        "img": "images/items/bosses_killed.png",
+        "codes": "boss,medusa"
+    },
+    {
+        "name": "Doppleganger 40",
+        "type": "toggle",
+        "img": "images/items/bosses_killed.png",
+        "codes": "boss,doppleganger40"
+    },
+    {
+        "name": "Death",
+        "type": "toggle",
+        "img": "images/items/bosses_killed.png",
+        "codes": "boss,death"
+    },
+    {
+        "name": "Galamoth",
+        "type": "toggle",
+        "img": "images/items/bosses_killed.png",
+        "codes": "boss,galamoth"
+    },
+    {
+        "name": "Akmodan II",
+        "type": "toggle",
+        "img": "images/items/bosses_killed.png",
+        "codes": "boss,akmodan"
+    },
+    {
+        "name": "Fake Trevor & Grant & Sypha",
+        "type": "toggle",
+        "img": "images/items/bosses_killed.png",
+        "codes": "boss,faketrio"
+    },
+    {
+        "name": "Darkwing Bat",
+        "type": "toggle",
+        "img": "images/items/bosses_killed.png",
+        "codes": "boss,darkwingbat"
+    }
+]

@@ -1,0 +1,242 @@
+[
+    {
+        "name": "Olrox's Quarters",
+        "access_rules": [
+            "opened_no2,jewelofopen",
+            "opened_are,jewelofopen",
+            "$canJump"
+        ],
+        "children": [
+            {
+                "name": "Front Quarters",
+                "access_rules": [
+                    "$canJump",
+                    "opened_are,@Royal Chapel",
+                    "opened_no2,jewelofopen,$canFly"
+                ],
+                "children": [
+                    {
+                        "name": "Secret Hallway",
+                        "sections": [
+                            {
+                                "name": "Broadsword",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Onyx",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Cheese",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 632,
+                                "y": 372
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Manna prism",
+                        "access_rules": [
+                            "$canFly"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Manna prism",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 692,
+                                "y": 332
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Resist fire",
+                        "access_rules": [
+                            "$canFly"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Resist fire",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 692,
+                                "y": 312
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Luck potion",
+                        "access_rules": [
+                            "$canFly"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Luck potion",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 692,
+                                "y": 272
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Estoc",
+                        "access_rules": [
+                            "$canFly"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Estoc",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 592,
+                                "y": 232
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Back Quarters",
+                "access_rules": [
+                    "$canFly",
+                    "opened_no2,jewelofopen"
+                ],
+                "children": [
+                    {
+                        "name": "Heart Vessel",
+                        "sections": [
+                            {
+                                "name": "Heart Vessel",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 412,
+                                "y": 312
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Iron ball",
+                        "access_rules": [
+                            "$canFly"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Iron ball",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 432,
+                                "y": 252
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Garnet",
+                        "access_rules": [
+                            "$canFly"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Garnet",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 652,
+                                "y": 292
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Echo of Bat",
+                        "access_rules": [
+                            "$canFly"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Echo of Bat",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 312,
+                                "y": 252
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sword Card",
+                        "access_rules": [
+                            "$canFly"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Sword Card",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 392,
+                                "y": 292
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Olrox",
+                        "access_rules": [
+                            "$canFly"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Olrox kill",
+                                "hosted_item": "olrox"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 382,
+                                "y": 262
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

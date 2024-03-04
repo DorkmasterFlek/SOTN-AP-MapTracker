@@ -1,0 +1,206 @@
+[
+    {
+        "name": "Castle Entrance",
+        "children": [
+            {
+                "name": "Heart Vessel (Above Death)",
+                "sections": [
+                    {
+                        "name": "Heart Vessel (Above Death)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 372,
+                        "y": 712
+                    }
+                ]
+            },
+            {
+                "name": "Life Vessel (Bellow shield potion)",
+                "access_rules": [
+                    "$canJump"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Vessel (Bellow shield potion)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 392,
+                        "y": 672
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Room",
+                "access_rules": [
+                    "soulofbat,soulofwolf"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Apple (Hidden room)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Jewel sword",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 192,
+                        "y": 752
+                    }
+                ]
+            },
+            {
+                "name": "Shield Potion",
+                "sections": [
+                    {
+                        "name": "Shield Potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 372,
+                        "y": 652
+                    }
+                ]
+            },
+            {
+                "name": "Holy mail",
+                "access_rules": [
+                    "$canFly"
+                ],
+                "sections": [
+                    {
+                        "name": "Holy mail",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 92,
+                        "y": 692
+                    }
+                ]
+            },
+            {
+                "name": "Life Vessel (UC exit)",
+                "access_rules": [
+                    "@Underground Caverns/Lower Caverns"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Vessel (UC exit)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 272,
+                        "y": 752
+                    }
+                ]
+            },
+            {
+                "name": "Heart Vessel (Teleport exit)",
+                "sections": [
+                    {
+                        "name": "Heart Vessel (Teleport exit)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 332,
+                        "y": 692
+                    }
+                ]
+            },
+            {
+                "name": "Above Entrance",
+                "access_rules": [
+                    "$canFly"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Vessel (Above entry)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Power of Wolf",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 42,
+                        "y": 692
+                    }
+                ]
+            },
+            {
+                "name": "Pot Roast",
+                "sections": [
+                    {
+                        "name": "Pot Roast",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 232,
+                        "y": 732
+                    }
+                ]
+            },
+            {
+                "name": "Turkey",
+                "sections": [
+                    {
+                        "name": "Turkey",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 372,
+                        "y": 732
+                    }
+                ]
+            },
+            {
+                "name": "Cube of Zoe",
+                "sections": [
+                    {
+                        "name": "Cube of Zoe",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 352,
+                        "y": 652
+                    }
+                ]
+            }
+        ]
+    }
+]

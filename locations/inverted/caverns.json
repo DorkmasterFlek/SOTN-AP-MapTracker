@@ -1,0 +1,429 @@
+[
+    {
+        "name": "Reverse Caverns",
+        "access_rules": [
+            "$canAccessInvertedCastle"
+        ],
+        "children": [
+            {
+                "name": "Life Vessel",
+                "sections": [
+                    {
+                        "name": "Life Vessel",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 532,
+                        "y": 512
+                    }
+                ]
+            },
+            {
+                "name": "Opal",
+                "sections": [
+                    {
+                        "name": "Opal",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 512,
+                        "y": 412
+                    }
+                ]
+            },
+            {
+                "name": "Dark Blade",
+                "sections": [
+                    {
+                        "name": "Dark Blade",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 452,
+                        "y": 292
+                    }
+                ]
+            },
+            {
+                "name": "Underwater",
+                "access_rules": [
+                    "gravityboots"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Vessel(Underwater)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Potion(Underwater)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 652,
+                        "y": 292
+                    }
+                ]
+            },
+            {
+                "name": "Osafune katana",
+                "access_rules": [
+                    "soulofbat",
+                    "gravityboots,leapstone",
+                    "gravityboots,soulofwolf"
+                ],
+                "sections": [
+                    {
+                        "name": "Osafune katana",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 752,
+                        "y": 212
+                    }
+                ]
+            },
+            {
+                "name": "Garnet",
+                "sections": [
+                    {
+                        "name": "Garnet",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 812,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Zircon(Vase)",
+                "sections": [
+                    {
+                        "name": "Zircon(Vase)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 472,
+                        "y": 532
+                    }
+                ]
+            },
+            {
+                "name": "Diamond",
+                "sections": [
+                    {
+                        "name": "Diamond",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 552,
+                        "y": 512
+                    }
+                ]
+            },
+            {
+                "name": "Heart Vessel(Air pocket)",
+                "access_rules": [
+                    "gravityboots,holysymbol"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Vessel(Air pocket)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 492,
+                        "y": 292
+                    }
+                ]
+            },
+            {
+                "name": "Heart Vessel(Succubus side)",
+                "sections": [
+                    {
+                        "name": "Heart Vessel(Succubus side)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 392,
+                        "y": 472
+                    }
+                ]
+            },
+            {
+                "name": "Succubus Side",
+                "sections": [
+                    {
+                        "name": "Meal ticket 1(Succubus side)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meal ticket 2(Succubus side)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meal ticket 3(Succubus side)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meal ticket 4(Succubus side)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meal ticket 5(Succubus side)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 372,
+                        "y": 402
+                    }
+                ]
+            },
+            {
+                "name": "Zircon(Doppleganger)",
+                "sections": [
+                    {
+                        "name": "Zircon(Doppleganger)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 392,
+                        "y": 272
+                    }
+                ]
+            },
+            {
+                "name": "Pot roast(Doppleganger)",
+                "sections": [
+                    {
+                        "name": "Pot roast(Doppleganger)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 352,
+                        "y": 292
+                    }
+                ]
+            },
+            {
+                "name": "Elixir",
+                "sections": [
+                    {
+                        "name": "Elixir",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 352,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Manna prism",
+                "sections": [
+                    {
+                        "name": "Manna prism",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 412,
+                        "y": 212
+                    }
+                ]
+            },
+            {
+                "name": "Shiitake 3(Near air pocket)",
+                "sections": [
+                    {
+                        "name": "Shiitake 3(Near air pocket)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 492,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Shiitake 4(Near air pocket)",
+                "sections": [
+                    {
+                        "name": "Shiitake 4(Near air pocket)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 512,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Bat Pentagram",
+                "access_rules": [
+                    "leapstone",
+                    "soulofbat"
+                ],
+                "sections": [
+                    {
+                        "name": "Bat Pentagram",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 752,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Shiitake 2(Waterfall)",
+                "sections": [
+                    {
+                        "name": "Shiitake 2(Waterfall)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 792,
+                        "y": 252
+                    }
+                ]
+            },
+            {
+                "name": "Toadstool(Waterfall)",
+                "sections": [
+                    {
+                        "name": "Toadstool(Waterfall)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 792,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Shiitake 1(Near entrance passage)",
+                "sections": [
+                    {
+                        "name": "Shiitake 1(Near entrance passage)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 912,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Doppleganger40",
+                "sections": [
+                    {
+                        "name": "Doppleganger40 kill",
+                        "hosted_item": "doppleganger40"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 452,
+                        "y": 272
+                    }
+                ]
+            },
+            {
+                "name": "Force of Echo",
+                "sections": [
+                    {
+                        "name": "Force of Echo",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 152,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Alucard shield",
+                "sections": [
+                    {
+                        "name": "Alucard shield",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 1092,
+                        "y": 212
+                    }
+                ]
+            }
+        ]
+    }
+]

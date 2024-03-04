@@ -1,0 +1,188 @@
+[
+    {
+        "name": "Long Library",
+        "children": [
+            {
+                "name": "Bronze cuirass",
+                "sections": [
+                    {
+                        "name": "Bronze cuirass",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 972,
+                        "y": 352
+                    }
+                ]
+            },
+            {
+                "name": "Top Level",
+                "access_rules": [
+                    "$canJump"
+                ],
+                "sections": [
+                    {
+                        "name": "Potion",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Antivenom",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Faerie Card",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 1032,
+                        "y": 292
+                    }
+                ]
+            },
+            {
+                "name": "Faerie Scroll",
+                "access_rules": [
+                    "$canJump"
+                ],
+                "sections": [
+                    {
+                        "name": "Faerie Scroll",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 1172,
+                        "y": 292
+                    }
+                ]
+            },
+            {
+                "name": "Jewel of Open",
+                "sections": [
+                    {
+                        "name": "Jewel of Open",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 972,
+                        "y": 332
+                    }
+                ]
+            },
+            {
+                "name": "Back of Library",
+                "access_rules": [
+                    "$canJump"
+                ],
+                "children": [
+                    {
+                        "name": "Stone mask",
+                        "sections": [
+                            {
+                                "name": "Stone mask",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 972,
+                                "y": 292
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Behind Bookcase",
+                        "sections": [
+                            {
+                                "name": "Holy rod",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Topaz circlet",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 992,
+                                "y": 292
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dead End",
+                        "sections": [
+                            {
+                                "name": "Takemitsu",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Onyx",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Frankfurter",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 912,
+                                "y": 352
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lesser Demon",
+                        "sections": [
+                            {
+                                "name": "Lesser Demon kill",
+                                "hosted_item": "lesserdemon"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 902,
+                                "y": 332
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Soul of Bat",
+                        "access_rules": [
+                            "mist"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Soul of Bat",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 952,
+                                "y": 352
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

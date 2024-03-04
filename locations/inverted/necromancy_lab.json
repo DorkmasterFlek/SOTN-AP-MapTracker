@@ -1,0 +1,170 @@
+[
+    {
+        "name": "Necromancy Laboratory",
+        "access_rules": [
+            "$canAccessInvertedCastle"
+        ],
+        "children": [
+            {
+                "name": "Resist dark",
+                "sections": [
+                    {
+                        "name": "Resist dark",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 972,
+                        "y": 332
+                    }
+                ]
+            },
+            {
+                "name": "Heart Vessel",
+                "sections": [
+                    {
+                        "name": "Heart Vessel",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 1032,
+                        "y": 372
+                    }
+                ]
+            },
+            {
+                "name": "Life Vessel",
+                "sections": [
+                    {
+                        "name": "Life Vessel",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 1052,
+                        "y": 472
+                    }
+                ]
+            },
+            {
+                "name": "Katana",
+                "sections": [
+                    {
+                        "name": "Katana",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 1012,
+                        "y": 332
+                    }
+                ]
+            },
+            {
+                "name": "Goddess shield",
+                "sections": [
+                    {
+                        "name": "Goddess shield",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 932,
+                        "y": 432
+                    }
+                ]
+            },
+            {
+                "name": "Manna prism",
+                "sections": [
+                    {
+                        "name": "Manna prism",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 992,
+                        "y": 352
+                    }
+                ]
+            },
+            {
+                "name": "Turquoise",
+                "sections": [
+                    {
+                        "name": "Turquoise",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 872,
+                        "y": 512
+                    }
+                ]
+            },
+            {
+                "name": "High potion",
+                "sections": [
+                    {
+                        "name": "High potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 952,
+                        "y": 392
+                    }
+                ]
+            },
+            {
+                "name": "Ring of Arcana",
+                "sections": [
+                    {
+                        "name": "Ring of Arcana",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 992,
+                        "y": 512
+                    }
+                ]
+            },
+            {
+                "name": "Beezelbub",
+                "sections": [
+                    {
+                        "name": "Beezelbub kill",
+                        "hosted_item": "beezelbub"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 1042,
+                        "y": 502
+                    }
+                ]
+            }
+        ]
+    }
+]

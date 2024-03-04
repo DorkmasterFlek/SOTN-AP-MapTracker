@@ -1,0 +1,107 @@
+{
+    "item_grid1": {
+        "type": "itemgrid",
+        "item_margin": "3",
+        "rows": [
+            [
+                "soulofbat",
+                "fireofbat",
+                "echoofbat",
+                "forceofecho",
+                "soulofwolf"
+            ],
+            [
+                "powerofwolf",
+                "skillofwolf",
+                "formofmist",
+                "powerofmist",
+                "gascloud"
+            ],
+            [
+                "cubeofzoe",
+                "spiritorb",
+                "faeriescroll",
+                "jewelofopen",
+                ""
+            ],
+            [
+                "leapstone",
+                "gravityboots",
+                "holysymbol",
+                "mermanstatue"
+            ]
+        ]
+    },
+    "item_grid2": {
+        "type": "itemgrid",
+        "item_margin": "3",
+        "rows": [
+            [
+                "batcard",
+                "ghostcard",
+                "faeriecard",
+                "demoncard",
+                "swordcard"
+            ],
+            [
+                "heartofvlad",
+                "toothofvlad",
+                "ribofvlad",
+                "ringofvlad",
+                "eyeofvlad"
+            ],
+            [
+                "silverring",
+                "goldring",
+                "spikebreaker",
+                "holyglasses",
+                ""
+            ]
+        ]
+    },
+    "shared_item_grid": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "layout",
+                "key": "item_grid1"
+            },
+            {
+                "type": "layout",
+                "key": "item_grid2"
+            }
+        ]
+    },
+    "broadcast_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "layout",
+                "key": "item_grid1"
+            },
+            {
+                "type": "layout",
+                "key": "item_grid2"
+            }
+        ]
+    },
+    "settings_grid": {
+        "type": "itemgrid",
+        "item_margin": "10,5",
+        "h_alignment": "left",
+        "item_size": 70,
+        "rows": [
+            [
+                "opened_no4",
+                "opened_are",
+                "opened_no2"
+            ],
+            [
+                "bosses_need",
+                "bosses_killed"
+            ]
+        ]
+    }
+}

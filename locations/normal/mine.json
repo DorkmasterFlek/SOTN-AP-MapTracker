@@ -1,0 +1,147 @@
+[
+    {
+        "name": "Abandoned Mine",
+        "access_rules": [
+            "@Underground Caverns/Upper Caverns,$canJump",
+            "@Underground Caverns/Upper Caverns,$canDash"
+        ],
+        "children": [
+            {
+                "name": "Behind Demon Button",
+                "access_rules": [
+                    "demoncard"
+                ],
+                "children": [
+                    {
+                        "name": "Demon Button Room",
+                        "sections": [
+                            {
+                                "name": "Power of sire(Demon)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Barley tea(Demon)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Peanuts 1(Demon)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Peanuts 2(Demon)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Peanuts 3(Demon)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Peanuts 4(Demon)",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 712,
+                                "y": 752
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Demon Button Shaft",
+                        "sections": [
+                            {
+                                "name": "Ring of ares",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Turkey(Demon)",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 732,
+                                "y": 752
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Mine Shaft Bottom",
+                "sections": [
+                    {
+                        "name": "Karma coin",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Combat knife",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 612,
+                        "y": 892
+                    }
+                ]
+            },
+            {
+                "name": "Mine Shaft Middle",
+                "sections": [
+                    {
+                        "name": "Shiitake 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shiitake 2",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 632,
+                        "y": 852
+                    }
+                ]
+            },
+            {
+                "name": "Cerberos",
+                "sections": [
+                    {
+                        "name": "Cerberos kill",
+                        "hosted_item": "cerberos"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 602,
+                        "y": 732
+                    }
+                ]
+            },
+            {
+                "name": "Demon Card",
+                "sections": [
+                    {
+                        "name": "Demon Card",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 572,
+                        "y": 812
+                    }
+                ]
+            }
+        ]
+    }
+]

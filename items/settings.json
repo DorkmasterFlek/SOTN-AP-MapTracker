@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Opened Underground Caverns Backdoor",
+        "type": "toggle",
+        "img": "images/settings/opened_no4.png",
+        "codes": "opened_no4"
+    },
+    {
+        "name": "Opened Colosseum Backdoor",
+        "type": "toggle",
+        "img": "images/settings/opened_are.png",
+        "codes": "opened_are"
+    },
+    {
+        "name": "Opened Olrox's Quarters Backdoor",
+        "type": "toggle",
+        "img": "images/settings/opened_no2.png",
+        "codes": "opened_no2"
+    },
+    {
+        "name": "Number of Bosses Needed",
+        "type": "consumable",
+        "img": "images/settings/bosses_need.png",
+        "max_quantity": 19,
+        "codes": "bosses_need"
+    },
+    {
+        "name": "Bosses Defeated",
+        "type": "consumable",
+        "img": "images/items/bosses_killed.png",
+        "max_quantity": 19,
+        "increment": 0,
+        "codes": "bosses,bosses_killed"
+    }
+]

@@ -1,0 +1,205 @@
+[
+    {
+        "name": "Alchemy Laboratory",
+        "children": [
+            {
+                "name": "Hide cuirass",
+                "sections": [
+                    {
+                        "name": "Hide cuirass",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 272,
+                        "y": 652
+                    }
+                ]
+            },
+            {
+                "name": "Heart Vessel",
+                "sections": [
+                    {
+                        "name": "Heart Vessel",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 212,
+                        "y": 612
+                    }
+                ]
+            },
+            {
+                "name": "Cloth cape",
+                "sections": [
+                    {
+                        "name": "Cloth cape",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 192,
+                        "y": 512
+                    }
+                ]
+            },
+            {
+                "name": "Life Vessel",
+                "sections": [
+                    {
+                        "name": "Life Vessel",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 232,
+                        "y": 652
+                    }
+                ]
+            },
+            {
+                "name": "Sunglasses",
+                "sections": [
+                    {
+                        "name": "Sunglasses",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 312,
+                        "y": 552
+                    }
+                ]
+            },
+            {
+                "name": "Resist thunder",
+                "sections": [
+                    {
+                        "name": "Resist thunder",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 212,
+                        "y": 572
+                    }
+                ]
+            },
+            {
+                "name": "Leather shield",
+                "sections": [
+                    {
+                        "name": "Leather shield",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 252,
+                        "y": 632
+                    }
+                ]
+            },
+            {
+                "name": "Basilard",
+                "sections": [
+                    {
+                        "name": "Basilard",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 312,
+                        "y": 612
+                    }
+                ]
+            },
+            {
+                "name": "Potion",
+                "sections": [
+                    {
+                        "name": "Potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 372,
+                        "y": 472
+                    }
+                ]
+            },
+            {
+                "name": "Slogra and Gaibon",
+                "sections": [
+                    {
+                        "name": "Slogra and Gaibon kill",
+                        "hosted_item": "slogragaibon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 202,
+                        "y": 482
+                    }
+                ]
+            },
+            {
+                "name": "Skill of Wolf",
+                "access_rules": [
+                    "$canHighJump"
+                ],
+                "sections": [
+                    {
+                        "name": "Skill of Wolf",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 292,
+                        "y": 592
+                    }
+                ]
+            },
+            {
+                "name": "Bat Card",
+                "access_rules": [
+                    "$canFly"
+                ],
+                "sections": [
+                    {
+                        "name": "Bat Card",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 252,
+                        "y": 472
+                    }
+                ]
+            }
+        ]
+    }
+]

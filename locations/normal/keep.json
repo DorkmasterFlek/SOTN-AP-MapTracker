@@ -1,0 +1,199 @@
+[
+    {
+        "name": "Castle Keep",
+        "children": [
+            {
+                "name": "Keep Bottom",
+                "access_rules": [
+                    "$canJump",
+                    "jewelofopen"
+                ],
+                "sections": [
+                    {
+                        "name": "Turquoise",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Turkey(Behind wall)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Leap Stone",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 612,
+                        "y": 152
+                    }
+                ]
+            },
+            {
+                "name": "Main Keep",
+                "access_rules": [
+                    "$canJump"
+                ],
+                "children": [
+                    {
+                        "name": "Below Throne",
+                        "access_rules": [
+                            "$canFly"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Fire mail(Behind wall)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Power of Mist",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 612,
+                                "y": 112
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tyrfing",
+                        "sections": [
+                            {
+                                "name": "Tyrfing",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 772,
+                                "y": 152
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Falchion",
+                        "sections": [
+                            {
+                                "name": "Falchion",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 772,
+                                "y": 92
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Heart Vessel(Before Richter)",
+                        "access_rules": [
+                            "$canFly"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Heart Vessel(Before Richter)",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 692,
+                                "y": 92
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Above Throne",
+                        "access_rules": [
+                            "$canFly"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Sirloin(Above Richter)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Turkey(Above Richter)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Pot roast(Above Richter)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Frankfurter(Above Richter)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Resist stone(Above Richter)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Resist dark(Above Richter)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Resist holy(Above Richter)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Platinum mail(Above Richter)",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 672,
+                                "y": 52
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Viewing Room",
+                        "access_rules": [
+                            "$canFly"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Life Vessel 1(Viewing room)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Life Vessel 2(Viewing room)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Heart Vessel 1(Viewing room)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Heart Vessel 2(Viewing room)",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Ghost Card",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 762,
+                                "y": 52
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

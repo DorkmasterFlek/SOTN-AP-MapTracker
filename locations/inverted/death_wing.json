@@ -1,0 +1,196 @@
+[
+    {
+        "name": "Death Wing's Lair",
+        "access_rules": [
+            "$canAccessInvertedCastle"
+        ],
+        "children": [
+            {
+                "name": "Life Vessel",
+                "sections": [
+                    {
+                        "name": "Life Vessel",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 832,
+                        "y": 672
+                    }
+                ]
+            },
+            {
+                "name": "Secret Hallway",
+                "sections": [
+                    {
+                        "name": "Opal",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sword of hador",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "High potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 612,
+                        "y": 612
+                    }
+                ]
+            },
+            {
+                "name": "Middle Shaft",
+                "sections": [
+                    {
+                        "name": "Shield potion",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Luck potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 552,
+                        "y": 672
+                    }
+                ]
+            },
+            {
+                "name": "Manna prism",
+                "sections": [
+                    {
+                        "name": "Manna prism",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 552,
+                        "y": 712
+                    }
+                ]
+            },
+            {
+                "name": "Aquamarine",
+                "sections": [
+                    {
+                        "name": "Aquamarine",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 652,
+                        "y": 752
+                    }
+                ]
+            },
+            {
+                "name": "Shuriken",
+                "sections": [
+                    {
+                        "name": "Shuriken",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 812,
+                        "y": 732
+                    }
+                ]
+            },
+            {
+                "name": "Alucard mail",
+                "sections": [
+                    {
+                        "name": "Alucard mail",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 592,
+                        "y": 692
+                    }
+                ]
+            },
+            {
+                "name": "Heart Vessel",
+                "access_rules": [
+                    "soulofbat",
+                    "soulofwolf",
+                    "formofmist"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Vessel",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 932,
+                        "y": 732
+                    }
+                ]
+            },
+            {
+                "name": "Heart Refresh",
+                "sections": [
+                    {
+                        "name": "Heart Refresh",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 852,
+                        "y": 692
+                    }
+                ]
+            },
+            {
+                "name": "Akmodan II",
+                "access_rules": [
+                    "soulofbat",
+                    "soulofwolf",
+                    "formofmist"
+                ],
+                "sections": [
+                    {
+                        "name": "Akmodan II kill",
+                        "hosted_item": "akmodan"
+                    },
+                    {
+                        "name": "Rib of Vlad",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 862,
+                        "y": 722
+                    }
+                ]
+            }
+        ]
+    }
+]

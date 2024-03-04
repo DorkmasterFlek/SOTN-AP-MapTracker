@@ -1,0 +1,29 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "group",
+                    "header": "Items",
+                    "dock": "left",
+                    "content": {
+                        "type": "layout",
+                        "key": "shared_item_grid"
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "Settings",
+                    "dock": "left",
+                    "content": {
+                        "type": "layout",
+                        "key": "settings_grid"
+                    }
+                }
+            ]
+        }
+    }
+}

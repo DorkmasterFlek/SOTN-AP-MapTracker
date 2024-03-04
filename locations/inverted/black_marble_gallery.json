@@ -1,0 +1,185 @@
+[
+    {
+        "name": "Black Marble Gallery",
+        "access_rules": [
+            "$canAccessInvertedCastle"
+        ],
+        "children": [
+            {
+                "name": "Library card",
+                "sections": [
+                    {
+                        "name": "Library card",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 732,
+                        "y": 372
+                    }
+                ]
+            },
+            {
+                "name": "Left Clock",
+                "sections": [
+                    {
+                        "name": "Resist dark(Left clock)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Resist holy(Left clock)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Resist thunder(Left clock)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Resist fire(Left clock)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 582,
+                        "y": 552
+                    }
+                ]
+            },
+            {
+                "name": "Life Vessel(Middle clock)",
+                "sections": [
+                    {
+                        "name": "Life Vessel(Middle clock)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 652,
+                        "y": 592
+                    }
+                ]
+            },
+            {
+                "name": "Heart Vessel(Middle clock)",
+                "sections": [
+                    {
+                        "name": "Heart Vessel(Middle clock)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 572,
+                        "y": 592
+                    }
+                ]
+            },
+            {
+                "name": "Heart Refresh(Inside clock)",
+                "sections": [
+                    {
+                        "name": "Heart Refresh(Inside clock)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 592,
+                        "y": 512
+                    }
+                ]
+            },
+            {
+                "name": "Iron ball",
+                "sections": [
+                    {
+                        "name": "Iron ball",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 372,
+                        "y": 532
+                    }
+                ]
+            },
+            {
+                "name": "Meal ticket",
+                "sections": [
+                    {
+                        "name": "Meal ticket",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 332,
+                        "y": 572
+                    }
+                ]
+            },
+            {
+                "name": "Antivenom",
+                "sections": [
+                    {
+                        "name": "Antivenom",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 752,
+                        "y": 472
+                    }
+                ]
+            },
+            {
+                "name": "Potion",
+                "sections": [
+                    {
+                        "name": "Potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 752,
+                        "y": 432
+                    }
+                ]
+            },
+            {
+                "name": "Kill Dracula",
+                "access_rules": [
+                    "$canFightDracula"
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Dracula",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 612,
+                        "y": 432
+                    }
+                ]
+            }
+        ]
+    }
+]

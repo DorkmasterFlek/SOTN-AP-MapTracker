@@ -1,0 +1,223 @@
+[
+    {
+        "name": "Marble Gallery",
+        "children": [
+            {
+                "name": "Life Vessel(Left clock)",
+                "access_rules": [
+                    "$canJump",
+                    "opened_are,jewelofopen"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Vessel(Left clock)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 612,
+                        "y": 432
+                    }
+                ]
+            },
+            {
+                "name": "Right Clock",
+                "access_rules": [
+                    "$canJump"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Vessel(Right clock)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alucart shield",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alucart mail",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alucart sword",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 662,
+                        "y": 432
+                    }
+                ]
+            },
+            {
+                "name": "Middle Clock",
+                "access_rules": [
+                    "$canFly"
+                ],
+                "sections": [
+                    {
+                        "name": "Life apple(Middle clock)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hammer(Middle clock)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Potion(Middle clock)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 602,
+                        "y": 392
+                    }
+                ]
+            },
+            {
+                "name": "Inside Clock",
+                "access_rules": [
+                    "silverring,goldring"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Vessel(Inside)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heart Vessel(Inside)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 652,
+                        "y": 472
+                    }
+                ]
+            },
+            {
+                "name": "Under Floor",
+                "access_rules": [
+                    "jewelofopen"
+                ],
+                "sections": [
+                    {
+                        "name": "Library card(Jewel)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Attack potion(Jewel)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 872,
+                        "y": 452
+                    }
+                ]
+            },
+            {
+                "name": "Hammer(Spirit)",
+                "access_rules": [
+                    "$canHighJump"
+                ],
+                "sections": [
+                    {
+                        "name": "Hammer(Spirit)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 512,
+                        "y": 532
+                    }
+                ]
+            },
+            {
+                "name": "Str. potion",
+                "access_rules": [
+                    "$canHighJump"
+                ],
+                "sections": [
+                    {
+                        "name": "Str. potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 512,
+                        "y": 492
+                    }
+                ]
+            },
+            {
+                "name": "Holy glasses",
+                "access_rules": [
+                    "silverring,goldring"
+                ],
+                "sections": [
+                    {
+                        "name": "Holy glasses",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 632,
+                        "y": 552
+                    }
+                ]
+            },
+            {
+                "name": "Spirit Orb",
+                "sections": [
+                    {
+                        "name": "Spirit Orb",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 492,
+                        "y": 552
+                    }
+                ]
+            },
+            {
+                "name": "Gravity Boots",
+                "access_rules": [
+                    "$canFly"
+                ],
+                "sections": [
+                    {
+                        "name": "Gravity Boots",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 672,
+                        "y": 392
+                    }
+                ]
+            }
+        ]
+    }
+]

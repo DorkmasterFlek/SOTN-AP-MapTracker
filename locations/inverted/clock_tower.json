@@ -1,0 +1,202 @@
+[
+    {
+        "name": "Reverse Clock Tower",
+        "access_rules": [
+            "$canAccessInvertedCastle"
+        ],
+        "children": [
+            {
+                "name": "Above Bridge",
+                "sections": [
+                    {
+                        "name": "Magic missile",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Karma coin",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 152,
+                        "y": 772
+                    }
+                ]
+            },
+            {
+                "name": "Pillars",
+                "sections": [
+                    {
+                        "name": "Str. potion",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Luminus",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Smart potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 172,
+                        "y": 792
+                    }
+                ]
+            },
+            {
+                "name": "Dragon helm",
+                "sections": [
+                    {
+                        "name": "Dragon helm",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 72,
+                        "y": 832
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Room",
+                "sections": [
+                    {
+                        "name": "Diamond(Hidden room)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Life apple(Hidden room)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sunstone(Hidden room)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 272,
+                        "y": 772
+                    }
+                ]
+            },
+            {
+                "name": "Moon rod",
+                "sections": [
+                    {
+                        "name": "Moon rod",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 412,
+                        "y": 832
+                    }
+                ]
+            },
+            {
+                "name": "Heart Vessel",
+                "sections": [
+                    {
+                        "name": "Heart Vessel",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 252,
+                        "y": 872
+                    }
+                ]
+            },
+            {
+                "name": "Life Vessel",
+                "sections": [
+                    {
+                        "name": "Life Vessel",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 212,
+                        "y": 872
+                    }
+                ]
+            },
+            {
+                "name": "Turkey",
+                "sections": [
+                    {
+                        "name": "Turkey",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 292,
+                        "y": 832
+                    }
+                ]
+            },
+            {
+                "name": "Keep Approach",
+                "sections": [
+                    {
+                        "name": "Bwaka knife",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shuriken",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "TNT",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 412,
+                        "y": 852
+                    }
+                ]
+            },
+            {
+                "name": "Darkwing Bat",
+                "sections": [
+                    {
+                        "name": "Darkwing bat kill",
+                        "hosted_item": "darkwingbat"
+                    },
+                    {
+                        "name": "Ring of Vlad",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 452,
+                        "y": 852
+                    }
+                ]
+            }
+        ]
+    }
+]
