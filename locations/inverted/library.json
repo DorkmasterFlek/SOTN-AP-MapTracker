@@ -6,10 +6,10 @@
         ],
         "children": [
             {
-                "name": "Neutron bomb",
+                "name": "Neutron Bomb",
                 "sections": [
                     {
-                        "name": "Neutron bomb",
+                        "name": "Neutron Bomb",
                         "item_count": 1
                     }
                 ],
@@ -41,15 +41,15 @@
                 "name": "Side Room",
                 "sections": [
                     {
-                        "name": "Resist fire",
+                        "name": "Resist Fire",
                         "item_count": 1
                     },
                     {
-                        "name": "Resist ice",
+                        "name": "Resist Ice",
                         "item_count": 1
                     },
                     {
-                        "name": "Resist stone",
+                        "name": "Resist Stone",
                         "item_count": 1
                     }
                 ],
@@ -92,7 +92,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Library card",
+                        "name": "Library Card",
                         "item_count": 1
                     }
                 ],

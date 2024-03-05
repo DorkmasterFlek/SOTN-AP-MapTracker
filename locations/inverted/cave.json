@@ -12,11 +12,11 @@
                 ],
                 "sections": [
                     {
-                        "name": "Power of Sire(Demon)",
+                        "name": "Power of Sire",
                         "item_count": 1
                     },
                     {
-                        "name": "Life apple(Demon)",
+                        "name": "Life Apple",
                         "item_count": 1
                     }
                 ],
@@ -32,7 +32,7 @@
                 "name": "Cave Top",
                 "sections": [
                     {
-                        "name": "Green tea(Demon)",
+                        "name": "Green Tea",
                         "item_count": 1
                     },
                     {
@@ -52,12 +52,8 @@
                 "name": "Cave Middle",
                 "sections": [
                     {
-                        "name": "Shiitake 1(6)",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Shiitake 2(7)",
-                        "item_count": 1
+                        "name": "Shiitake",
+                        "item_count": 2
                     }
                 ],
                 "map_locations": [
@@ -69,10 +65,10 @@
                 ]
             },
             {
-                "name": "Alucard sword",
+                "name": "Alucard Sword",
                 "sections": [
                     {
-                        "name": "Alucard sword",
+                        "name": "Alucard Sword",
                         "item_count": 1
                     }
                 ],

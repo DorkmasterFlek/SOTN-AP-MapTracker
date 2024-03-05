@@ -9,7 +9,7 @@
                 "name": "Below Bridge",
                 "sections": [
                     {
-                        "name": "Magic missile",
+                        "name": "Magic Missile",
                         "item_count": 1
                     },
                     {
@@ -36,11 +36,11 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Shaman shield",
+                        "name": "Shaman Shield",
                         "item_count": 1
                     },
                     {
-                        "name": "Ice mail",
+                        "name": "Ice Mail",
                         "item_count": 1
                     }
                 ],
@@ -56,15 +56,15 @@
                 "name": "Hidden Room",
                 "sections": [
                     {
-                        "name": "Star flail",
+                        "name": "Star Flail",
                         "item_count": 1
                     },
                     {
-                        "name": "Gold plate",
+                        "name": "Gold Plate",
                         "item_count": 1
                     },
                     {
-                        "name": "Steel helm",
+                        "name": "Steel Helm",
                         "item_count": 1
                     }
                 ],
@@ -77,10 +77,10 @@
                 ]
             },
             {
-                "name": "Healing mail",
+                "name": "Healing Mail",
                 "sections": [
                     {
-                        "name": "Healing mail",
+                        "name": "Healing Mail",
                         "item_count": 1
                     }
                 ],
@@ -93,10 +93,10 @@
                 ]
             },
             {
-                "name": "Life Vessel(Gear train)",
+                "name": "Life Vessel",
                 "sections": [
                     {
-                        "name": "Life Vessel(Gear train)",
+                        "name": "Life Vessel",
                         "item_count": 1
                     }
                 ],
@@ -109,10 +109,10 @@
                 ]
             },
             {
-                "name": "Heart Vessel(Gear train)",
+                "name": "Heart Vessel",
                 "sections": [
                     {
-                        "name": "Heart Vessel(Gear train)",
+                        "name": "Heart Vessel",
                         "item_count": 1
                     }
                 ],
@@ -125,10 +125,10 @@
                 ]
             },
             {
-                "name": "Pot roast",
+                "name": "Pot Roast",
                 "sections": [
                     {
-                        "name": "Pot roast",
+                        "name": "Pot Roast",
                         "item_count": 1
                     }
                 ],
@@ -144,7 +144,7 @@
                 "name": "Keep Approach",
                 "sections": [
                     {
-                        "name": "Bwaka knife",
+                        "name": "Bwaka Knife",
                         "item_count": 1
                     },
                     {

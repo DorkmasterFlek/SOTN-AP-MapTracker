@@ -38,10 +38,10 @@
                 ]
             },
             {
-                "name": "Fire boomerang",
+                "name": "Fire Boomerang",
                 "sections": [
                     {
-                        "name": "Fire boomerang",
+                        "name": "Fire Boomerang",
                         "item_count": 1
                     }
                 ],
@@ -54,14 +54,14 @@
                 ]
             },
             {
-                "name": "Twilight cloak",
+                "name": "Twilight Cloak",
                 "access_rules": [
                     "formofmist,spikebreaker",
                     "formofmist,powerofmist"
                 ],
                 "sections": [
                     {
-                        "name": "Twilight cloak",
+                        "name": "Twilight Cloak",
                         "item_count": 1
                     }
                 ],
@@ -106,10 +106,10 @@
                 ]
             },
             {
-                "name": "Heart Vessel(5)",
+                "name": "Heart Vessel (Stairs)",
                 "sections": [
                     {
-                        "name": "Heart Vessel(5)",
+                        "name": "Heart Vessel (Stairs)",
                         "item_count": 1
                     }
                 ],
@@ -122,10 +122,10 @@
                 ]
             },
             {
-                "name": "Heart Vessel(17)",
+                "name": "Heart Vessel (Next to Stairs)",
                 "sections": [
                     {
-                        "name": "Heart Vessel(17)",
+                        "name": "Heart Vessel (Next to Stairs)",
                         "item_count": 1
                     }
                 ],
@@ -170,10 +170,10 @@
                 ]
             },
             {
-                "name": "Manna prism",
+                "name": "Manna Prism",
                 "sections": [
                     {
-                        "name": "Manna prism",
+                        "name": "Manna Prism",
                         "item_count": 1
                     }
                 ],
@@ -186,10 +186,10 @@
                 ]
             },
             {
-                "name": "Smart potion",
+                "name": "Smart Potion",
                 "sections": [
                     {
-                        "name": "Smart potion",
+                        "name": "Smart Potion",
                         "item_count": 1
                     }
                 ],
@@ -234,10 +234,10 @@
                 ]
             },
             {
-                "name": "Bwaka knife",
+                "name": "Bwaka Knife",
                 "sections": [
                     {
-                        "name": "Bwaka knife",
+                        "name": "Bwaka Knife",
                         "item_count": 1
                     }
                 ],
@@ -250,10 +250,10 @@
                 ]
             },
             {
-                "name": "Magic missile",
+                "name": "Magic Missile",
                 "sections": [
                     {
-                        "name": "Magic missile",
+                        "name": "Magic Missile",
                         "item_count": 1
                     }
                 ],

@@ -9,11 +9,11 @@
                 "name": "Catacombs Entrance",
                 "sections": [
                     {
-                        "name": "Magic missile",
+                        "name": "Magic Missile",
                         "item_count": 1
                     },
                     {
-                        "name": "Buffalo star",
+                        "name": "Buffalo Star",
                         "item_count": 1
                     }
                 ],
@@ -26,10 +26,10 @@
                 ]
             },
             {
-                "name": "Necklace of j",
+                "name": "Necklace of J",
                 "sections": [
                     {
-                        "name": "Necklace of j",
+                        "name": "Necklace of J",
                         "item_count": 1
                     }
                 ],
@@ -61,11 +61,11 @@
                 "name": "After Galamoth",
                 "sections": [
                     {
-                        "name": "Heart Vessel(After Galamoth)",
+                        "name": "Heart Vessel",
                         "item_count": 1
                     },
                     {
-                        "name": "Life Vessel(After Galamoth)",
+                        "name": "Life Vessel",
                         "item_count": 1
                     }
                 ],
@@ -81,7 +81,7 @@
                 "name": "Gas Cloud Room",
                 "sections": [
                     {
-                        "name": "Ruby circlet",
+                        "name": "Ruby Circlet",
                         "item_count": 1
                     },
                     {
@@ -101,11 +101,11 @@
                 "name": "Lava Bridge",
                 "sections": [
                     {
-                        "name": "Shield potion",
+                        "name": "Shield Potion",
                         "item_count": 1
                     },
                     {
-                        "name": "Attack potion",
+                        "name": "Attack Potion",
                         "item_count": 1
                     }
                 ],
@@ -121,11 +121,11 @@
                 "name": "Crypt",
                 "sections": [
                     {
-                        "name": "Life Vessel(9)",
+                        "name": "Life Vessel",
                         "item_count": 1
                     },
                     {
-                        "name": "Heart Vessel(10)",
+                        "name": "Heart Vessel)",
                         "item_count": 1
                     }
                 ],
@@ -150,20 +150,16 @@
                         "name": "Spike Hallway",
                         "sections": [
                             {
-                                "name": "Resist thunder",
+                                "name": "Resist Thunder",
                                 "item_count": 1
                             },
                             {
-                                "name": "Resist fire",
+                                "name": "Resist Fire",
                                 "item_count": 1
                             },
                             {
-                                "name": "Karma coin(4)(Spike breaker)",
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Karma coin(5)(Spike breaker)",
-                                "item_count": 1
+                                "name": "Karma Coin",
+                                "item_count": 2
                             }
                         ],
                         "map_locations": [
@@ -175,10 +171,10 @@
                         ]
                     },
                     {
-                        "name": "Red bean bun",
+                        "name": "Red Bean Bun",
                         "sections": [
                             {
-                                "name": "Red bean bun",
+                                "name": "Red Bean Bun",
                                 "item_count": 1
                             }
                         ],
@@ -198,7 +194,7 @@
                                 "item_count": 1
                             },
                             {
-                                "name": "Library card",
+                                "name": "Library Card",
                                 "item_count": 1
                             }
                         ],

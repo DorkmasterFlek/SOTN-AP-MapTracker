@@ -6,10 +6,10 @@
         ],
         "children": [
             {
-                "name": "Library card",
+                "name": "Library Card",
                 "sections": [
                     {
-                        "name": "Library card",
+                        "name": "Library Card",
                         "item_count": 1
                     }
                 ],
@@ -25,19 +25,19 @@
                 "name": "Left Clock",
                 "sections": [
                     {
-                        "name": "Resist dark(Left clock)",
+                        "name": "Resist Dark",
                         "item_count": 1
                     },
                     {
-                        "name": "Resist holy(Left clock)",
+                        "name": "Resist Holy",
                         "item_count": 1
                     },
                     {
-                        "name": "Resist thunder(Left clock)",
+                        "name": "Resist Thunder",
                         "item_count": 1
                     },
                     {
-                        "name": "Resist fire(Left clock)",
+                        "name": "Resist Fire",
                         "item_count": 1
                     }
                 ],
@@ -50,10 +50,10 @@
                 ]
             },
             {
-                "name": "Life Vessel(Middle clock)",
+                "name": "Life Vessel",
                 "sections": [
                     {
-                        "name": "Life Vessel(Middle clock)",
+                        "name": "Life Vessel",
                         "item_count": 1
                     }
                 ],
@@ -66,10 +66,10 @@
                 ]
             },
             {
-                "name": "Heart Vessel(Middle clock)",
+                "name": "Heart Vessel",
                 "sections": [
                     {
-                        "name": "Heart Vessel(Middle clock)",
+                        "name": "Heart Vessel",
                         "item_count": 1
                     }
                 ],
@@ -82,10 +82,10 @@
                 ]
             },
             {
-                "name": "Heart Refresh(Inside clock)",
+                "name": "Heart Refresh",
                 "sections": [
                     {
-                        "name": "Heart Refresh(Inside clock)",
+                        "name": "Heart Refresh",
                         "item_count": 1
                     }
                 ],
@@ -98,10 +98,10 @@
                 ]
             },
             {
-                "name": "Iron ball",
+                "name": "Iron Ball",
                 "sections": [
                     {
-                        "name": "Iron ball",
+                        "name": "Iron Ball",
                         "item_count": 1
                     }
                 ],
@@ -114,10 +114,13 @@
                 ]
             },
             {
-                "name": "Meal ticket",
+                "name": "Meal Ticket",
+                "access_rules": [
+                    "jewelofopen"
+                ],
                 "sections": [
                     {
-                        "name": "Meal ticket",
+                        "name": "Meal Ticket",
                         "item_count": 1
                     }
                 ],

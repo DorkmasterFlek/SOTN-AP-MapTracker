@@ -3,14 +3,14 @@
         "name": "Marble Gallery",
         "children": [
             {
-                "name": "Life Vessel(Left clock)",
+                "name": "Life Vessel (Left Clock)",
                 "access_rules": [
                     "$canJump",
                     "opened_are,jewelofopen"
                 ],
                 "sections": [
                     {
-                        "name": "Life Vessel(Left clock)",
+                        "name": "Life Vessel (Left Clock)",
                         "item_count": 1
                     }
                 ],
@@ -29,7 +29,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Heart Vessel(Right clock)",
+                        "name": "Heart Vessel",
                         "item_count": 1
                     },
                     {
@@ -60,15 +60,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "Life apple(Middle clock)",
+                        "name": "Life apple",
                         "item_count": 1
                     },
                     {
-                        "name": "Hammer(Middle clock)",
+                        "name": "Hammer",
                         "item_count": 1
                     },
                     {
-                        "name": "Potion(Middle clock)",
+                        "name": "Potion",
                         "item_count": 1
                     }
                 ],
@@ -87,11 +87,11 @@
                 ],
                 "sections": [
                     {
-                        "name": "Life Vessel(Inside)",
+                        "name": "Life Vessel",
                         "item_count": 1
                     },
                     {
-                        "name": "Heart Vessel(Inside)",
+                        "name": "Heart Vessel",
                         "item_count": 1
                     }
                 ],
@@ -110,11 +110,11 @@
                 ],
                 "sections": [
                     {
-                        "name": "Library card(Jewel)",
+                        "name": "Library Card",
                         "item_count": 1
                     },
                     {
-                        "name": "Attack potion(Jewel)",
+                        "name": "Attack Potion",
                         "item_count": 1
                     }
                 ],
@@ -146,13 +146,13 @@
                 ]
             },
             {
-                "name": "Str. potion",
+                "name": "Str. Potion",
                 "access_rules": [
                     "$canHighJump"
                 ],
                 "sections": [
                     {
-                        "name": "Str. potion",
+                        "name": "Str. Potion",
                         "item_count": 1
                     }
                 ],
@@ -165,13 +165,13 @@
                 ]
             },
             {
-                "name": "Holy glasses",
+                "name": "Holy Glasses",
                 "access_rules": [
                     "silverring,goldring"
                 ],
                 "sections": [
                     {
-                        "name": "Holy glasses",
+                        "name": "Holy Glasses",
                         "item_count": 1
                     }
                 ],

@@ -60,11 +60,11 @@
                 ],
                 "sections": [
                     {
-                        "name": "Life Vessel(Underwater)",
+                        "name": "Life Vessel",
                         "item_count": 1
                     },
                     {
-                        "name": "Potion(Underwater)",
+                        "name": "Potion",
                         "item_count": 1
                     }
                 ],
@@ -77,7 +77,7 @@
                 ]
             },
             {
-                "name": "Osafune katana",
+                "name": "Osafune Katana",
                 "access_rules": [
                     "soulofbat",
                     "gravityboots,leapstone",
@@ -85,7 +85,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Osafune katana",
+                        "name": "Osafune Katana",
                         "item_count": 1
                     }
                 ],
@@ -114,10 +114,10 @@
                 ]
             },
             {
-                "name": "Zircon(Vase)",
+                "name": "Zircon (Vase)",
                 "sections": [
                     {
-                        "name": "Zircon(Vase)",
+                        "name": "Zircon (Vase)",
                         "item_count": 1
                     }
                 ],
@@ -146,13 +146,13 @@
                 ]
             },
             {
-                "name": "Heart Vessel(Air pocket)",
+                "name": "Heart Vessel (Air Pocket)",
                 "access_rules": [
                     "gravityboots,holysymbol"
                 ],
                 "sections": [
                     {
-                        "name": "Heart Vessel(Air pocket)",
+                        "name": "Heart Vessel (Air Pocket)",
                         "item_count": 1
                     }
                 ],
@@ -165,10 +165,10 @@
                 ]
             },
             {
-                "name": "Heart Vessel(Succubus side)",
+                "name": "Heart Vessel (Succubus Side)",
                 "sections": [
                     {
-                        "name": "Heart Vessel(Succubus side)",
+                        "name": "Heart Vessel (Succubus Side)",
                         "item_count": 1
                     }
                 ],
@@ -184,24 +184,8 @@
                 "name": "Succubus Side",
                 "sections": [
                     {
-                        "name": "Meal ticket 1(Succubus side)",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Meal ticket 2(Succubus side)",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Meal ticket 3(Succubus side)",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Meal ticket 4(Succubus side)",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Meal ticket 5(Succubus side)",
-                        "item_count": 1
+                        "name": "Meal Ticket",
+                        "item_count": 5
                     }
                 ],
                 "map_locations": [
@@ -213,10 +197,10 @@
                 ]
             },
             {
-                "name": "Zircon(Doppleganger)",
+                "name": "Zircon (Doppleganger)",
                 "sections": [
                     {
-                        "name": "Zircon(Doppleganger)",
+                        "name": "Zircon (Doppleganger)",
                         "item_count": 1
                     }
                 ],
@@ -229,10 +213,10 @@
                 ]
             },
             {
-                "name": "Pot roast(Doppleganger)",
+                "name": "Pot Roast",
                 "sections": [
                     {
-                        "name": "Pot roast(Doppleganger)",
+                        "name": "Pot Roast",
                         "item_count": 1
                     }
                 ],
@@ -261,10 +245,10 @@
                 ]
             },
             {
-                "name": "Manna prism",
+                "name": "Manna Prism",
                 "sections": [
                     {
-                        "name": "Manna prism",
+                        "name": "Manna Prism",
                         "item_count": 1
                     }
                 ],
@@ -277,33 +261,17 @@
                 ]
             },
             {
-                "name": "Shiitake 3(Near air pocket)",
+                "name": "Shiitake (Near Air Pocket)",
                 "sections": [
                     {
-                        "name": "Shiitake 3(Near air pocket)",
-                        "item_count": 1
+                        "name": "Shiitake (Near Air Pocket)",
+                        "item_count": 2
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "inverted",
-                        "x": 492,
-                        "y": 312
-                    }
-                ]
-            },
-            {
-                "name": "Shiitake 4(Near air pocket)",
-                "sections": [
-                    {
-                        "name": "Shiitake 4(Near air pocket)",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "inverted",
-                        "x": 512,
+                        "x": 502,
                         "y": 312
                     }
                 ]
@@ -329,10 +297,10 @@
                 ]
             },
             {
-                "name": "Shiitake 2(Waterfall)",
+                "name": "Shiitake (Waterfall)",
                 "sections": [
                     {
-                        "name": "Shiitake 2(Waterfall)",
+                        "name": "Shiitake (Waterfall)",
                         "item_count": 1
                     }
                 ],
@@ -345,10 +313,10 @@
                 ]
             },
             {
-                "name": "Toadstool(Waterfall)",
+                "name": "Toadstool",
                 "sections": [
                     {
-                        "name": "Toadstool(Waterfall)",
+                        "name": "Toadstool",
                         "item_count": 1
                     }
                 ],
@@ -361,10 +329,10 @@
                 ]
             },
             {
-                "name": "Shiitake 1(Near entrance passage)",
+                "name": "Shiitake (Near Entrance Passage)",
                 "sections": [
                     {
-                        "name": "Shiitake 1(Near entrance passage)",
+                        "name": "Shiitake (Near Entrance Passage)",
                         "item_count": 1
                     }
                 ],
@@ -409,10 +377,10 @@
                 ]
             },
             {
-                "name": "Alucard shield",
+                "name": "Alucard Shield",
                 "sections": [
                     {
-                        "name": "Alucard shield",
+                        "name": "Alucard Shield",
                         "item_count": 1
                     }
                 ],

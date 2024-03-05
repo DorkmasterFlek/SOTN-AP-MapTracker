@@ -3,10 +3,10 @@
         "name": "Long Library",
         "children": [
             {
-                "name": "Bronze cuirass",
+                "name": "Bronze Cuirass",
                 "sections": [
                     {
-                        "name": "Bronze cuirass",
+                        "name": "Bronze Cuirass",
                         "item_count": 1
                     }
                 ],
@@ -87,10 +87,10 @@
                 ],
                 "children": [
                     {
-                        "name": "Stone mask",
+                        "name": "Stone Mask",
                         "sections": [
                             {
-                                "name": "Stone mask",
+                                "name": "Stone Mask",
                                 "item_count": 1
                             }
                         ],
@@ -106,11 +106,11 @@
                         "name": "Behind Bookcase",
                         "sections": [
                             {
-                                "name": "Holy rod",
+                                "name": "Holy Rod",
                                 "item_count": 1
                             },
                             {
-                                "name": "Topaz circlet",
+                                "name": "Topaz Circlet",
                                 "item_count": 1
                             }
                         ],

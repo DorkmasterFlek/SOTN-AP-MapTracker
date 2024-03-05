@@ -9,11 +9,11 @@
                 "name": "Above Bridge",
                 "sections": [
                     {
-                        "name": "Magic missile",
+                        "name": "Magic Missile",
                         "item_count": 1
                     },
                     {
-                        "name": "Karma coin",
+                        "name": "Karma Coin",
                         "item_count": 1
                     }
                 ],
@@ -29,7 +29,7 @@
                 "name": "Pillars",
                 "sections": [
                     {
-                        "name": "Str. potion",
+                        "name": "Str. Potion",
                         "item_count": 1
                     },
                     {
@@ -37,7 +37,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Smart potion",
+                        "name": "Smart Potion",
                         "item_count": 1
                     }
                 ],
@@ -50,10 +50,10 @@
                 ]
             },
             {
-                "name": "Dragon helm",
+                "name": "Dragon Helm",
                 "sections": [
                     {
-                        "name": "Dragon helm",
+                        "name": "Dragon Helm",
                         "item_count": 1
                     }
                 ],
@@ -69,15 +69,15 @@
                 "name": "Hidden Room",
                 "sections": [
                     {
-                        "name": "Diamond(Hidden room)",
+                        "name": "Diamond",
                         "item_count": 1
                     },
                     {
-                        "name": "Life apple(Hidden room)",
+                        "name": "Life Apple",
                         "item_count": 1
                     },
                     {
-                        "name": "Sunstone(Hidden room)",
+                        "name": "Sunstone",
                         "item_count": 1
                     }
                 ],
@@ -90,10 +90,10 @@
                 ]
             },
             {
-                "name": "Moon rod",
+                "name": "Moon Rod",
                 "sections": [
                     {
-                        "name": "Moon rod",
+                        "name": "Moon Rod",
                         "item_count": 1
                     }
                 ],
@@ -157,7 +157,7 @@
                 "name": "Keep Approach",
                 "sections": [
                     {
-                        "name": "Bwaka knife",
+                        "name": "Bwaka Knife",
                         "item_count": 1
                     },
                     {
@@ -181,7 +181,7 @@
                 "name": "Darkwing Bat",
                 "sections": [
                     {
-                        "name": "Darkwing bat kill",
+                        "name": "Darkwing Bat kill",
                         "hosted_item": "darkwingbat"
                     },
                     {

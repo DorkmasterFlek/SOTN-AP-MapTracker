@@ -9,7 +9,7 @@
                 "name": "Keep Top",
                 "sections": [
                     {
-                        "name": "Sword of dawn",
+                        "name": "Sword of Dawn",
                         "item_count": 1
                     },
                     {
@@ -26,10 +26,10 @@
                 ]
             },
             {
-                "name": "Iron ball(Above Richter)",
+                "name": "Iron Ball",
                 "sections": [
                     {
-                        "name": "Iron ball(Above Richter)",
+                        "name": "Iron Ball",
                         "item_count": 1
                     }
                 ],
@@ -42,10 +42,10 @@
                 ]
             },
             {
-                "name": "Lightning mail",
+                "name": "Lightning Mail",
                 "sections": [
                     {
-                        "name": "Lightning mail",
+                        "name": "Lightning Mail",
                         "item_count": 1
                     }
                 ],
@@ -61,35 +61,19 @@
                 "name": "Below Throne",
                 "sections": [
                     {
-                        "name": "Bastard sword",
+                        "name": "Bastard Sword",
                         "item_count": 1
                     },
                     {
-                        "name": "Life Vessel 1",
-                        "item_count": 1
+                        "name": "Life Vessel",
+                        "item_count": 3
                     },
                     {
-                        "name": "Heart Vessel 1",
-                        "item_count": 1
+                        "name": "Heart Vessel",
+                        "item_count": 3
                     },
                     {
-                        "name": "Life Vessel 2",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Heart Vessel 2",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Life Vessel 3",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Heart Vessel 4",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Royal cloak",
+                        "name": "Royal Cloak",
                         "item_count": 1
                     }
                 ],
@@ -102,10 +86,10 @@
                 ]
             },
             {
-                "name": "Library card",
+                "name": "Library Card",
                 "sections": [
                     {
-                        "name": "Library card",
+                        "name": "Library Card",
                         "item_count": 1
                     }
                 ],
@@ -121,23 +105,23 @@
                 "name": "Viewing Room",
                 "sections": [
                     {
-                        "name": "Resist fire(Viewing room)",
+                        "name": "Resist Fire",
                         "item_count": 1
                     },
                     {
-                        "name": "Resist ice(Viewing room)",
+                        "name": "Resist Ice",
                         "item_count": 1
                     },
                     {
-                        "name": "Resist thunder(Viewing room)",
+                        "name": "Resist Thunder",
                         "item_count": 1
                     },
                     {
-                        "name": "Resist stone(Viewing room)",
+                        "name": "Resist Stone",
                         "item_count": 1
                     },
                     {
-                        "name": "High potion(Viewing room)",
+                        "name": "High Potion",
                         "item_count": 1
                     }
                 ],

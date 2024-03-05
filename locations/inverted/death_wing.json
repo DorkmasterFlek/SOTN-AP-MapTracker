@@ -29,11 +29,11 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Sword of hador",
+                        "name": "Sword of Hador",
                         "item_count": 1
                     },
                     {
-                        "name": "High potion",
+                        "name": "High Potion",
                         "item_count": 1
                     }
                 ],
@@ -49,11 +49,11 @@
                 "name": "Middle Shaft",
                 "sections": [
                     {
-                        "name": "Shield potion",
+                        "name": "Shield Potion",
                         "item_count": 1
                     },
                     {
-                        "name": "Luck potion",
+                        "name": "Luck Potion",
                         "item_count": 1
                     }
                 ],
@@ -66,10 +66,10 @@
                 ]
             },
             {
-                "name": "Manna prism",
+                "name": "Manna Prism",
                 "sections": [
                     {
-                        "name": "Manna prism",
+                        "name": "Manna Prism",
                         "item_count": 1
                     }
                 ],
@@ -114,10 +114,10 @@
                 ]
             },
             {
-                "name": "Alucard mail",
+                "name": "Alucard Mail",
                 "sections": [
                     {
-                        "name": "Alucard mail",
+                        "name": "Alucard Mail",
                         "item_count": 1
                     }
                 ],

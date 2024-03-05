@@ -3,10 +3,10 @@
         "name": "Alchemy Laboratory",
         "children": [
             {
-                "name": "Hide cuirass",
+                "name": "Hide Cuirass",
                 "sections": [
                     {
-                        "name": "Hide cuirass",
+                        "name": "Hide Cuirass",
                         "item_count": 1
                     }
                 ],
@@ -35,10 +35,10 @@
                 ]
             },
             {
-                "name": "Cloth cape",
+                "name": "Cloth Cape",
                 "sections": [
                     {
-                        "name": "Cloth cape",
+                        "name": "Cloth Cape",
                         "item_count": 1
                     }
                 ],
@@ -83,10 +83,10 @@
                 ]
             },
             {
-                "name": "Resist thunder",
+                "name": "Resist Thunder",
                 "sections": [
                     {
-                        "name": "Resist thunder",
+                        "name": "Resist Thunder",
                         "item_count": 1
                     }
                 ],
@@ -99,10 +99,10 @@
                 ]
             },
             {
-                "name": "Leather shield",
+                "name": "Leather Shield",
                 "sections": [
                     {
-                        "name": "Leather shield",
+                        "name": "Leather Shield",
                         "item_count": 1
                     }
                 ],
@@ -147,10 +147,10 @@
                 ]
             },
             {
-                "name": "Slogra and Gaibon",
+                "name": "Slogra & Gaibon",
                 "sections": [
                     {
-                        "name": "Slogra and Gaibon kill",
+                        "name": "Slogra & Gaibon kill",
                         "hosted_item": "slogragaibon"
                     }
                 ],

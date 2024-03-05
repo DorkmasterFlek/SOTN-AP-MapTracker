@@ -36,16 +36,16 @@
         "codes": "boss,scylla"
     },
     {
-        "name": "Cerberos",
+        "name": "Cerberus",
         "type": "toggle",
         "img": "images/items/bosses_killed.png",
-        "codes": "boss,cerberos"
+        "codes": "boss,cerberus"
     },
     {
-        "name": "Legion",
+        "name": "Granfaloon",
         "type": "toggle",
         "img": "images/items/bosses_killed.png",
-        "codes": "boss,legion"
+        "codes": "boss,granfaloon"
     },
     {
         "name": "Minotaurus & Werewolf",
@@ -66,10 +66,10 @@
         "codes": "boss,karasuman"
     },
     {
-        "name": "Beezelbub",
+        "name": "Beelzebub",
         "type": "toggle",
         "img": "images/items/bosses_killed.png",
-        "codes": "boss,beezelbub"
+        "codes": "boss,beelzebub"
     },
     {
         "name": "The Creature",

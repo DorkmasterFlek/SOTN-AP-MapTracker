@@ -16,28 +16,16 @@
                         "name": "Demon Button Room",
                         "sections": [
                             {
-                                "name": "Power of sire(Demon)",
+                                "name": "Power of Sire",
                                 "item_count": 1
                             },
                             {
-                                "name": "Barley tea(Demon)",
+                                "name": "Barley Tea",
                                 "item_count": 1
                             },
                             {
-                                "name": "Peanuts 1(Demon)",
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Peanuts 2(Demon)",
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Peanuts 3(Demon)",
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Peanuts 4(Demon)",
-                                "item_count": 1
+                                "name": "Peanuts",
+                                "item_count": 4
                             }
                         ],
                         "map_locations": [
@@ -52,11 +40,11 @@
                         "name": "Demon Button Shaft",
                         "sections": [
                             {
-                                "name": "Ring of ares",
+                                "name": "Ring of Ares",
                                 "item_count": 1
                             },
                             {
-                                "name": "Turkey(Demon)",
+                                "name": "Turkey",
                                 "item_count": 1
                             }
                         ],
@@ -74,11 +62,11 @@
                 "name": "Mine Shaft Bottom",
                 "sections": [
                     {
-                        "name": "Karma coin",
+                        "name": "Karma Coin",
                         "item_count": 1
                     },
                     {
-                        "name": "Combat knife",
+                        "name": "Combat Knife",
                         "item_count": 1
                     }
                 ],
@@ -94,12 +82,8 @@
                 "name": "Mine Shaft Middle",
                 "sections": [
                     {
-                        "name": "Shiitake 1",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Shiitake 2",
-                        "item_count": 1
+                        "name": "Shiitake",
+                        "item_count": 2
                     }
                 ],
                 "map_locations": [
@@ -111,11 +95,11 @@
                 ]
             },
             {
-                "name": "Cerberos",
+                "name": "Cerberus",
                 "sections": [
                     {
-                        "name": "Cerberos kill",
-                        "hosted_item": "cerberos"
+                        "name": "Cerberus kill",
+                        "hosted_item": "cerberus"
                     }
                 ],
                 "map_locations": [

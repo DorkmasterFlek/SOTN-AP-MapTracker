@@ -13,11 +13,11 @@
                 ],
                 "sections": [
                     {
-                        "name": "Ankh of life(Stairs)",
+                        "name": "Ankh of Life",
                         "item_count": 1
                     },
                     {
-                        "name": "TNT(Stairs)",
+                        "name": "TNT",
                         "item_count": 1
                     }
                 ],
@@ -49,13 +49,13 @@
                 ]
             },
             {
-                "name": "Silver ring",
+                "name": "Silver Ring",
                 "access_rules": [
                     "jewelofopen,formofmist,spikebreaker"
                 ],
                 "sections": [
                     {
-                        "name": "Silver ring",
+                        "name": "Silver Ring",
                         "item_count": 1
                     }
                 ],
@@ -68,10 +68,10 @@
                 ]
             },
             {
-                "name": "Aquamarine(Stairs)",
+                "name": "Aquamarine",
                 "sections": [
                     {
-                        "name": "Aquamarine(Stairs)",
+                        "name": "Aquamarine",
                         "item_count": 1
                     }
                 ],
@@ -90,11 +90,11 @@
                 ],
                 "sections": [
                     {
-                        "name": "Mystic pendant",
+                        "name": "Mystic Pendant",
                         "item_count": 1
                     },
                     {
-                        "name": "Magic missile(Stairs)",
+                        "name": "Magic Missile",
                         "item_count": 1
                     }
                 ],
@@ -107,13 +107,13 @@
                 ]
             },
             {
-                "name": "Shuriken(Stairs)",
+                "name": "Shuriken",
                 "access_rules": [
                     "$canJump"
                 ],
                 "sections": [
                     {
-                        "name": "Shuriken(Stairs)",
+                        "name": "Shuriken",
                         "item_count": 1
                     }
                 ],
@@ -126,13 +126,13 @@
                 ]
             },
             {
-                "name": "Boomerang(Stairs)",
+                "name": "Boomerang",
                 "access_rules": [
                     "$canJump"
                 ],
                 "sections": [
                     {
-                        "name": "Boomerang(Stairs)",
+                        "name": "Boomerang",
                         "item_count": 1
                     }
                 ],
@@ -161,10 +161,10 @@
                 ]
             },
             {
-                "name": "Silver plate",
+                "name": "Silver Plate",
                 "sections": [
                     {
-                        "name": "Silver plate",
+                        "name": "Silver Plate",
                         "item_count": 1
                     }
                 ],
@@ -177,10 +177,10 @@
                 ]
             },
             {
-                "name": "Str. potion(Bell)",
+                "name": "Str. Potion",
                 "sections": [
                     {
-                        "name": "Str. potion(Bell)",
+                        "name": "Str. Potion",
                         "item_count": 1
                     }
                 ],
@@ -193,10 +193,10 @@
                 ]
             },
             {
-                "name": "Life Vessel(Bell)",
+                "name": "Life Vessel",
                 "sections": [
                     {
-                        "name": "Life Vessel(Bell)",
+                        "name": "Life Vessel",
                         "item_count": 1
                     }
                 ],
@@ -253,6 +253,22 @@
                         "map": "normal",
                         "x": 532,
                         "y": 152
+                    }
+                ]
+            },
+            {
+                "name": "Knight Shield",
+                "sections": [
+                    {
+                        "name": "Knight Shield",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 272,
+                        "y": 372
                     }
                 ]
             },

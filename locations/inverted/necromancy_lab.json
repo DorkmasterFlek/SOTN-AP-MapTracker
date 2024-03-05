@@ -6,10 +6,10 @@
         ],
         "children": [
             {
-                "name": "Resist dark",
+                "name": "Resist Dark",
                 "sections": [
                     {
-                        "name": "Resist dark",
+                        "name": "Resist Dark",
                         "item_count": 1
                     }
                 ],
@@ -70,10 +70,10 @@
                 ]
             },
             {
-                "name": "Goddess shield",
+                "name": "Goddess Shield",
                 "sections": [
                     {
-                        "name": "Goddess shield",
+                        "name": "Goddess Shield",
                         "item_count": 1
                     }
                 ],
@@ -86,10 +86,10 @@
                 ]
             },
             {
-                "name": "Manna prism",
+                "name": "Manna Prism",
                 "sections": [
                     {
-                        "name": "Manna prism",
+                        "name": "Manna Prism",
                         "item_count": 1
                     }
                 ],
@@ -118,10 +118,10 @@
                 ]
             },
             {
-                "name": "High potion",
+                "name": "High Potion",
                 "sections": [
                     {
-                        "name": "High potion",
+                        "name": "High Potion",
                         "item_count": 1
                     }
                 ],
@@ -150,11 +150,11 @@
                 ]
             },
             {
-                "name": "Beezelbub",
+                "name": "Beelzebub",
                 "sections": [
                     {
-                        "name": "Beezelbub kill",
-                        "hosted_item": "beezelbub"
+                        "name": "Beelzebub kill",
+                        "hosted_item": "beelzebub"
                     }
                 ],
                 "map_locations": [

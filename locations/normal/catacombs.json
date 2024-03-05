@@ -9,7 +9,7 @@
                 "name": "Catacombs Entrance",
                 "sections": [
                     {
-                        "name": "Cat-eye circl.",
+                        "name": "Cat-Eye Circlet",
                         "item_count": 1
                     },
                     {
@@ -45,10 +45,10 @@
                 ]
             },
             {
-                "name": "Walk armor",
+                "name": "Walk Armor",
                 "sections": [
                     {
-                        "name": "Walk armor",
+                        "name": "Walk Armor",
                         "item_count": 1
                     }
                 ],
@@ -83,7 +83,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Heart Vessel(Ballroom mask)",
+                        "name": "Heart Vessel",
                         "item_count": 1
                     },
                     {
@@ -103,11 +103,11 @@
                 "name": "Crypt",
                 "sections": [
                     {
-                        "name": "Life Vessel(Crypt)",
+                        "name": "Life Vessel",
                         "item_count": 1
                     },
                     {
-                        "name": "Heart Vessel(Crypt)",
+                        "name": "Heart Vessel",
                         "item_count": 1
                     }
                 ],
@@ -123,20 +123,8 @@
                 "name": "Sarcophagus",
                 "sections": [
                     {
-                        "name": "Monster vial 3 1(Sarcophagus)",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Monster vial 3 2(Sarcophagus)",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Monster vial 3 3(Sarcophagus)",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Monster vial 3 4(Sarcophagus)",
-                        "item_count": 1
+                        "name": "Monster Vial 3",
+                        "item_count": 4
                     }
                 ],
                 "map_locations": [
@@ -148,11 +136,11 @@
                 ]
             },
             {
-                "name": "Legion",
+                "name": "Granfaloon",
                 "sections": [
                     {
-                        "name": "Legion kill",
-                        "hosted_item": "legion"
+                        "name": "Granfaloon kill",
+                        "hosted_item": "granfaloon"
                     }
                 ],
                 "map_locations": [
@@ -174,20 +162,12 @@
                         "name": "Spike Hallway",
                         "sections": [
                             {
-                                "name": "Cross shuriken 1(Spike breaker)",
-                                "item_count": 1
+                                "name": "Cross Shuriken",
+                                "item_count": 2
                             },
                             {
-                                "name": "Cross shuriken 2(Spike breaker)",
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Karma coin 1(Spike breaker)",
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Karma coin 2(Spike breaker)",
-                                "item_count": 1
+                                "name": "Karma Coin",
+                                "item_count": 2
                             }
                         ],
                         "map_locations": [
@@ -199,10 +179,10 @@
                         ]
                     },
                     {
-                        "name": "Pork bun",
+                        "name": "Pork Bun",
                         "sections": [
                             {
-                                "name": "Pork bun",
+                                "name": "Pork Bun",
                                 "item_count": 1
                             }
                         ],
@@ -218,11 +198,11 @@
                         "name": "Spike Breaker Room",
                         "sections": [
                             {
-                                "name": "Library card(Spike breaker)",
+                                "name": "Library Card",
                                 "item_count": 1
                             },
                             {
-                                "name": "Spike breaker",
+                                "name": "Spike Breaker",
                                 "item_count": 1
                             }
                         ],

@@ -23,10 +23,10 @@
                 ]
             },
             {
-                "name": "Shield rod",
+                "name": "Shield Rod",
                 "sections": [
                     {
-                        "name": "Shield rod",
+                        "name": "Shield Rod",
                         "item_count": 1
                     }
                 ],
@@ -39,10 +39,10 @@
                 ]
             },
             {
-                "name": "Blood cloak",
+                "name": "Blood Cloak",
                 "sections": [
                     {
-                        "name": "Blood cloak",
+                        "name": "Blood Cloak",
                         "item_count": 1
                     }
                 ],
@@ -55,26 +55,10 @@
                 ]
             },
             {
-                "name": "Knight shield(Chapel passage)",
+                "name": "Library Card",
                 "sections": [
                     {
-                        "name": "Knight shield(Chapel passage)",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "normal",
-                        "x": 272,
-                        "y": 372
-                    }
-                ]
-            },
-            {
-                "name": "Library card",
-                "sections": [
-                    {
-                        "name": "Library card",
+                        "name": "Library Card",
                         "item_count": 1
                     }
                 ],
@@ -87,10 +71,10 @@
                 ]
             },
             {
-                "name": "Green tea",
+                "name": "Green Tea",
                 "sections": [
                     {
-                        "name": "Green tea",
+                        "name": "Green Tea",
                         "item_count": 1
                     }
                 ],
@@ -103,13 +87,13 @@
                 ]
             },
             {
-                "name": "Holy sword(Hidden attic)",
+                "name": "Holy Sword",
                 "access_rules": [
                     "$canHighJump"
                 ],
                 "sections": [
                     {
-                        "name": "Holy sword(Hidden attic)",
+                        "name": "Holy Sword",
                         "item_count": 1
                     }
                 ],

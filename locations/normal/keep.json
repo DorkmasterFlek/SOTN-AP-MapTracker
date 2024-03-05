@@ -14,7 +14,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Turkey(Behind wall)",
+                        "name": "Turkey",
                         "item_count": 1
                     },
                     {
@@ -43,7 +43,7 @@
                         ],
                         "sections": [
                             {
-                                "name": "Fire mail(Behind wall)",
+                                "name": "Fire Mail",
                                 "item_count": 1
                             },
                             {
@@ -92,13 +92,13 @@
                         ]
                     },
                     {
-                        "name": "Heart Vessel(Before Richter)",
+                        "name": "Heart Vessel",
                         "access_rules": [
                             "$canFly"
                         ],
                         "sections": [
                             {
-                                "name": "Heart Vessel(Before Richter)",
+                                "name": "Heart Vessel",
                                 "item_count": 1
                             }
                         ],
@@ -117,35 +117,35 @@
                         ],
                         "sections": [
                             {
-                                "name": "Sirloin(Above Richter)",
+                                "name": "Sirloin",
                                 "item_count": 1
                             },
                             {
-                                "name": "Turkey(Above Richter)",
+                                "name": "Turkey",
                                 "item_count": 1
                             },
                             {
-                                "name": "Pot roast(Above Richter)",
+                                "name": "Pot Roast",
                                 "item_count": 1
                             },
                             {
-                                "name": "Frankfurter(Above Richter)",
+                                "name": "Frankfurter",
                                 "item_count": 1
                             },
                             {
-                                "name": "Resist stone(Above Richter)",
+                                "name": "Resist Stone",
                                 "item_count": 1
                             },
                             {
-                                "name": "Resist dark(Above Richter)",
+                                "name": "Resist Dark",
                                 "item_count": 1
                             },
                             {
-                                "name": "Resist holy(Above Richter)",
+                                "name": "Resist Holy",
                                 "item_count": 1
                             },
                             {
-                                "name": "Platinum mail(Above Richter)",
+                                "name": "Platinum Mail",
                                 "item_count": 1
                             }
                         ],
@@ -164,20 +164,12 @@
                         ],
                         "sections": [
                             {
-                                "name": "Life Vessel 1(Viewing room)",
-                                "item_count": 1
+                                "name": "Life Vessel",
+                                "item_count": 2
                             },
                             {
-                                "name": "Life Vessel 2(Viewing room)",
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Heart Vessel 1(Viewing room)",
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Heart Vessel 2(Viewing room)",
-                                "item_count": 1
+                                "name": "Heart Vessel",
+                                "item_count": 2
                             },
                             {
                                 "name": "Ghost Card",

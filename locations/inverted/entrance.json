@@ -52,7 +52,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Beryl circlet",
+                        "name": "Beryl Circlet",
                         "item_count": 1
                     }
                 ],
@@ -81,10 +81,10 @@
                 ]
             },
             {
-                "name": "Fire boomerang",
+                "name": "Fire Boomerang",
                 "sections": [
                     {
-                        "name": "Fire boomerang",
+                        "name": "Fire Boomerang",
                         "item_count": 1
                     }
                 ],
@@ -117,10 +117,10 @@
                 ]
             },
             {
-                "name": "Pot roast",
+                "name": "Pot Roast",
                 "sections": [
                     {
-                        "name": "Pot roast",
+                        "name": "Pot Roast",
                         "item_count": 1
                     }
                 ],
@@ -133,10 +133,10 @@
                 ]
             },
             {
-                "name": "High potion",
+                "name": "High Potion",
                 "sections": [
                     {
-                        "name": "High potion",
+                        "name": "High Potion",
                         "item_count": 1
                     }
                 ],

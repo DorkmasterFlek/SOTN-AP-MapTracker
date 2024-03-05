@@ -3,14 +3,14 @@
         "name": "Outer Wall",
         "children": [
             {
-                "name": "Secret Elevator",
+                "name": "Behind Grate",
                 "sections": [
                     {
-                        "name": "Jewel knuckles",
+                        "name": "Jewel Knuckles",
                         "item_count": 1
                     },
                     {
-                        "name": "Mirror cuirass",
+                        "name": "Mirror Cuirass",
                         "item_count": 1
                     }
                 ],

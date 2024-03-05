@@ -40,13 +40,13 @@
                         ]
                     },
                     {
-                        "name": "Manna prism",
+                        "name": "Manna Prism",
                         "access_rules": [
                             "$canFly"
                         ],
                         "sections": [
                             {
-                                "name": "Manna prism",
+                                "name": "Manna Prism",
                                 "item_count": 1
                             }
                         ],
@@ -59,13 +59,13 @@
                         ]
                     },
                     {
-                        "name": "Resist fire",
+                        "name": "Resist Fire",
                         "access_rules": [
                             "$canFly"
                         ],
                         "sections": [
                             {
-                                "name": "Resist fire",
+                                "name": "Resist Fire",
                                 "item_count": 1
                             }
                         ],
@@ -78,13 +78,13 @@
                         ]
                     },
                     {
-                        "name": "Luck potion",
+                        "name": "Luck Potion",
                         "access_rules": [
                             "$canFly"
                         ],
                         "sections": [
                             {
-                                "name": "Luck potion",
+                                "name": "Luck Potion",
                                 "item_count": 1
                             }
                         ],
@@ -141,13 +141,13 @@
                         ]
                     },
                     {
-                        "name": "Iron ball",
+                        "name": "Iron Ball",
                         "access_rules": [
                             "$canFly"
                         ],
                         "sections": [
                             {
-                                "name": "Iron ball",
+                                "name": "Iron Ball",
                                 "item_count": 1
                             }
                         ],
@@ -181,7 +181,9 @@
                     {
                         "name": "Echo of Bat",
                         "access_rules": [
-                            "$canFly"
+                            "$canFly,soulofbat",
+                            "$canFly,soulofwolf",
+                            "$canFly,formofmist"
                         ],
                         "sections": [
                             {
@@ -219,7 +221,9 @@
                     {
                         "name": "Olrox",
                         "access_rules": [
-                            "$canFly"
+                            "$canFly,soulofbat",
+                            "$canFly,soulofwolf",
+                            "$canFly,formofmist"
                         ],
                         "sections": [
                             {

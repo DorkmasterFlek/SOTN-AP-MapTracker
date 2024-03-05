@@ -6,10 +6,10 @@
         ],
         "children": [
             {
-                "name": "Fury plate(Hidden floor)",
+                "name": "Fury Plate",
                 "sections": [
                     {
-                        "name": "Fury plate(Hidden floor)",
+                        "name": "Fury Plate",
                         "item_count": 1
                     }
                 ],
@@ -38,10 +38,10 @@
                 ]
             },
             {
-                "name": "Buffalo star",
+                "name": "Buffalo Star",
                 "sections": [
                     {
-                        "name": "Buffalo star",
+                        "name": "Buffalo Star",
                         "item_count": 1
                     }
                 ],
@@ -89,15 +89,11 @@
                 "name": "Passage",
                 "sections": [
                     {
-                        "name": "Heart Vessel(5)",
-                        "item_count": 1
+                        "name": "Heart Vessel",
+                        "item_count": 2
                     },
                     {
                         "name": "Life Vessel",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Heart Vessel(7)",
                         "item_count": 1
                     }
                 ],

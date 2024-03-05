@@ -29,10 +29,10 @@
                         ]
                     },
                     {
-                        "name": "Heart Vessel(0)",
+                        "name": "Heart Vessel",
                         "sections": [
                             {
-                                "name": "Heart Vessel(0)",
+                                "name": "Heart Vessel",
                                 "item_count": 1
                             }
                         ],
@@ -45,10 +45,10 @@
                         ]
                     },
                     {
-                        "name": "Life Vessel(1)",
+                        "name": "Life Vessel",
                         "sections": [
                             {
-                                "name": "Life Vessel(1)",
+                                "name": "Life Vessel",
                                 "item_count": 1
                             }
                         ],
@@ -61,10 +61,10 @@
                         ]
                     },
                     {
-                        "name": "Bandanna",
+                        "name": "Bandana",
                         "sections": [
                             {
-                                "name": "Bandanna",
+                                "name": "Bandana",
                                 "item_count": 1
                             }
                         ],
@@ -77,10 +77,10 @@
                         ]
                     },
                     {
-                        "name": "Shiitake(12)",
+                        "name": "Shiitake (Shaft)",
                         "sections": [
                             {
-                                "name": "Shiitake(12)",
+                                "name": "Shiitake (Shaft)",
                                 "item_count": 1
                             }
                         ],
@@ -93,10 +93,26 @@
                         ]
                     },
                     {
+                        "name": "Shiitake (Cavern)",
+                        "sections": [
+                            {
+                                "name": "Shiitake (Cavern)",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 732,
+                                "y": 672
+                            }
+                        ]
+                    },
+                    {
                         "name": "Caverns Entrance",
                         "sections": [
                             {
-                                "name": "Toadstool(26)",
+                                "name": "Toadstool",
                                 "item_count": 1
                             },
                             {
@@ -113,33 +129,17 @@
                         ]
                     },
                     {
-                        "name": "Shiitake(27)",
-                        "sections": [
-                            {
-                                "name": "Shiitake(27)",
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "normal",
-                                "x": 732,
-                                "y": 672
-                            }
-                        ]
-                    },
-                    {
                         "name": "Underwater",
                         "access_rules": [
                             "holysymbol"
                         ],
                         "sections": [
                             {
-                                "name": "Antivenom(Underwater)",
+                                "name": "Antivenom",
                                 "item_count": 1
                             },
                             {
-                                "name": "Life Vessel(Underwater)",
+                                "name": "Life Vessel",
                                 "item_count": 1
                             }
                         ],
@@ -195,11 +195,11 @@
                         ],
                         "sections": [
                             {
-                                "name": "Life Vessel(Bellow bridge)",
+                                "name": "Life Vessel",
                                 "item_count": 1
                             },
                             {
-                                "name": "Heart Vessel(Bellow bridge)",
+                                "name": "Heart Vessel",
                                 "item_count": 1
                             }
                         ],
@@ -237,20 +237,8 @@
                                 "name": "Succubus Approach",
                                 "sections": [
                                     {
-                                        "name": "Meal ticket 1(Succubus)",
-                                        "item_count": 1
-                                    },
-                                    {
-                                        "name": "Meal ticket 2(Succubus)",
-                                        "item_count": 1
-                                    },
-                                    {
-                                        "name": "Meal ticket 3(Succubus)",
-                                        "item_count": 1
-                                    },
-                                    {
-                                        "name": "Meal ticket 4(Succubus)",
-                                        "item_count": 1
+                                        "name": "Meal Ticket",
+                                        "item_count": 4
                                     },
                                     {
                                         "name": "Moonstone",
@@ -273,7 +261,7 @@
                                         "item_count": 1
                                     },
                                     {
-                                        "name": "Succubus kill",
+                                        "name": "Succubus Kill",
                                         "hosted_item": "succubus"
                                     }
                                 ],
@@ -288,10 +276,10 @@
                         ]
                     },
                     {
-                        "name": "Crystal cloak",
+                        "name": "Crystal Cloak",
                         "sections": [
                             {
-                                "name": "Crystal cloak",
+                                "name": "Crystal Cloak",
                                 "item_count": 1
                             }
                         ],
@@ -320,10 +308,10 @@
                         ]
                     },
                     {
-                        "name": "Resist ice",
+                        "name": "Resist Ice",
                         "sections": [
                             {
-                                "name": "Resist ice",
+                                "name": "Resist Ice",
                                 "item_count": 1
                             }
                         ],
@@ -336,10 +324,10 @@
                         ]
                     },
                     {
-                        "name": "Pot roast",
+                        "name": "Pot Roast",
                         "sections": [
                             {
-                                "name": "Pot roast",
+                                "name": "Pot Roast",
                                 "item_count": 1
                             }
                         ],
@@ -368,10 +356,10 @@
                         ]
                     },
                     {
-                        "name": "Knuckle duster(Holy)",
+                        "name": "Knuckle Duster",
                         "sections": [
                             {
-                                "name": "Knuckle duster(Holy)",
+                                "name": "Knuckle Duster",
                                 "item_count": 1
                             }
                         ],
@@ -384,10 +372,10 @@
                         ]
                     },
                     {
-                        "name": "Life Vessel(Holy)",
+                        "name": "Life Vessel (Holy Symbol)",
                         "sections": [
                             {
-                                "name": "Life Vessel(Holy)",
+                                "name": "Life Vessel (Holy Symbol)",
                                 "item_count": 1
                             }
                         ],
@@ -400,14 +388,14 @@
                         ]
                     },
                     {
-                        "name": "Onyx(Holy)",
+                        "name": "Onyx",
                         "access_rules": [
                             "mermanstatue",
                             "$canJump"
                         ],
                         "sections": [
                             {
-                                "name": "Onyx(Holy)",
+                                "name": "Onyx",
                                 "item_count": 1
                             }
                         ],
@@ -420,13 +408,13 @@
                         ]
                     },
                     {
-                        "name": "Elixir(Holy)",
+                        "name": "Elixir",
                         "access_rules": [
                             "mermanstatue"
                         ],
                         "sections": [
                             {
-                                "name": "Elixir(Holy)",
+                                "name": "Elixir",
                                 "item_count": 1
                             }
                         ],
@@ -458,13 +446,13 @@
                         ]
                     },
                     {
-                        "name": "Secret boots",
+                        "name": "Secret Boots",
                         "access_rules": [
                             "$canJump"
                         ],
                         "sections": [
                             {
-                                "name": "Secret boots",
+                                "name": "Secret Boots",
                                 "item_count": 1
                             }
                         ],
@@ -477,13 +465,13 @@
                         ]
                     },
                     {
-                        "name": "Shiitake(Waterfall)",
+                        "name": "Shiitake (Waterfall)",
                         "access_rules": [
                             "$canJump"
                         ],
                         "sections": [
                             {
-                                "name": "Shiitake(Waterfall)",
+                                "name": "Shiitake (Waterfall)",
                                 "item_count": 1
                             }
                         ],
@@ -505,13 +493,13 @@
                 ],
                 "children": [
                     {
-                        "name": "Toadstool(Waterfall)",
+                        "name": "Toadstool (Waterfall)",
                         "access_rules": [
                             "$canJump"
                         ],
                         "sections": [
                             {
-                                "name": "Toadstool(Waterfall)",
+                                "name": "Toadstool (Waterfall)",
                                 "item_count": 1
                             }
                         ],
@@ -524,10 +512,10 @@
                         ]
                     },
                     {
-                        "name": "Life Vessel(Behind waterfall)",
+                        "name": "Life Vessel (Behind Waterfall)",
                         "sections": [
                             {
-                                "name": "Life Vessel(Behind waterfall)",
+                                "name": "Life Vessel (Behind Waterfall)",
                                 "item_count": 1
                             }
                         ],
@@ -540,10 +528,10 @@
                         ]
                     },
                     {
-                        "name": "Shiitake(Near entrance passage)",
+                        "name": "Shiitake (Near Entrance Passage)",
                         "sections": [
                             {
-                                "name": "Shiitake(Near entrance passage)",
+                                "name": "Shiitake (Near Entrance Passage)",
                                 "item_count": 1
                             }
                         ],
@@ -551,6 +539,22 @@
                             {
                                 "map": "normal",
                                 "x": 332,
+                                "y": 752
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Life Vessel (Entrance Passage)",
+                        "sections": [
+                            {
+                                "name": "Life Vessel (Entrance Passage)",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 272,
                                 "y": 752
                             }
                         ]

@@ -45,10 +45,10 @@
                 ]
             },
             {
-                "name": "Luck potion",
+                "name": "Luck Potion",
                 "sections": [
                     {
-                        "name": "Luck potion",
+                        "name": "Luck Potion",
                         "item_count": 1
                     }
                 ],
@@ -61,10 +61,10 @@
                 ]
             },
             {
-                "name": "Shield potion",
+                "name": "Shield Potion",
                 "sections": [
                     {
-                        "name": "Shield potion",
+                        "name": "Shield Potion",
                         "item_count": 1
                     }
                 ],
@@ -77,10 +77,10 @@
                 ]
             },
             {
-                "name": "High potion",
+                "name": "High Potion",
                 "sections": [
                     {
-                        "name": "High potion",
+                        "name": "High Potion",
                         "item_count": 1
                     }
                 ],
@@ -109,10 +109,10 @@
                 ]
             },
             {
-                "name": "Dim Sum set",
+                "name": "Dim Sum Set",
                 "sections": [
                     {
-                        "name": "Dim Sum set",
+                        "name": "Dim Sum Set",
                         "item_count": 1
                     }
                 ],
