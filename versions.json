@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.1.3",
+            "sha256": "ece8d0ed0365ba0f4d8b9ce31e9a5ee0605ad39e9f3eb759f88dba92aa231666",
+            "changelog": [
+                "Bottom vase in Olrox's Quarters shaft can be checked with just high jump"
+            ],
+            "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.1.3/SOTN-AP-MapTracker.zip"
+        },
+        {
             "package_version": "0.1.1",
             "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.1.2/SOTN-AP-MapTracker.zip",
             "sha256": "3567ee7c8327f851b8126ce570f8a65bc81242743d3c4858151ad06fb504c0a6",
