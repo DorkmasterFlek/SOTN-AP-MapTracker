@@ -114,7 +114,8 @@ alchemy_lab = Area('Alchemy Laboratory', children=[
 # Marble Gallery
 marble_gallery = Area('Marble Gallery', children=[
     normal.simple_location('Life Vessel (Left Clock)', 29, 20, access_rules=['$canJump', 'opened_are,jewelofopen'], location_id=127080000),
-    Location('Right Clock', map_locations=[normal.location(31.5, 20)], access_rules=['$canJump'], sections=[
+    # Need Cube of Zoe to get stop watch from candles!
+    Location('Right Clock', map_locations=[normal.location(31.5, 20)], access_rules=['cubeofzoe,$canJump'], sections=[
         Section('Heart Vessel', location_id=127080002),
         Section('Alucart shield', location_id=127080001),
         Section('Alucart mail', location_id=127080006),
@@ -164,7 +165,7 @@ library = Area('Long Library', children=[
         Section('Antivenom', location_id=127070009),
         Section('Faerie Card', location_id=127073075),
     ]),
-    normal.simple_location('Faerie Scroll', 57, 13, access_rules=['$canJump'], location_id=127073073),
+    normal.simple_location('Faerie Scroll', 57, 13, location_id=127073073),
     normal.simple_location('Jewel of Open', 47, 15, location_id=127073074),
     Area('Back of Library', access_rules=['$canJump'], children=[
         normal.simple_location('Stone Mask', 47, 13, location_id=127070001),

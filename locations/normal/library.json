@@ -47,9 +47,6 @@
             },
             {
                 "name": "Faerie Scroll",
-                "access_rules": [
-                    "$canJump"
-                ],
                 "sections": [
                     {
                         "name": "Faerie Scroll",
