@@ -42,7 +42,7 @@
                     {
                         "name": "Manna Prism",
                         "access_rules": [
-                            "$canFly"
+                            "$canHighJump"
                         ],
                         "sections": [
                             {

@@ -341,7 +341,7 @@ olrox = Area("Olrox's Quarters", access_rules=['opened_no2,jewelofopen', 'opened
             Section('Onyx', location_id=127100005),
             Section('Cheese', location_id=127100006),
         ]),
-        normal.simple_location('Manna Prism', 33, 15, access_rules=['$canFly'], location_id=127100007),
+        normal.simple_location('Manna Prism', 33, 15, access_rules=['$canHighJump'], location_id=127100007),
         normal.simple_location('Resist Fire', 33, 14, access_rules=['$canFly'], location_id=127100008),
         normal.simple_location('Luck Potion', 33, 12, access_rules=['$canFly'], location_id=127100009),
         normal.simple_location('Estoc', 28, 10, access_rules=['$canFly'], location_id=127100010),
