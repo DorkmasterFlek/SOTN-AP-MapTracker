@@ -2,6 +2,15 @@
     "versions": [
         {
             "package_version": "0.1.1",
+            "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.1.2/SOTN-AP-MapTracker.zip",
+            "sha256": "3567ee7c8327f851b8126ce570f8a65bc81242743d3c4858151ad06fb504c0a6",
+            "changelog": [
+                "Cube of Zoe required for right clock items to get stop watch from candles.",
+                "Jump not required for Faerie Scroll in library."
+            ]
+        },
+        {
+            "package_version": "0.1.1",
             "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.1.1/SOTN-AP-MapTracker.zip",
             "sha256": "dd02acf0c69afdc13a34522b5fbd12779e540aaa65d38944e3c83bd1ce8b1703",
             "changelog": [
