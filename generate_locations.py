@@ -126,9 +126,12 @@ marble_gallery = Area('Marble Gallery', children=[
         Section('Hammer', location_id=127080004),
         Section('Potion', location_id=127080005),
     ]),
-    Location('Inside Clock', map_locations=[normal.location(31, 22)], access_rules=['silverring,goldring'], sections=[
-        Section('Life Vessel', location_id=127080008),
-        Section('Heart Vessel', location_id=127080009),
+    Area('Inside Clock', access_rules=['silverring,goldring'], children=[
+        Location('Right Side', map_locations=[normal.location(31, 22)], sections=[
+            Section('Life Vessel', location_id=127080008),
+            Section('Heart Vessel', location_id=127080009),
+        ]),
+        normal.simple_location('Holy Glasses', 30, 26, location_id=127083080),
     ]),
     Location('Under Floor', map_locations=[normal.location(42, 21)], access_rules=['jewelofopen'], sections=[
         Section('Library Card', location_id=127080010),
@@ -136,7 +139,6 @@ marble_gallery = Area('Marble Gallery', children=[
     ]),
     normal.simple_location('Hammer(Spirit)', 24, 25, access_rules=['$canHighJump'], location_id=127080012),
     normal.simple_location('Str. Potion', 24, 23, access_rules=['$canHighJump'], location_id=127080013),
-    normal.simple_location('Holy Glasses', 30, 26, access_rules=['silverring,goldring'], location_id=127083080),
     normal.simple_location('Spirit Orb', 23, 26, location_id=127083081),
     normal.simple_location('Gravity Boots', 32, 18, access_rules=['$canFly'], location_id=127083082),
 ])
@@ -487,12 +489,14 @@ black_marble_gallery = Area("Black Marble Gallery", access_rules=['$canAccessInv
     ]),
     inverted.simple_location("Life Vessel", 31, 28, location_id=127240003),
     inverted.simple_location("Heart Vessel", 27, 28, location_id=127240004),
-    inverted.simple_location("Heart Refresh", 28, 24, location_id=127240011),
     inverted.simple_location("Iron Ball", 17, 25, location_id=127240010),
     inverted.simple_location("Meal Ticket", 15, 27, access_rules=['jewelofopen'], location_id=127240009),
     inverted.simple_location("Antivenom", 36, 22, location_id=127240002),
     inverted.simple_location("Potion", 36, 20, location_id=127240001),
-    inverted.simple_location("Kill Dracula", 29, 20, access_rules=['$canFightDracula']),
+    Area("Inside Clock", access_rules=['$canFightDracula'], children=[
+        inverted.simple_location("Heart Refresh", 28, 24, location_id=127240011),
+        inverted.simple_location("Kill Dracula", 29, 20),
+    ]),
 ])
 
 # Reverse Outer Wall

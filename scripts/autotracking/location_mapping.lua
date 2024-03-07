@@ -64,7 +64,7 @@ LOCATIONS_MAPPING = {
     [127240008] = "@Black Marble Gallery/Left Clock/Resist Fire",
     [127240009] = "@Black Marble Gallery/Meal Ticket/Meal Ticket",
     [127240010] = "@Black Marble Gallery/Iron Ball/Iron Ball",
-    [127240011] = "@Black Marble Gallery/Heart Refresh/Heart Refresh",
+    [127240011] = "@Black Marble Gallery/Inside Clock/Heart Refresh/Heart Refresh",
 
     -- Castle Entrance
     [127110000] = "@Castle Entrance/Heart Vessel (Above Death)/Heart Vessel (Above Death)",
@@ -240,13 +240,13 @@ LOCATIONS_MAPPING = {
     [127080005] = "@Marble Gallery/Middle Clock/Potion",
     [127080006] = "@Marble Gallery/Right Clock/Alucart mail",
     [127080007] = "@Marble Gallery/Right Clock/Alucart sword",
-    [127080008] = "@Marble Gallery/Inside Clock/Life Vessel",
-    [127080009] = "@Marble Gallery/Inside Clock/Heart Vessel",
+    [127080008] = "@Marble Gallery/Inside Clock/Right Side/Life Vessel",
+    [127080009] = "@Marble Gallery/Inside Clock/Right Side/Heart Vessel",
     [127080010] = "@Marble Gallery/Under Floor/Library Card",
     [127080011] = "@Marble Gallery/Under Floor/Attack Potion",
     [127080012] = "@Marble Gallery/Hammer(Spirit)/Hammer(Spirit)",
     [127080013] = "@Marble Gallery/Str. Potion/Str. Potion",
-    [127083080] = "@Marble Gallery/Holy Glasses/Holy Glasses",
+    [127083080] = "@Marble Gallery/Inside Clock/Holy Glasses/Holy Glasses",
     [127083081] = "@Marble Gallery/Spirit Orb/Spirit Orb",
     [127083082] = "@Marble Gallery/Gravity Boots/Gravity Boots",
 

@@ -82,22 +82,6 @@
                 ]
             },
             {
-                "name": "Heart Refresh",
-                "sections": [
-                    {
-                        "name": "Heart Refresh",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "inverted",
-                        "x": 592,
-                        "y": 512
-                    }
-                ]
-            },
-            {
                 "name": "Iron Ball",
                 "sections": [
                     {
@@ -165,21 +149,42 @@
                 ]
             },
             {
-                "name": "Kill Dracula",
+                "name": "Inside Clock",
                 "access_rules": [
                     "$canFightDracula"
                 ],
-                "sections": [
+                "children": [
+                    {
+                        "name": "Heart Refresh",
+                        "sections": [
+                            {
+                                "name": "Heart Refresh",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "inverted",
+                                "x": 592,
+                                "y": 512
+                            }
+                        ]
+                    },
                     {
                         "name": "Kill Dracula",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "inverted",
-                        "x": 612,
-                        "y": 432
+                        "sections": [
+                            {
+                                "name": "Kill Dracula",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "inverted",
+                                "x": 612,
+                                "y": 432
+                            }
+                        ]
                     }
                 ]
             }

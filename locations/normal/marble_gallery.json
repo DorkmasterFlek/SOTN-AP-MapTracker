@@ -85,21 +85,42 @@
                 "access_rules": [
                     "silverring,goldring"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Life Vessel",
-                        "item_count": 1
+                        "name": "Right Side",
+                        "sections": [
+                            {
+                                "name": "Life Vessel",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Heart Vessel",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 652,
+                                "y": 472
+                            }
+                        ]
                     },
                     {
-                        "name": "Heart Vessel",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "normal",
-                        "x": 652,
-                        "y": 472
+                        "name": "Holy Glasses",
+                        "sections": [
+                            {
+                                "name": "Holy Glasses",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 632,
+                                "y": 552
+                            }
+                        ]
                     }
                 ]
             },
@@ -161,25 +182,6 @@
                         "map": "normal",
                         "x": 512,
                         "y": 492
-                    }
-                ]
-            },
-            {
-                "name": "Holy Glasses",
-                "access_rules": [
-                    "silverring,goldring"
-                ],
-                "sections": [
-                    {
-                        "name": "Holy Glasses",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "normal",
-                        "x": 632,
-                        "y": 552
                     }
                 ]
             },
