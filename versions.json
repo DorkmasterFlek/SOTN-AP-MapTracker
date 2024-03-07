@@ -3,6 +3,14 @@
         {
             "package_version": "0.1.4",
             "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.1.4/SOTN-AP-MapTracker.zip",
+            "sha256": "09926f1adf58eb4a787510b6c922a83b14f87a82651a0fe7135316ceb8bb0837",
+            "changelog": [
+                "Fix and cleanup for inside clock center locations"
+            ]
+        },
+        {
+            "package_version": "0.1.4",
+            "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.1.4/SOTN-AP-MapTracker.zip",
             "sha256": "11b49a635572e676792a1a0c7cd9eea009728e296d36e3e087b8af937c3b0ed9",
             "changelog": [
                 "Fix and cleanup for inside clock center locations"
