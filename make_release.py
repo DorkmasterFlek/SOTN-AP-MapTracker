@@ -79,6 +79,7 @@ new_version['download_url'] = attachment.browser_download_url
 versions['versions'].insert(0, new_version)
 with open('versions.json', 'w') as f:
     json.dump(versions, f, indent=4)
+    f.write('\n')  # Trailing newline.
 
 repo.index.add(['versions.json'])
 repo.index.commit(f'{tag} release')
