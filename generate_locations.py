@@ -8,7 +8,8 @@ import sys
 
 sys.path.append('../poptrackerlib-py/src')
 
-from poptrackerlib import Map, Area, Location, Section, dumps
+from poptrackerlib import dumps
+from poptrackerlib.locations import Map, Area, Location, Section
 
 normal = Map('normal', scale=20, offset=32)
 inverted = Map('inverted', scale=20, offset=32)
