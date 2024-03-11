@@ -170,7 +170,8 @@
                     {
                         "name": "Herald Shield",
                         "access_rules": [
-                            "$canJump",
+                            "leapstone",
+                            "$canFly",
                             "$canDash"
                         ],
                         "sections": [
@@ -190,7 +191,8 @@
                     {
                         "name": "Below Bridge",
                         "access_rules": [
-                            "$canJump",
+                            "leapstone",
+                            "$canFly",
                             "$canDash"
                         ],
                         "sections": [
@@ -212,9 +214,9 @@
                         ]
                     },
                     {
-                        "name": "Side Section",
+                        "name": "Succubus Area",
                         "access_rules": [
-                            "$canJump"
+                            "$canFly"
                         ],
                         "children": [
                             {

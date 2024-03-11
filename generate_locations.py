@@ -232,12 +232,12 @@ caverns = Area('Underground Caverns', children=[
             Section('Life Vessel', location_id=127130005),
         ]),
         normal.simple_location('Pentagram', 23, 32, location_id=127130030),
-        normal.simple_location('Herald Shield', 20, 32, access_rules=['$canJump', '$canDash'], location_id=127130007),
-        Location('Below Bridge', map_locations=[normal.location(27, 32)], access_rules=['$canJump', '$canDash'], sections=[
+        normal.simple_location('Herald Shield', 20, 32, access_rules=['leapstone', '$canFly', '$canDash'], location_id=127130007),
+        Location('Below Bridge', map_locations=[normal.location(27, 32)], access_rules=['leapstone', '$canFly', '$canDash'], sections=[
             Section('Life Vessel', location_id=127130028),
             Section('Heart Vessel', location_id=127130029),
         ]),
-        Area('Side Section', access_rules=['$canJump'], children=[
+        Area('Succubus Area', access_rules=['$canFly'], children=[
             normal.simple_location('Claymore', 41, 24, location_id=127130013),
             Location('Succubus Approach', map_locations=[normal.location(42, 27.5)], sections=[
                 Section('Meal Ticket', location_id=[127130014, 127130015, 127130016, 127130017]),
@@ -273,8 +273,7 @@ caverns = Area('Underground Caverns', children=[
 
 # Abandoned Mine
 mine = Area('Abandoned Mine', access_rules=[
-        '@Underground Caverns/Upper Caverns,$canJump',
-        '@Underground Caverns/Upper Caverns,$canDash',
+        '@Underground Caverns/Upper Caverns/Below Bridge',
     ], children=[
     Area('Behind Demon Button', access_rules=['demoncard'], children=[
         Location('Demon Button Room', map_locations=[normal.location(34, 36)], sections=[

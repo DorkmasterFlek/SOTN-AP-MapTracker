@@ -2,8 +2,7 @@
     {
         "name": "Abandoned Mine",
         "access_rules": [
-            "@Underground Caverns/Upper Caverns,$canJump",
-            "@Underground Caverns/Upper Caverns,$canDash"
+            "@Underground Caverns/Upper Caverns/Below Bridge"
         ],
         "children": [
             {
