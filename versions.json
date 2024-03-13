@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.1.6",
+            "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.1.6/SOTN-AP-MapTracker.zip",
+            "sha256": "e6f875e7d083ef2f533e36112d6f85bef71c941c4d73fe3f672103230327d3bb",
+            "changelog": [
+                "Bat Card can be accessed with just Gravity Boots"
+            ]
+        },
+        {
             "package_version": "0.1.5",
             "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.1.5/SOTN-AP-MapTracker.zip",
             "sha256": "677d29018a6317f653c7662e64cbfadae2e4244a0fee943b51c1397d09c7c669",
