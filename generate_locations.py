@@ -109,7 +109,7 @@ alchemy_lab = Area('Alchemy Laboratory', children=[
     normal.simple_location('Potion', 17, 22, location_id=127140010),
     boss_location('Slogra & Gaibon', 'slogragaibon', normal, 8.5, 22.5, location_id=127143140),
     normal.simple_location('Skill of Wolf', 13, 28, access_rules=['$canHighJump'], location_id=127143141),
-    normal.simple_location('Bat Card', 11, 22, access_rules=['$canFly'], location_id=127143142),
+    normal.simple_location('Bat Card', 11, 22, access_rules=['$canHighJump'], location_id=127143142),
 ])
 
 # Marble Gallery

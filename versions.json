@@ -4,7 +4,9 @@
             "package_version": "0.1.5",
             "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.1.5/SOTN-AP-MapTracker.zip",
             "sha256": "677d29018a6317f653c7662e64cbfadae2e4244a0fee943b51c1397d09c7c669",
-            "changelog": "- Logic fixes for accessing Succubus and DK skeleton in caverns"
+            "changelog": [
+                "Logic fixes for accessing Succubus and DK skeleton in caverns"
+            ]
         },
         {
             "package_version": "0.1.4",
