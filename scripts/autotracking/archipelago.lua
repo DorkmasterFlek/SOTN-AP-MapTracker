@@ -73,17 +73,22 @@ function onClear(slot_data)
         print("Checking slot data.")
     end
 
-    -- Opened back doors.
+    -- Opened back doors, if server populates them.
     for _, v in ipairs({ "opened_no4", "opened_no2", "opened_are" }) do
-        local obj = Tracker:FindObjectForCode(v)
-        if obj then
-            if slot_data[v] then
-                obj.Active = true
-            else
-                obj.Active = false
+        local flag = slot_data[v]
+        if flag ~= nil then
+            local obj = Tracker:FindObjectForCode(v)
+            if obj then
+                if flag == 1 then
+                    obj.Active = true
+                else
+                    obj.Active = false
+                end
+            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("onClear: could not find object for code %s", v))
             end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("onClear: could not find object for code %s", v))
+            print(string.format("onClear: could not find slot data for code %s", v))
         end
     end
 
