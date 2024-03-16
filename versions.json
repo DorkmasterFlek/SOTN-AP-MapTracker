@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.1.7",
+            "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.1.7/SOTN-AP-MapTracker.zip",
+            "sha256": "bbea6f288a65edf0259da1daaf47ea7f52f0977e196c7d27f5881f8c306dbc72",
+            "changelog": [
+                "Fix check for slot data if server provides it"
+            ]
+        },
+        {
             "package_version": "0.1.6",
             "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.1.6/SOTN-AP-MapTracker.zip",
             "sha256": "e6f875e7d083ef2f533e36112d6f85bef71c941c4d73fe3f672103230327d3bb",
