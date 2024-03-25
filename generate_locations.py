@@ -3,6 +3,9 @@
 
 # Map tracker locations for Castlevania: Symphony of the Night.
 
+# Using my PopTracker Python library to make generating the location JSON easier.
+# See: https://github.com/DorkmasterFlek/poptrackerlib-py
+
 import os
 import sys
 

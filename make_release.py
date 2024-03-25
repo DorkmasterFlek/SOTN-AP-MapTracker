@@ -3,6 +3,9 @@
 
 # Build a release and publish it to GitHub.
 
+# Using my PopTracker Python library to make it easier.
+# See: https://github.com/DorkmasterFlek/poptrackerlib-py
+
 import sys
 
 sys.path.append('../poptrackerlib-py/src')
