@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.1.9",
+            "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.1.9/SOTN-AP-MapTracker.zip",
+            "sha256": "061a60a26863ebeb339e52309605e569d901fd44dae8ace02330a40e7a19fe1c",
+            "changelog": [
+                "Fix Sword Card logic."
+            ]
+        },
+        {
             "package_version": "0.1.8",
             "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.1.8/SOTN-AP-MapTracker.zip",
             "sha256": "39995e685b499095f3cc73be5da5c82ec68b91cad317db508a87d3282f1d26cd",
