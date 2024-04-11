@@ -8,6 +8,10 @@ function getItemCount(code)
     return Tracker:ProviderCountForCode(code)
 end
 
+function canTransform()
+    return hasItem("soulofbat") or hasItem("soulofwolf") or hasItem("formofmist")
+end
+
 function canJump()
     return hasItem("leapstone") or canHighJump() or canFly()
 end
@@ -19,8 +23,7 @@ end
 function canFly()
     return hasItem("soulofbat") or
             (hasItem("formofmist") and hasItem("powerofmist")) or
-            (hasItem("gravityboots") and
-                    (hasItem("leapstone") or hasItem("soulofwolf") or hasItem("formofmist")))
+            (hasItem("gravityboots") and hasItem("leapstone"))
 end
 
 function canDash()

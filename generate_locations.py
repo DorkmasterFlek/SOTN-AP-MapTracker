@@ -358,17 +358,9 @@ olrox = Area("Olrox's Quarters", access_rules=['opened_no2,jewelofopen', 'opened
         normal.simple_location('Heart Vessel', 19, 14, location_id=127100001),
         normal.simple_location('Iron Ball', 20, 11, access_rules=['$canFly'], location_id=127100011),
         normal.simple_location('Garnet', 31, 13, access_rules=['$canFly'], location_id=127100012),
-        normal.simple_location('Echo of Bat', 14, 11, access_rules=[
-            '$canFly,soulofbat',
-            '$canFly,soulofwolf',
-            '$canFly,formofmist',
-        ], location_id=127103101),
+        normal.simple_location('Echo of Bat', 14, 11, access_rules=['$canFly,$canTransform'], location_id=127103101),
         normal.simple_location('Sword Card', 18, 13, access_rules=['$canFly'], location_id=127103102),
-        boss_location('Olrox', 'olrox', normal, 17.5, 11.5, access_rules=[
-            '$canFly,soulofbat',
-            '$canFly,soulofwolf',
-            '$canFly,formofmist',
-        ], location_id=127103100),
+        boss_location('Olrox', 'olrox', normal, 17.5, 11.5, access_rules=['$canFly,$canTransform'], location_id=127103100),
     ]),
 ])
 
@@ -577,7 +569,6 @@ reverse_caverns = Area("Reverse Caverns", access_rules=['$canAccessInvertedCastl
     inverted.simple_location("Osafune Katana", 36, 9, access_rules=[
         'soulofbat',
         'gravityboots,leapstone',
-        'gravityboots,soulofwolf',
     ], location_id=127280026),
     inverted.simple_location("Garnet", 39, 14, location_id=127280004),
     inverted.simple_location("Zircon (Vase)", 22, 25, location_id=127280014),
@@ -681,9 +672,9 @@ death_wing = Area("Death Wing's Lair", access_rules=['$canAccessInvertedCastle']
     inverted.simple_location("Aquamarine", 31, 36, location_id=127260006),
     inverted.simple_location("Shuriken", 39, 35, location_id=127260010),
     inverted.simple_location("Alucard Mail", 28, 33, location_id=127260007),
-    inverted.simple_location("Heart Vessel", 45, 35, access_rules=['soulofbat', 'soulofwolf', 'formofmist'], location_id=127260011),
+    inverted.simple_location("Heart Vessel", 45, 35, access_rules=['$canTransform'], location_id=127260011),
     inverted.simple_location("Heart Refresh", 41, 33, location_id=127260009),
-    Location("Akmodan II", map_locations=[inverted.location(41.5, 34.5)], access_rules=['soulofbat', 'soulofwolf', 'formofmist'], sections=[
+    Location("Akmodan II", map_locations=[inverted.location(41.5, 34.5)], access_rules=['$canTransform'], sections=[
         Section("Akmodan II kill", hosted_item='akmodan', location_id=127263260),
         Section("Rib of Vlad", location_id=127263261),
     ]),

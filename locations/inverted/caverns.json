@@ -80,8 +80,7 @@
                 "name": "Osafune Katana",
                 "access_rules": [
                     "soulofbat",
-                    "gravityboots,leapstone",
-                    "gravityboots,soulofwolf"
+                    "gravityboots,leapstone"
                 ],
                 "sections": [
                     {

@@ -181,9 +181,7 @@
                     {
                         "name": "Echo of Bat",
                         "access_rules": [
-                            "$canFly,soulofbat",
-                            "$canFly,soulofwolf",
-                            "$canFly,formofmist"
+                            "$canFly,$canTransform"
                         ],
                         "sections": [
                             {
@@ -221,9 +219,7 @@
                     {
                         "name": "Olrox",
                         "access_rules": [
-                            "$canFly,soulofbat",
-                            "$canFly,soulofwolf",
-                            "$canFly,formofmist"
+                            "$canFly,$canTransform"
                         ],
                         "sections": [
                             {

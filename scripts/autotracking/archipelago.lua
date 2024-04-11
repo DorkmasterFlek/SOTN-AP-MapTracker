@@ -43,6 +43,15 @@ function onClear(slot_data)
                 print(string.format("onClear: could not find location %s", code))
             end
         end
+
+        -- Check if this location has a hosted item to collect.
+        local hosted_code = HOSTED_ITEMS[location_id]
+        if hosted_code then
+            local hosted_obj = Tracker:FindObjectForCode(hosted_code)
+            if hosted_obj then
+                hosted_obj.Active = false
+            end
+        end
     end
 
     -- reset items
