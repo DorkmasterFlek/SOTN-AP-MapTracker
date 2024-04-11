@@ -359,7 +359,7 @@ olrox = Area("Olrox's Quarters", access_rules=['opened_no2,jewelofopen', 'opened
         normal.simple_location('Iron Ball', 20, 11, access_rules=['$canFly'], location_id=127100011),
         normal.simple_location('Garnet', 31, 13, access_rules=['$canFly'], location_id=127100012),
         normal.simple_location('Echo of Bat', 14, 11, access_rules=['$canFly,$canTransform'], location_id=127103101),
-        normal.simple_location('Sword Card', 18, 13, access_rules=['$canFly'], location_id=127103102),
+        normal.simple_location('Sword Card', 18, 13, access_rules=['$canHighJump'], location_id=127103102),
         boss_location('Olrox', 'olrox', normal, 17.5, 11.5, access_rules=['$canFly,$canTransform'], location_id=127103100),
     ]),
 ])
