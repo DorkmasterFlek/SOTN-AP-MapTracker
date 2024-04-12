@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.1.10",
+            "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.1.10/SOTN-AP-MapTracker.zip",
+            "sha256": "cbadc5bd7d3c637f88570d492ee7bc81cd73dfb1474e33e9d1ca9b195bbbd370",
+            "changelog": [
+                "Updated a few changed location IDs in Reverse Outer Wall."
+            ]
+        },
+        {
             "package_version": "0.1.9",
             "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.1.9/SOTN-AP-MapTracker.zip",
             "sha256": "061a60a26863ebeb339e52309605e569d901fd44dae8ace02330a40e7a19fe1c",
