@@ -505,10 +505,10 @@ reverse_outer_wall = Area("Reverse Outer Wall", access_rules=['$canAccessInverte
     inverted.simple_location("Shield Potion", 2, 28, location_id=127250005),
     inverted.simple_location("High Potion", 0, 28, location_id=127250006),
     inverted.simple_location("Life Vessel", 0, 26, location_id=127250003),
-    inverted.simple_location("Dim Sum Set", 2, 25, location_id=127253240),
+    inverted.simple_location("Dim Sum Set", 2, 25, location_id=127253250),
     Location("The Creature", map_locations=[inverted.location(3.5, 28)], sections=[
-        Section('Creature kill', hosted_item='creature', location_id=127253241),
-        Section('Tooth of Vlad', location_id=127253242),
+        Section('Creature kill', hosted_item='creature', location_id=127253251),
+        Section('Tooth of Vlad', location_id=127253252),
     ]),
     inverted.simple_location("Heart Vessel", 0, 23, location_id=127250000),
 ])

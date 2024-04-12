@@ -394,9 +394,9 @@ LOCATIONS_MAPPING = {
     [127250005] = "@Reverse Outer Wall/Shield Potion/Shield Potion",
     [127250006] = "@Reverse Outer Wall/High Potion/High Potion",
     [127250007] = "@Reverse Outer Wall/Garnet/Garnet",
-    [127253240] = "@Reverse Outer Wall/Dim Sum Set/Dim Sum Set",
-    [127253241] = "@Reverse Outer Wall/The Creature/Creature kill",
-    [127253242] = "@Reverse Outer Wall/The Creature/Tooth of Vlad",
+    [127253250] = "@Reverse Outer Wall/Dim Sum Set/Dim Sum Set",
+    [127253251] = "@Reverse Outer Wall/The Creature/Creature kill",
+    [127253252] = "@Reverse Outer Wall/The Creature/Tooth of Vlad",
 
     -- Royal Chapel
     [127010004] = "@Royal Chapel/Knight Shield/Knight Shield",
@@ -477,7 +477,7 @@ HOSTED_ITEMS = {
     [127183180] = "faketrio",
     [127193190] = "galamoth",
     [127213210] = "death",
-    [127253241] = "creature",
+    [127253251] = "creature",
     [127263260] = "akmodan",
     [127283280] = "doppleganger40",
     [127293290] = "beelzebub",
