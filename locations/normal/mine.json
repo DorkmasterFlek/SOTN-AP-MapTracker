@@ -8,7 +8,8 @@
             {
                 "name": "Behind Demon Button",
                 "access_rules": [
-                    "demoncard"
+                    "jewelofopen,$canjump,demoncard",
+                    "opened_no4,$canFly"
                 ],
                 "children": [
                     {
@@ -59,6 +60,10 @@
             },
             {
                 "name": "Mine Shaft Bottom",
+                "access_rules": [
+                    "jewelofopen,$canjump",
+                    "opened_no4,$canFly"
+                ],
                 "sections": [
                     {
                         "name": "Karma Coin",
@@ -79,6 +84,10 @@
             },
             {
                 "name": "Mine Shaft Middle",
+                "access_rules": [
+                    "jewelofopen,$canjump",
+                    "opened_no4,$canFly"
+                ],
                 "sections": [
                     {
                         "name": "Shiitake",
@@ -95,6 +104,10 @@
             },
             {
                 "name": "Cerberus",
+                "access_rules": [
+                    "jewelofopen,$canjump",
+                    "opened_no4,$canFly"
+                ],
                 "sections": [
                     {
                         "name": "Cerberus kill",
@@ -111,6 +124,10 @@
             },
             {
                 "name": "Demon Card",
+                "access_rules": [
+                    "jewelofopen,$canjump",
+                    "opened_no4,$canFly"
+                ],
                 "sections": [
                     {
                         "name": "Demon Card",
