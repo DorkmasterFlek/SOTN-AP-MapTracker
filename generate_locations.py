@@ -598,13 +598,9 @@ cave = Area("Cave", access_rules=['$canAccessInvertedCastle'], children=[
         Section("Power of Sire", location_id=127210000),
         Section("Life Apple", location_id=127210001),
     ]),
-    Location("Cave Top", map_locations=[inverted.location(30, 3)], sections=[
-        Section("Green Tea", location_id=127210003),
-        Section("Power of Sire", location_id=127210004),
-    ]),
-    Location("Cave Middle", map_locations=[inverted.location(29, 5)], sections=[
-        Section("Shiitake", location_id=[127210006, 127210007]),
-    ]),
+    inverted.simple_location("Green Tea", 24, 10, access_rules=['demoncard'], location_id=127210003),
+    inverted.simple_location("Power of Sire", 30, 3, location_id=127210004),
+    inverted.simple_location("Shiitake", 29, 5, location_id=[127210006, 127210007]),
     inverted.simple_location("Alucard Sword", 32, 7, location_id=127210002),
     Location("Death", map_locations=[inverted.location(30.5, 11)], sections=[
         Section("Death kill", hosted_item='death', location_id=127213210),

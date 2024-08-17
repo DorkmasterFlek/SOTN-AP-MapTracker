@@ -29,12 +29,27 @@
                 ]
             },
             {
-                "name": "Cave Top",
+                "name": "Green Tea",
+                "access_rules": [
+                    "demoncard"
+                ],
                 "sections": [
                     {
                         "name": "Green Tea",
                         "item_count": 1
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 512,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Power of Sire",
+                "sections": [
                     {
                         "name": "Power of Sire",
                         "item_count": 1
@@ -49,7 +64,7 @@
                 ]
             },
             {
-                "name": "Cave Middle",
+                "name": "Shiitake",
                 "sections": [
                     {
                         "name": "Shiitake",
