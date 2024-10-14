@@ -552,7 +552,7 @@ anti_chapel = Area("Anti-Chapel", access_rules=['$canAccessInvertedCastle'], chi
     inverted.simple_location("Bwaka Knife", 34, 41, location_id=127220014),
     inverted.simple_location("Magic Missile", 34, 40, location_id=127220015),
     Location("Medusa", map_locations=[inverted.location(37.5, 38)], sections=[
-        Section('Medusa kill', location_id=127223220),
+        Section('Medusa kill', hosted_item='medusa', location_id=127223220),
         Section('Heart of Vlad', location_id=127223221),
     ]),
 ])

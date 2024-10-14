@@ -270,7 +270,7 @@
                 "sections": [
                     {
                         "name": "Medusa kill",
-                        "item_count": 1
+                        "hosted_item": "medusa"
                     },
                     {
                         "name": "Heart of Vlad",

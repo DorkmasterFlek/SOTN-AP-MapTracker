@@ -477,6 +477,7 @@ HOSTED_ITEMS = {
     [127183180] = "faketrio",
     [127193190] = "galamoth",
     [127213210] = "death",
+    [127223220] = "medusa",
     [127253251] = "creature",
     [127263260] = "akmodan",
     [127283280] = "doppleganger40",
