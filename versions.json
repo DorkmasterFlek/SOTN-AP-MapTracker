@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.1.12",
+            "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.1.12/SOTN-AP-MapTracker.zip",
+            "sha256": "74ff18afe1e5412731022609506dd7f4e02188c6bbc3ee33f99db92f1531e372",
+            "changelog": [
+                "Fix Medusa kill not counting as boss"
+            ]
+        },
+        {
             "package_version": "0.1.11",
             "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.1.11/SOTN-AP-MapTracker.zip",
             "sha256": "d03e3473498dcca01df6f9c8f64da03472760f874211ee24cd775dfe61f3aabe",
