@@ -25,6 +25,11 @@
                         "map": "inverted",
                         "x": 72,
                         "y": 512
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 72,
+                        "y": 512
                     }
                 ]
             },
@@ -39,6 +44,11 @@
                 "map_locations": [
                     {
                         "map": "inverted",
+                        "x": 52,
+                        "y": 752
+                    },
+                    {
+                        "map": "vertical",
                         "x": 52,
                         "y": 752
                     }
@@ -57,6 +67,11 @@
                         "map": "inverted",
                         "x": 32,
                         "y": 572
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 32,
+                        "y": 572
                     }
                 ]
             },
@@ -71,6 +86,11 @@
                 "map_locations": [
                     {
                         "map": "inverted",
+                        "x": 72,
+                        "y": 592
+                    },
+                    {
+                        "map": "vertical",
                         "x": 72,
                         "y": 592
                     }
@@ -89,6 +109,11 @@
                         "map": "inverted",
                         "x": 32,
                         "y": 592
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 32,
+                        "y": 592
                     }
                 ]
             },
@@ -105,6 +130,11 @@
                         "map": "inverted",
                         "x": 32,
                         "y": 552
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 32,
+                        "y": 552
                     }
                 ]
             },
@@ -119,6 +149,11 @@
                 "map_locations": [
                     {
                         "map": "inverted",
+                        "x": 72,
+                        "y": 532
+                    },
+                    {
+                        "map": "vertical",
                         "x": 72,
                         "y": 532
                     }
@@ -141,6 +176,11 @@
                         "map": "inverted",
                         "x": 102,
                         "y": 592
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 102,
+                        "y": 592
                     }
                 ]
             },
@@ -155,6 +195,11 @@
                 "map_locations": [
                     {
                         "map": "inverted",
+                        "x": 32,
+                        "y": 492
+                    },
+                    {
+                        "map": "vertical",
                         "x": 32,
                         "y": 492
                     }

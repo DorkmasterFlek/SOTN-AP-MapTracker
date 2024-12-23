@@ -1,5 +1,5 @@
 {
-    "tracker_default": {
+    "tracker_horizontal": {
         "type": "container",
         "content": {
             "type": "dock",
@@ -73,6 +73,69 @@
                                 "type": "map",
                                 "maps": [
                                     "inverted"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "tracker_vertical": {
+        "type": "container",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "bottom",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "shared_item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Settings",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "settings_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Pinned Locations",
+                            "dock": "left",
+                            "content": {
+                                "type": "recentpins",
+                                "style": "wrap",
+                                "h_alignment": "stretch",
+                                "v_alignment": "stretch",
+                                "orientation": "vertical",
+                                "compact": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Castle",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "vertical"
                                 ]
                             }
                         }

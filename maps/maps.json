@@ -10,5 +10,11 @@
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/map_inverted.png"
+    },
+    {
+        "name": "vertical",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/map_vertical.png"
     }
 ]

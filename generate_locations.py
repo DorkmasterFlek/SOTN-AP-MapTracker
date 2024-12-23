@@ -12,10 +12,11 @@ import sys
 sys.path.append('../poptrackerlib-py/src')
 
 from poptrackerlib import dumps
-from poptrackerlib.locations import Map, Area, Location, Section
+from poptrackerlib.locations import Map, Area, Location, Section, MapLocation
 
 normal = Map('normal', scale=20, offset=32)
 inverted = Map('inverted', scale=20, offset=32)
+vertical = Map('vertical', scale=20, offset=32)
 
 LOCATIONS_MAPPING = {}
 HOSTED_ITEMS = {}
@@ -49,6 +50,17 @@ def process_location(location, prefix):
         location(Location): The location to process.
         prefix(str): The prefix to add to the location names.
     """
+
+    # Add corresponding vertical map positions.
+    if len(location.map_locations) != 1:
+        raise ValueError(f"Location {location.name} has {len(location.map_locations)} map locations!")
+
+    loc = location.map_locations[0]
+    if loc.map is normal:
+        location.map_locations.append(MapLocation(vertical, loc.x, loc.y + 49.25))
+    else:
+        location.map_locations.append(MapLocation(vertical, loc.x, loc.y))
+
     prefix += '/' + location.name
     for section in location.sections:
         # Skip the final boss location; it doesn't have an ID.

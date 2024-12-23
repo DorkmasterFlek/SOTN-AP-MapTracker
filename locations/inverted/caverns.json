@@ -18,6 +18,11 @@
                         "map": "inverted",
                         "x": 532,
                         "y": 512
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 532,
+                        "y": 512
                     }
                 ]
             },
@@ -34,6 +39,11 @@
                         "map": "inverted",
                         "x": 512,
                         "y": 412
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 512,
+                        "y": 412
                     }
                 ]
             },
@@ -48,6 +58,11 @@
                 "map_locations": [
                     {
                         "map": "inverted",
+                        "x": 452,
+                        "y": 292
+                    },
+                    {
+                        "map": "vertical",
                         "x": 452,
                         "y": 292
                     }
@@ -73,6 +88,11 @@
                         "map": "inverted",
                         "x": 652,
                         "y": 292
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 652,
+                        "y": 292
                     }
                 ]
             },
@@ -93,6 +113,11 @@
                         "map": "inverted",
                         "x": 752,
                         "y": 212
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 752,
+                        "y": 212
                     }
                 ]
             },
@@ -107,6 +132,11 @@
                 "map_locations": [
                     {
                         "map": "inverted",
+                        "x": 812,
+                        "y": 312
+                    },
+                    {
+                        "map": "vertical",
                         "x": 812,
                         "y": 312
                     }
@@ -125,6 +155,11 @@
                         "map": "inverted",
                         "x": 472,
                         "y": 532
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 472,
+                        "y": 532
                     }
                 ]
             },
@@ -139,6 +174,11 @@
                 "map_locations": [
                     {
                         "map": "inverted",
+                        "x": 552,
+                        "y": 512
+                    },
+                    {
+                        "map": "vertical",
                         "x": 552,
                         "y": 512
                     }
@@ -160,6 +200,11 @@
                         "map": "inverted",
                         "x": 492,
                         "y": 292
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 492,
+                        "y": 292
                     }
                 ]
             },
@@ -174,6 +219,11 @@
                 "map_locations": [
                     {
                         "map": "inverted",
+                        "x": 392,
+                        "y": 472
+                    },
+                    {
+                        "map": "vertical",
                         "x": 392,
                         "y": 472
                     }
@@ -192,6 +242,11 @@
                         "map": "inverted",
                         "x": 372,
                         "y": 402
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 372,
+                        "y": 402
                     }
                 ]
             },
@@ -206,6 +261,11 @@
                 "map_locations": [
                     {
                         "map": "inverted",
+                        "x": 392,
+                        "y": 272
+                    },
+                    {
+                        "map": "vertical",
                         "x": 392,
                         "y": 272
                     }
@@ -224,6 +284,11 @@
                         "map": "inverted",
                         "x": 352,
                         "y": 292
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 352,
+                        "y": 292
                     }
                 ]
             },
@@ -238,6 +303,11 @@
                 "map_locations": [
                     {
                         "map": "inverted",
+                        "x": 352,
+                        "y": 232
+                    },
+                    {
+                        "map": "vertical",
                         "x": 352,
                         "y": 232
                     }
@@ -256,6 +326,11 @@
                         "map": "inverted",
                         "x": 412,
                         "y": 212
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 412,
+                        "y": 212
                     }
                 ]
             },
@@ -270,6 +345,11 @@
                 "map_locations": [
                     {
                         "map": "inverted",
+                        "x": 502,
+                        "y": 312
+                    },
+                    {
+                        "map": "vertical",
                         "x": 502,
                         "y": 312
                     }
@@ -292,6 +372,11 @@
                         "map": "inverted",
                         "x": 752,
                         "y": 312
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 752,
+                        "y": 312
                     }
                 ]
             },
@@ -306,6 +391,11 @@
                 "map_locations": [
                     {
                         "map": "inverted",
+                        "x": 792,
+                        "y": 252
+                    },
+                    {
+                        "map": "vertical",
                         "x": 792,
                         "y": 252
                     }
@@ -324,6 +414,11 @@
                         "map": "inverted",
                         "x": 792,
                         "y": 232
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 792,
+                        "y": 232
                     }
                 ]
             },
@@ -338,6 +433,11 @@
                 "map_locations": [
                     {
                         "map": "inverted",
+                        "x": 912,
+                        "y": 232
+                    },
+                    {
+                        "map": "vertical",
                         "x": 912,
                         "y": 232
                     }
@@ -356,6 +456,11 @@
                         "map": "inverted",
                         "x": 452,
                         "y": 272
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 452,
+                        "y": 272
                     }
                 ]
             },
@@ -372,6 +477,11 @@
                         "map": "inverted",
                         "x": 152,
                         "y": 232
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 152,
+                        "y": 232
                     }
                 ]
             },
@@ -386,6 +496,11 @@
                 "map_locations": [
                     {
                         "map": "inverted",
+                        "x": 1092,
+                        "y": 212
+                    },
+                    {
+                        "map": "vertical",
                         "x": 1092,
                         "y": 212
                     }
