@@ -31,5 +31,17 @@
         "max_quantity": 19,
         "increment": 0,
         "codes": "bosses,bosses_killed"
+    },
+    {
+        "name": "Talismans Collected",
+        "type": "consumable",
+        "img": "images/items/talisman.png",
+        "codes": "talisman,talismans"
+    },
+    {
+        "name": "Talismans Required",
+        "type": "consumable",
+        "img": "images/items/talisman.png",
+        "codes": "talismans_needed"
     }
 ]

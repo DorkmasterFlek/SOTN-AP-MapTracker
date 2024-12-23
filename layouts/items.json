@@ -101,7 +101,8 @@
             ],
             [
                 "bosses_need",
-                "bosses_killed"
+                "bosses_killed",
+                "talismans"
             ]
         ]
     }

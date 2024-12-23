@@ -45,3 +45,4 @@ ITEM_MAPPING[BASE_ITEM_ID + 241] = { "goldring", "toggle" }
 ITEM_MAPPING[BASE_ITEM_ID + 242] = { "silverring", "toggle" }
 ITEM_MAPPING[BASE_ITEM_ID + 183] = { "spikebreaker", "toggle" }
 ITEM_MAPPING[BASE_ITEM_ID + 203] = { "holyglasses", "toggle" }
+ITEM_MAPPING[BASE_ITEM_ID + 252] = { "talisman", "consumable" }
