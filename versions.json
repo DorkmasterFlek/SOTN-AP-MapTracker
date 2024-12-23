@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.1.13",
+            "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.1.13/SOTN-AP-MapTracker.zip",
+            "sha256": "9a26b5191769ae1e0c9a25f5aa8de4013a3b6e7868588565e2f02292620da677",
+            "changelog": [
+                "Add vertical layout support"
+            ]
+        },
+        {
             "package_version": "0.1.12",
             "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.1.12/SOTN-AP-MapTracker.zip",
             "sha256": "74ff18afe1e5412731022609506dd7f4e02188c6bbc3ee33f99db92f1531e372",
