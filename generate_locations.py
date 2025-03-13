@@ -21,6 +21,9 @@ vertical = Map('vertical', scale=20, offset=32)
 LOCATIONS_MAPPING = {}
 HOSTED_ITEMS = {}
 
+# TODO: Remove this once the next version comes out.
+BASE_LOCATION_ID = 127000000
+
 
 def process_area(area, prefix=''):
     """Process an area and its children recursively .
@@ -76,11 +79,11 @@ def process_location(location, prefix):
             ids = [ids]
 
         for loc_id in ids:
-            LOCATIONS_MAPPING[zone][loc_id] = code
+            LOCATIONS_MAPPING[zone][BASE_LOCATION_ID + loc_id] = code
 
         # If section has a hosted item, record that as well.
         if section.hosted_item:
-            HOSTED_ITEMS[section.location_id] = section.hosted_item
+            HOSTED_ITEMS[BASE_LOCATION_ID + section.location_id] = section.hosted_item
 
 
 # *** Normal castle
