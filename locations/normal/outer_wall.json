@@ -3,15 +3,21 @@
         "name": "Outer Wall",
         "children": [
             {
-                "name": "Behind Grate",
+                "name": "Behind Mist Grate",
                 "sections": [
                     {
-                        "name": "Jewel Knuckles",
-                        "item_count": 1
+                        "name": "Item 1",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_equipment"
+                        ]
                     },
                     {
-                        "name": "Mirror Cuirass",
-                        "item_count": 1
+                        "name": "Item 2",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -28,10 +34,13 @@
                 ]
             },
             {
-                "name": "Heart Vessel",
+                "name": "Red Vase Near Elevator Switch",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Heart Vessel",
+                        "name": "Red Vase Near Elevator Switch",
                         "item_count": 1
                     }
                 ],
@@ -49,13 +58,16 @@
                 ]
             },
             {
-                "name": "Garnet",
+                "name": "Yellow Vase on High Ledge",
                 "access_rules": [
                     "$canJump"
                 ],
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Garnet",
+                        "name": "Yellow Vase on High Ledge",
                         "item_count": 1
                     }
                 ],
@@ -73,10 +85,13 @@
                 ]
             },
             {
-                "name": "Gladius",
+                "name": "Item After Doppleganger 10",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Gladius",
+                        "name": "Item After Doppleganger 10",
                         "item_count": 1
                     }
                 ],
@@ -94,10 +109,13 @@
                 ]
             },
             {
-                "name": "Life Vessel",
+                "name": "Red Vase After Doppleganger 10",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Life Vessel",
+                        "name": "Red Vase After Doppleganger 10",
                         "item_count": 1
                     }
                 ],
@@ -115,10 +133,13 @@
                 ]
             },
             {
-                "name": "Zircon",
+                "name": "Red Vase Near Marble Gallery Door",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Zircon",
+                        "name": "Red Vase Near Marble Gallery Door",
                         "item_count": 1
                     }
                 ],
@@ -136,10 +157,13 @@
                 ]
             },
             {
-                "name": "Pot Roast",
+                "name": "Breakable Wall in Room Behind Armor Lord",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Pot Roast",
+                        "name": "Breakable Wall in Room Behind Armor Lord",
                         "item_count": 1
                     }
                 ],
@@ -157,31 +181,13 @@
                 ]
             },
             {
-                "name": "Doppleganger 10",
-                "sections": [
-                    {
-                        "name": "Doppleganger 10 kill",
-                        "hosted_item": "doppleganger10"
-                    }
+                "name": "Inside of Elevator",
+                "visibility_rules": [
+                    "logic_relic_prog"
                 ],
-                "map_locations": [
-                    {
-                        "map": "normal",
-                        "x": 1142,
-                        "y": 392
-                    },
-                    {
-                        "map": "vertical",
-                        "x": 1142,
-                        "y": 1377
-                    }
-                ]
-            },
-            {
-                "name": "Soul of Wolf",
                 "sections": [
                     {
-                        "name": "Soul of Wolf",
+                        "name": "Inside of Elevator",
                         "item_count": 1
                     }
                 ],

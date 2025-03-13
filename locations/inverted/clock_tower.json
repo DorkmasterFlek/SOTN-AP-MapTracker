@@ -6,14 +6,17 @@
         ],
         "children": [
             {
-                "name": "Above Bridge",
+                "name": "Above Stone Bridge",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Magic Missile",
+                        "name": "Left Item",
                         "item_count": 1
                     },
                     {
-                        "name": "Karma Coin",
+                        "name": "Right Item",
                         "item_count": 1
                     }
                 ],
@@ -31,19 +34,28 @@
                 ]
             },
             {
-                "name": "Pillars",
+                "name": "Columns",
                 "sections": [
                     {
-                        "name": "Str. Potion",
-                        "item_count": 1
+                        "name": "Left Column",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     },
                     {
-                        "name": "Luminus",
-                        "item_count": 1
+                        "name": "Middle Column",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_equipment"
+                        ]
                     },
                     {
-                        "name": "Smart Potion",
-                        "item_count": 1
+                        "name": "Right Column",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -60,10 +72,13 @@
                 ]
             },
             {
-                "name": "Dragon Helm",
+                "name": "Bottom Left Room",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Dragon Helm",
+                        "name": "Bottom Left Room",
                         "item_count": 1
                     }
                 ],
@@ -81,19 +96,28 @@
                 ]
             },
             {
-                "name": "Hidden Room",
+                "name": "Gears Puzzle Room",
                 "sections": [
                     {
-                        "name": "Diamond",
-                        "item_count": 1
+                        "name": "Left Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     },
                     {
-                        "name": "Life Apple",
-                        "item_count": 1
+                        "name": "Middle Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     },
                     {
-                        "name": "Sunstone",
-                        "item_count": 1
+                        "name": "Right Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_equipment"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -110,10 +134,13 @@
                 ]
             },
             {
-                "name": "Moon Rod",
+                "name": "Behind Breakable Wall Next to Bronze Statue",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Moon Rod",
+                        "name": "Behind Breakable Wall Next to Bronze Statue",
                         "item_count": 1
                     }
                 ],
@@ -131,31 +158,13 @@
                 ]
             },
             {
-                "name": "Heart Vessel",
-                "sections": [
-                    {
-                        "name": "Heart Vessel",
-                        "item_count": 1
-                    }
+                "name": "Room Behind Bottom Left Breakable Wall Left Item",
+                "visibility_rules": [
+                    "logic_full"
                 ],
-                "map_locations": [
-                    {
-                        "map": "inverted",
-                        "x": 252,
-                        "y": 872
-                    },
-                    {
-                        "map": "vertical",
-                        "x": 252,
-                        "y": 872
-                    }
-                ]
-            },
-            {
-                "name": "Life Vessel",
                 "sections": [
                     {
-                        "name": "Life Vessel",
+                        "name": "Room Behind Bottom Left Breakable Wall Left Item",
                         "item_count": 1
                     }
                 ],
@@ -173,10 +182,37 @@
                 ]
             },
             {
-                "name": "Turkey",
+                "name": "Room Behind Bottom Left Breakable Wall Right Item",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Turkey",
+                        "name": "Room Behind Bottom Left Breakable Wall Right Item",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 252,
+                        "y": 872
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 252,
+                        "y": 872
+                    }
+                ]
+            },
+            {
+                "name": "Breakable Wall Item on Brackets",
+                "visibility_rules": [
+                    "logic_full"
+                ],
+                "sections": [
+                    {
+                        "name": "Breakable Wall Item on Brackets",
                         "item_count": 1
                     }
                 ],
@@ -194,18 +230,21 @@
                 ]
             },
             {
-                "name": "Keep Approach",
+                "name": "Near Darkwing Bat",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Bwaka Knife",
+                        "name": "Left Breakable Wall",
                         "item_count": 1
                     },
                     {
-                        "name": "Shuriken",
+                        "name": "Middle Breakable Wall",
                         "item_count": 1
                     },
                     {
-                        "name": "TNT",
+                        "name": "Right Breakable Wall",
                         "item_count": 1
                     }
                 ],
@@ -223,14 +262,13 @@
                 ]
             },
             {
-                "name": "Darkwing Bat",
+                "name": "Darkwing Bat Item",
+                "visibility_rules": [
+                    "logic_relic_prog"
+                ],
                 "sections": [
                     {
-                        "name": "Darkwing Bat kill",
-                        "hosted_item": "darkwingbat"
-                    },
-                    {
-                        "name": "Ring of Vlad",
+                        "name": "Darkwing Bat Item",
                         "item_count": 1
                     }
                 ],

@@ -6,10 +6,13 @@
         ],
         "children": [
             {
-                "name": "Life Vessel",
+                "name": "Middle Room in Open Area Before Main Corridor",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Life Vessel",
+                        "name": "Middle Room in Open Area Before Main Corridor",
                         "item_count": 1
                     }
                 ],
@@ -27,10 +30,13 @@
                 ]
             },
             {
-                "name": "Talisman",
+                "name": "Room by Nova Skeleton on the Ledge",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Talisman",
+                        "name": "Room by Nova Skeleton on the Ledge",
                         "item_count": 1
                     }
                 ],
@@ -48,22 +54,31 @@
                 ]
             },
             {
-                "name": "Hidden Room",
+                "name": "Wolf-Bat Secret Room",
                 "access_rules": [
                     "soulofbat,soulofwolf"
                 ],
                 "sections": [
                     {
-                        "name": "Zircon",
-                        "item_count": 1
+                        "name": "Left Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     },
                     {
-                        "name": "Opal",
-                        "item_count": 1
+                        "name": "Middle Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     },
                     {
-                        "name": "Beryl Circlet",
-                        "item_count": 1
+                        "name": "Right Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_equipment"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -80,10 +95,13 @@
                 ]
             },
             {
-                "name": "Heart Vessel",
+                "name": "Bellow Stone Pedestal",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Heart Vessel",
+                        "name": "Bellow Stone Pedestal",
                         "item_count": 1
                     }
                 ],
@@ -101,10 +119,13 @@
                 ]
             },
             {
-                "name": "Fire Boomerang",
+                "name": "Hole in Main Corridor Back Item",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Fire Boomerang",
+                        "name": "Hole in Main Corridor Back Item",
                         "item_count": 1
                     }
                 ],
@@ -122,14 +143,17 @@
                 ]
             },
             {
-                "name": "Below Entrance",
+                "name": "Main Gate Bottom",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Hammer",
+                        "name": "Left Item",
                         "item_count": 1
                     },
                     {
-                        "name": "Antivenom",
+                        "name": "Right Item",
                         "item_count": 1
                     }
                 ],
@@ -147,10 +171,13 @@
                 ]
             },
             {
-                "name": "Pot Roast",
+                "name": "Breakable Big Rock in Main Corridor",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Pot Roast",
+                        "name": "Breakable Big Rock in Main Corridor",
                         "item_count": 1
                     }
                 ],
@@ -168,10 +195,13 @@
                 ]
             },
             {
-                "name": "High Potion",
+                "name": "Breakable Ledge on Main Corridor",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "High Potion",
+                        "name": "Breakable Ledge on Main Corridor",
                         "item_count": 1
                     }
                 ],

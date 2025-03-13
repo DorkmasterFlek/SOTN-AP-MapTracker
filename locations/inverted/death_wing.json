@@ -6,10 +6,13 @@
         ],
         "children": [
             {
-                "name": "Life Vessel",
+                "name": "Bellow Wooden Pedestal",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Life Vessel",
+                        "name": "Bellow Wooden Pedestal",
                         "item_count": 1
                     }
                 ],
@@ -27,19 +30,28 @@
                 ]
             },
             {
-                "name": "Secret Hallway",
+                "name": "Room Behind Breakable Wall",
                 "sections": [
                     {
-                        "name": "Opal",
-                        "item_count": 1
+                        "name": "Left Red Vase",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_equipment"
+                        ]
                     },
                     {
-                        "name": "Sword of Hador",
-                        "item_count": 1
+                        "name": "Middle Red Vase",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     },
                     {
-                        "name": "High Potion",
-                        "item_count": 1
+                        "name": "Right Red Vase",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -56,14 +68,17 @@
                 ]
             },
             {
-                "name": "Middle Shaft",
+                "name": "Shaft",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Shield Potion",
+                        "name": "Top Red Vase",
                         "item_count": 1
                     },
                     {
-                        "name": "Luck Potion",
+                        "name": "Middle Red Vase",
                         "item_count": 1
                     }
                 ],
@@ -81,10 +96,13 @@
                 ]
             },
             {
-                "name": "Manna Prism",
+                "name": "Bottom Red Vase on Shaft",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Manna Prism",
+                        "name": "Bottom Red Vase on Shaft",
                         "item_count": 1
                     }
                 ],
@@ -102,10 +120,13 @@
                 ]
             },
             {
-                "name": "Aquamarine",
+                "name": "Red Vase Next to Path to Courtyard",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Aquamarine",
+                        "name": "Red Vase Next to Path to Courtyard",
                         "item_count": 1
                     }
                 ],
@@ -123,10 +144,13 @@
                 ]
             },
             {
-                "name": "Shuriken",
+                "name": "Attic Before Akmodan II",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Shuriken",
+                        "name": "Attic Before Akmodan II",
                         "item_count": 1
                     }
                 ],
@@ -144,10 +168,13 @@
                 ]
             },
             {
-                "name": "Alucard Mail",
+                "name": "Top Left Room",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Alucard Mail",
+                        "name": "Top Left Room",
                         "item_count": 1
                     }
                 ],
@@ -165,13 +192,16 @@
                 ]
             },
             {
-                "name": "Heart Vessel",
+                "name": "After Akmodan II",
                 "access_rules": [
                     "$canTransform"
                 ],
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Heart Vessel",
+                        "name": "After Akmodan II",
                         "item_count": 1
                     }
                 ],
@@ -189,10 +219,13 @@
                 ]
             },
             {
-                "name": "Heart Refresh",
+                "name": "Breakable Floor Room",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Heart Refresh",
+                        "name": "Breakable Floor Room",
                         "item_count": 1
                     }
                 ],
@@ -210,17 +243,13 @@
                 ]
             },
             {
-                "name": "Akmodan II",
-                "access_rules": [
-                    "$canTransform"
+                "name": "Akmodan II Item",
+                "visibility_rules": [
+                    "logic_relic_prog"
                 ],
                 "sections": [
                     {
-                        "name": "Akmodan II kill",
-                        "hosted_item": "akmodan"
-                    },
-                    {
-                        "name": "Rib of Vlad",
+                        "name": "Akmodan II Item",
                         "item_count": 1
                     }
                 ],

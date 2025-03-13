@@ -1,4 +1,5 @@
-BASE_ITEM_ID = 127000000
+-- Relics start at offset 300 from the base.
+RELIC_OFFSET = 300
 
 RELICS = {
     { "soulofbat", "toggle" },
@@ -36,12 +37,11 @@ RELICS = {
 
 ITEM_MAPPING = {}
 for n, item in ipairs(RELICS) do
-    -- Relics start at offset 300 from the base.
-    ITEM_MAPPING[BASE_ITEM_ID + 300 + n - 1] = item
+    ITEM_MAPPING[RELIC_OFFSET + n - 1] = item
 end
 
 -- Additional mappings for specific equipment we care about.
-ITEM_MAPPING[BASE_ITEM_ID + 241] = { "goldring", "toggle" }
-ITEM_MAPPING[BASE_ITEM_ID + 242] = { "silverring", "toggle" }
-ITEM_MAPPING[BASE_ITEM_ID + 183] = { "spikebreaker", "toggle" }
-ITEM_MAPPING[BASE_ITEM_ID + 203] = { "holyglasses", "toggle" }
+ITEM_MAPPING[241] = { "goldring", "toggle" }
+ITEM_MAPPING[242] = { "silverring", "toggle" }
+ITEM_MAPPING[183] = { "spikebreaker", "toggle" }
+ITEM_MAPPING[203] = { "holyglasses", "toggle" }

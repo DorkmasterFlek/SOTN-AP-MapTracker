@@ -6,10 +6,13 @@
         ],
         "children": [
             {
-                "name": "Neutron Bomb",
+                "name": "Bottom Left Room Green Candle",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Neutron Bomb",
+                        "name": "Bottom Left Room Green Candle",
                         "item_count": 1
                     }
                 ],
@@ -27,10 +30,13 @@
                 ]
             },
             {
-                "name": "Badelaire",
+                "name": "Bottom Left Room Behind Bookshelf",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Badelaire",
+                        "name": "Bottom Left Room Behind Bookshelf",
                         "item_count": 1
                     }
                 ],
@@ -48,18 +54,21 @@
                 ]
             },
             {
-                "name": "Side Room",
+                "name": "Bottom Right Room",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Resist Fire",
+                        "name": "Left Item",
                         "item_count": 1
                     },
                     {
-                        "name": "Resist Ice",
+                        "name": "Middle Item",
                         "item_count": 1
                     },
                     {
-                        "name": "Resist Stone",
+                        "name": "Right Item",
                         "item_count": 1
                     }
                 ],
@@ -77,13 +86,16 @@
                 ]
             },
             {
-                "name": "Staurolite",
+                "name": "Behind Mist Crate",
                 "access_rules": [
                     "formofmist"
                 ],
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Staurolite",
+                        "name": "Behind Mist Crate",
                         "item_count": 1
                     }
                 ],
@@ -101,18 +113,21 @@
                 ]
             },
             {
-                "name": "Reverse Librarian",
+                "name": "Inner Study",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Turquoise",
+                        "name": "Red Vase",
                         "item_count": 1
                     },
                     {
-                        "name": "Opal",
+                        "name": "Left Statue",
                         "item_count": 1
                     },
                     {
-                        "name": "Library Card",
+                        "name": "Right Statue",
                         "item_count": 1
                     }
                 ],

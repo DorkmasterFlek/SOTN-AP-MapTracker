@@ -6,10 +6,13 @@
         ],
         "children": [
             {
-                "name": "Fury Plate",
+                "name": "Breakable Floor Room",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Fury Plate",
+                        "name": "Breakable Floor Room",
                         "item_count": 1
                     }
                 ],
@@ -27,10 +30,13 @@
                 ]
             },
             {
-                "name": "Zircon",
+                "name": "Right Part - Top Right Room",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Zircon",
+                        "name": "Right Part - Top Right Room",
                         "item_count": 1
                     }
                 ],
@@ -48,10 +54,13 @@
                 ]
             },
             {
-                "name": "Buffalo Star",
+                "name": "Right Part - Top Left Room",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Buffalo Star",
+                        "name": "Right Part - Top Left Room",
                         "item_count": 1
                     }
                 ],
@@ -69,10 +78,13 @@
                 ]
             },
             {
-                "name": "Gram",
+                "name": "Left Part - Top Right Room",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Gram",
+                        "name": "Left Part - Top Right Room",
                         "item_count": 1
                     }
                 ],
@@ -90,10 +102,13 @@
                 ]
             },
             {
-                "name": "Aquamarine",
+                "name": "Left Part - Top Left Room",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Aquamarine",
+                        "name": "Left Part - Top Left Room",
                         "item_count": 1
                     }
                 ],
@@ -111,14 +126,21 @@
                 ]
             },
             {
-                "name": "Passage",
+                "name": "Left Part",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Heart Vessel",
-                        "item_count": 2
+                        "name": "Left Item on Floor",
+                        "item_count": 1
                     },
                     {
-                        "name": "Life Vessel",
+                        "name": "Middle Item on Floor",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right Item on Floor",
                         "item_count": 1
                     }
                 ],
@@ -136,11 +158,14 @@
                 ]
             },
             {
-                "name": "Fake Trevor & Grant & Sypha",
+                "name": "Trio Item",
+                "visibility_rules": [
+                    "logic_relic_prog"
+                ],
                 "sections": [
                     {
-                        "name": "Fake Trevor & Grant & Sypha kill",
-                        "hosted_item": "faketrio"
+                        "name": "Trio Item",
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [

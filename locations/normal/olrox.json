@@ -2,8 +2,7 @@
     {
         "name": "Olrox's Quarters",
         "access_rules": [
-            "opened_no2,jewelofopen",
-            "opened_are,jewelofopen",
+            "open_are,jewelofopen",
             "$canJump"
         ],
         "children": [
@@ -11,24 +10,32 @@
                 "name": "Front Quarters",
                 "access_rules": [
                     "$canJump",
-                    "opened_are,@Royal Chapel",
-                    "opened_no2,jewelofopen,$canFly"
+                    "open_are,@Royal Chapel"
                 ],
                 "children": [
                     {
-                        "name": "Secret Hallway",
+                        "name": "Room Behind Breakable Wall",
                         "sections": [
                             {
-                                "name": "Broadsword",
-                                "item_count": 1
+                                "name": "Vase 1",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_full"
+                                ]
                             },
                             {
-                                "name": "Onyx",
-                                "item_count": 1
+                                "name": "Vase 2",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_full"
+                                ]
                             },
                             {
-                                "name": "Cheese",
-                                "item_count": 1
+                                "name": "Vase 3",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_equipment"
+                                ]
                             }
                         ],
                         "map_locations": [
@@ -45,13 +52,16 @@
                         ]
                     },
                     {
-                        "name": "Manna Prism",
+                        "name": "Ascent Shaft Red Vase 1",
                         "access_rules": [
                             "$canHighJump"
                         ],
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Manna Prism",
+                                "name": "Ascent Shaft Red Vase 1",
                                 "item_count": 1
                             }
                         ],
@@ -69,13 +79,16 @@
                         ]
                     },
                     {
-                        "name": "Resist Fire",
+                        "name": "Ascent Shaft Red Vase 2",
                         "access_rules": [
                             "$canFly"
                         ],
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Resist Fire",
+                                "name": "Ascent Shaft Red Vase 2",
                                 "item_count": 1
                             }
                         ],
@@ -93,13 +106,16 @@
                         ]
                     },
                     {
-                        "name": "Luck Potion",
+                        "name": "Ascent Shaft Red Vase 3",
                         "access_rules": [
                             "$canFly"
                         ],
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Luck Potion",
+                                "name": "Ascent Shaft Red Vase 3",
                                 "item_count": 1
                             }
                         ],
@@ -117,13 +133,16 @@
                         ]
                     },
                     {
-                        "name": "Estoc",
+                        "name": "Ledge Before Drop to Courtyard",
                         "access_rules": [
                             "$canFly"
                         ],
+                        "visibility_rules": [
+                            "logic_equipment"
+                        ],
                         "sections": [
                             {
-                                "name": "Estoc",
+                                "name": "Ledge Before Drop to Courtyard",
                                 "item_count": 1
                             }
                         ],
@@ -145,15 +164,17 @@
             {
                 "name": "Back Quarters",
                 "access_rules": [
-                    "$canFly",
-                    "opened_no2,jewelofopen"
+                    "$canFly"
                 ],
                 "children": [
                     {
-                        "name": "Heart Vessel",
+                        "name": "On Wooden Display",
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Heart Vessel",
+                                "name": "On Wooden Display",
                                 "item_count": 1
                             }
                         ],
@@ -171,13 +192,16 @@
                         ]
                     },
                     {
-                        "name": "Iron Ball",
+                        "name": "Hole Before Olrox",
                         "access_rules": [
                             "$canFly"
                         ],
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Iron Ball",
+                                "name": "Hole Before Olrox",
                                 "item_count": 1
                             }
                         ],
@@ -195,13 +219,16 @@
                         ]
                     },
                     {
-                        "name": "Garnet",
+                        "name": "Right Room",
                         "access_rules": [
                             "$canFly"
                         ],
+                        "visibility_rules": [
+                            "logic_equipment"
+                        ],
                         "sections": [
                             {
-                                "name": "Garnet",
+                                "name": "Right Room",
                                 "item_count": 1
                             }
                         ],
@@ -219,13 +246,16 @@
                         ]
                     },
                     {
-                        "name": "Echo of Bat",
+                        "name": "After Olrox",
                         "access_rules": [
                             "$canFly,$canTransform"
                         ],
+                        "visibility_rules": [
+                            "logic_relic_prog"
+                        ],
                         "sections": [
                             {
-                                "name": "Echo of Bat",
+                                "name": "After Olrox",
                                 "item_count": 1
                             }
                         ],
@@ -243,13 +273,16 @@
                         ]
                     },
                     {
-                        "name": "Sword Card",
+                        "name": "Hidden Attic",
                         "access_rules": [
                             "$canHighJump"
                         ],
+                        "visibility_rules": [
+                            "logic_relic_prog"
+                        ],
                         "sections": [
                             {
-                                "name": "Sword Card",
+                                "name": "Hidden Attic",
                                 "item_count": 1
                             }
                         ],
@@ -263,30 +296,6 @@
                                 "map": "vertical",
                                 "x": 392,
                                 "y": 1277
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Olrox",
-                        "access_rules": [
-                            "$canFly,$canTransform"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Olrox kill",
-                                "hosted_item": "olrox"
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "normal",
-                                "x": 382,
-                                "y": 262
-                            },
-                            {
-                                "map": "vertical",
-                                "x": 382,
-                                "y": 1247
                             }
                         ]
                     }

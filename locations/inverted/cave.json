@@ -6,17 +6,20 @@
         ],
         "children": [
             {
-                "name": "Demon Button Room",
+                "name": "Breakable Wall Room",
                 "access_rules": [
                     "demoncard"
                 ],
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Power of Sire",
+                        "name": "Left Item",
                         "item_count": 1
                     },
                     {
-                        "name": "Life Apple",
+                        "name": "Right Item",
                         "item_count": 1
                     }
                 ],
@@ -34,13 +37,16 @@
                 ]
             },
             {
-                "name": "Green Tea",
+                "name": "Upper Right Room Left Item",
                 "access_rules": [
                     "demoncard"
                 ],
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Green Tea",
+                        "name": "Upper Right Room Left Item",
                         "item_count": 1
                     }
                 ],
@@ -58,10 +64,13 @@
                 ]
             },
             {
-                "name": "Power of Sire",
+                "name": "Upper Right Room Right Item",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Power of Sire",
+                        "name": "Upper Right Room Right Item",
                         "item_count": 1
                     }
                 ],
@@ -79,10 +88,13 @@
                 ]
             },
             {
-                "name": "Shiitake",
+                "name": "Upper Ascent",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Shiitake",
+                        "name": "Upper Ascent",
                         "item_count": 2
                     }
                 ],
@@ -100,10 +112,13 @@
                 ]
             },
             {
-                "name": "Alucard Sword",
+                "name": "Middle Ascent Right Item",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Alucard Sword",
+                        "name": "Middle Ascent Right Item",
                         "item_count": 1
                     }
                 ],
@@ -121,14 +136,13 @@
                 ]
             },
             {
-                "name": "Death",
+                "name": "Death Item",
+                "visibility_rules": [
+                    "logic_relic_prog"
+                ],
                 "sections": [
                     {
-                        "name": "Death kill",
-                        "hosted_item": "death"
-                    },
-                    {
-                        "name": "Eye of Vlad",
+                        "name": "Death Item",
                         "item_count": 1
                     }
                 ],

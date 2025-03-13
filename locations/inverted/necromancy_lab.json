@@ -6,10 +6,13 @@
         ],
         "children": [
             {
-                "name": "Resist Dark",
+                "name": "Globe in the Room With Lesser Demons and Ctulhu",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Resist Dark",
+                        "name": "Globe in the Room With Lesser Demons and Ctulhu",
                         "item_count": 1
                     }
                 ],
@@ -27,10 +30,13 @@
                 ]
             },
             {
-                "name": "Heart Vessel",
+                "name": "Breakable Wall on Tunnel Right of Elevator Shaft",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Heart Vessel",
+                        "name": "Breakable Wall on Tunnel Right of Elevator Shaft",
                         "item_count": 1
                     }
                 ],
@@ -48,10 +54,13 @@
                 ]
             },
             {
-                "name": "Life Vessel",
+                "name": "Bottom Room From Spike Traps",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Life Vessel",
+                        "name": "Bottom Room From Spike Traps",
                         "item_count": 1
                     }
                 ],
@@ -69,10 +78,13 @@
                 ]
             },
             {
-                "name": "Katana",
+                "name": "Breakable Ceiling on Tunnel Right of Elevator Shaft",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Katana",
+                        "name": "Breakable Ceiling on Tunnel Right of Elevator Shaft",
                         "item_count": 1
                     }
                 ],
@@ -90,10 +102,13 @@
                 ]
             },
             {
-                "name": "Goddess Shield",
+                "name": "Middle Room on Elevator Shaft",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Goddess Shield",
+                        "name": "Middle Room on Elevator Shaft",
                         "item_count": 1
                     }
                 ],
@@ -111,10 +126,13 @@
                 ]
             },
             {
-                "name": "Manna Prism",
+                "name": "Blue Flame in Room With Lesser and Fire Demons",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Manna Prism",
+                        "name": "Blue Flame in Room With Lesser and Fire Demons",
                         "item_count": 1
                     }
                 ],
@@ -132,10 +150,13 @@
                 ]
             },
             {
-                "name": "Turquoise",
+                "name": "Globe in Bitterfly Room",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Turquoise",
+                        "name": "Globe in Bitterfly Room",
                         "item_count": 1
                     }
                 ],
@@ -153,10 +174,13 @@
                 ]
             },
             {
-                "name": "High Potion",
+                "name": "Hole in Room With Lesser and Fire Demons",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "High Potion",
+                        "name": "Hole in Room With Lesser and Fire Demons",
                         "item_count": 1
                     }
                 ],
@@ -174,10 +198,13 @@
                 ]
             },
             {
-                "name": "Ring of Arcana",
+                "name": "Bottom Left Room From Beezelbub",
+                "visibility_rules": [
+                    "logic_guarded"
+                ],
                 "sections": [
                     {
-                        "name": "Ring of Arcana",
+                        "name": "Bottom Left Room From Beezelbub",
                         "item_count": 1
                     }
                 ],
@@ -191,27 +218,6 @@
                         "map": "vertical",
                         "x": 992,
                         "y": 512
-                    }
-                ]
-            },
-            {
-                "name": "Beelzebub",
-                "sections": [
-                    {
-                        "name": "Beelzebub kill",
-                        "hosted_item": "beelzebub"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "inverted",
-                        "x": 1042,
-                        "y": 502
-                    },
-                    {
-                        "map": "vertical",
-                        "x": 1042,
-                        "y": 502
                     }
                 ]
             }

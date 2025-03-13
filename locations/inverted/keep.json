@@ -6,15 +6,21 @@
         ],
         "children": [
             {
-                "name": "Keep Top",
+                "name": "Open Area Top Right",
                 "sections": [
                     {
-                        "name": "Sword of Dawn",
-                        "item_count": 1
+                        "name": "Breakable Wall",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     },
                     {
-                        "name": "Garnet",
-                        "item_count": 1
+                        "name": "Ledge",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_equipment"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -31,10 +37,13 @@
                 ]
             },
             {
-                "name": "Iron Ball",
+                "name": "Open Area Bottom Left Underpass Breakable Wall",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Iron Ball",
+                        "name": "Open Area Bottom Left Underpass Breakable Wall",
                         "item_count": 1
                     }
                 ],
@@ -52,10 +61,13 @@
                 ]
             },
             {
-                "name": "Lightning Mail",
+                "name": "Bottom Left Room on Dual Elevator Area",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Lightning Mail",
+                        "name": "Bottom Left Room on Dual Elevator Area",
                         "item_count": 1
                     }
                 ],
@@ -73,23 +85,63 @@
                 ]
             },
             {
-                "name": "Below Throne",
+                "name": "Bellow Stairs",
                 "sections": [
                     {
-                        "name": "Bastard Sword",
-                        "item_count": 1
+                        "name": "Left Statue 1",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     },
                     {
-                        "name": "Life Vessel",
-                        "item_count": 3
+                        "name": "Left Statue 2",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_equipment"
+                        ]
                     },
                     {
-                        "name": "Heart Vessel",
-                        "item_count": 3
+                        "name": "Left Yellow Vase 1",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     },
                     {
-                        "name": "Royal Cloak",
-                        "item_count": 1
+                        "name": "Left Yellow Vase 2",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
+                    },
+                    {
+                        "name": "Right Yellow Vase 1",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
+                    },
+                    {
+                        "name": "Right Yellow Vase 2",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
+                    },
+                    {
+                        "name": "Right Statue 1",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
+                    },
+                    {
+                        "name": "Right Statue 2",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_equipment"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -106,10 +158,13 @@
                 ]
             },
             {
-                "name": "Library Card",
+                "name": "Bellow Save Point",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Library Card",
+                        "name": "Bellow Save Point",
                         "item_count": 1
                     }
                 ],
@@ -127,26 +182,29 @@
                 ]
             },
             {
-                "name": "Viewing Room",
+                "name": "Open Area Bottom Right Room",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Resist Fire",
+                        "name": "Item 1",
                         "item_count": 1
                     },
                     {
-                        "name": "Resist Ice",
+                        "name": "Item 2",
                         "item_count": 1
                     },
                     {
-                        "name": "Resist Thunder",
+                        "name": "Item 3",
                         "item_count": 1
                     },
                     {
-                        "name": "Resist Stone",
+                        "name": "Item 4",
                         "item_count": 1
                     },
                     {
-                        "name": "High Potion",
+                        "name": "Window Item",
                         "item_count": 1
                     }
                 ],
@@ -164,10 +222,13 @@
                 ]
             },
             {
-                "name": "Zircon",
+                "name": "Red Vase After Entering",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Zircon",
+                        "name": "Red Vase After Entering",
                         "item_count": 1
                     }
                 ],

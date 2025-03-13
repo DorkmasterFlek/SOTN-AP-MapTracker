@@ -6,14 +6,17 @@
         ],
         "children": [
             {
-                "name": "Catacombs Entrance",
+                "name": "After Save Point",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Magic Missile",
+                        "name": "Item",
                         "item_count": 1
                     },
                     {
-                        "name": "Buffalo Star",
+                        "name": "Breakable Wall",
                         "item_count": 1
                     }
                 ],
@@ -31,10 +34,13 @@
                 ]
             },
             {
-                "name": "Necklace of J",
+                "name": "After Crypt Breakable Wall Room",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Necklace of J",
+                        "name": "After Crypt Breakable Wall Room",
                         "item_count": 1
                     }
                 ],
@@ -52,10 +58,13 @@
                 ]
             },
             {
-                "name": "Diamond",
+                "name": "Before Galamoth Save Point",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Diamond",
+                        "name": "Before Galamoth Save Point",
                         "item_count": 1
                     }
                 ],
@@ -74,13 +83,16 @@
             },
             {
                 "name": "After Galamoth",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Heart Vessel",
+                        "name": "Left Item",
                         "item_count": 1
                     },
                     {
-                        "name": "Life Vessel",
+                        "name": "Right Item",
                         "item_count": 1
                     }
                 ],
@@ -98,15 +110,21 @@
                 ]
             },
             {
-                "name": "Gas Cloud Room",
+                "name": "After Galamoth Deeper Room",
                 "sections": [
                     {
-                        "name": "Ruby Circlet",
-                        "item_count": 1
+                        "name": "Right Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     },
                     {
-                        "name": "Gas Cloud",
-                        "item_count": 1
+                        "name": "Left Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_relic_prog"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -123,14 +141,17 @@
                 ]
             },
             {
-                "name": "Lava Bridge",
+                "name": "After Crypt Cave",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Shield Potion",
+                        "name": "Upper Red Vase",
                         "item_count": 1
                     },
                     {
-                        "name": "Attack Potion",
+                        "name": "Bottom Red Vase",
                         "item_count": 1
                     }
                 ],
@@ -148,14 +169,17 @@
                 ]
             },
             {
-                "name": "Crypt",
+                "name": "Start of Crypt",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Life Vessel",
+                        "name": "Left Item",
                         "item_count": 1
                     },
                     {
-                        "name": "Heart Vessel)",
+                        "name": "Right Item)",
                         "item_count": 1
                     }
                 ],
@@ -173,7 +197,7 @@
                 ]
             },
             {
-                "name": "Beyond Spike Maze",
+                "name": "After Spike Tunnel",
                 "access_rules": [
                     "soulofbat",
                     "formofmist,powerofmist",
@@ -183,18 +207,25 @@
                 "children": [
                     {
                         "name": "Spike Hallway",
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Resist Thunder",
+                                "name": "Top Left Vase",
                                 "item_count": 1
                             },
                             {
-                                "name": "Resist Fire",
+                                "name": "Top Right Vase",
                                 "item_count": 1
                             },
                             {
-                                "name": "Karma Coin",
-                                "item_count": 2
+                                "name": "Bottom Left Vase",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Bottom Right Vase",
+                                "item_count": 1
                             }
                         ],
                         "map_locations": [
@@ -211,10 +242,13 @@
                         ]
                     },
                     {
-                        "name": "Red Bean Bun",
+                        "name": "Deep Left Item",
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Red Bean Bun",
+                                "name": "Deep Left Item",
                                 "item_count": 1
                             }
                         ],
@@ -232,14 +266,17 @@
                         ]
                     },
                     {
-                        "name": "Spike Breaker Room",
+                        "name": "Deep Right",
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Elixir",
+                                "name": "Item",
                                 "item_count": 1
                             },
                             {
-                                "name": "Library Card",
+                                "name": "Breakable Wall Item",
                                 "item_count": 1
                             }
                         ],
@@ -255,27 +292,6 @@
                                 "y": 32
                             }
                         ]
-                    }
-                ]
-            },
-            {
-                "name": "Galamoth",
-                "sections": [
-                    {
-                        "name": "Galamoth kill",
-                        "hosted_item": "galamoth"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "inverted",
-                        "x": 882,
-                        "y": 42
-                    },
-                    {
-                        "map": "vertical",
-                        "x": 882,
-                        "y": 42
                     }
                 ]
             }

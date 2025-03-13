@@ -6,17 +6,20 @@
                 "name": "Upper Caverns",
                 "access_rules": [
                     "jewelofopen",
-                    "opened_no4,$canFly"
+                    "open_no4,$canFly"
                 ],
                 "children": [
                     {
-                        "name": "Zircon",
+                        "name": "Red Vase on Ledge Next to Marble Gallery",
                         "access_rules": [
                             "$canJump"
                         ],
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Zircon",
+                                "name": "Red Vase on Ledge Next to Marble Gallery",
                                 "item_count": 1
                             }
                         ],
@@ -34,10 +37,13 @@
                         ]
                     },
                     {
-                        "name": "Heart Vessel",
+                        "name": "Wooden Stand Close to Stairway",
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Heart Vessel",
+                                "name": "Wooden Stand Close to Stairway",
                                 "item_count": 1
                             }
                         ],
@@ -55,10 +61,13 @@
                         ]
                     },
                     {
-                        "name": "Life Vessel",
+                        "name": "Middle of Stairway Room",
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Life Vessel",
+                                "name": "Middle of Stairway Room",
                                 "item_count": 1
                             }
                         ],
@@ -76,10 +85,13 @@
                         ]
                     },
                     {
-                        "name": "Bandana",
+                        "name": "Breakable Wall Close to Stairway",
+                        "visibility_rules": [
+                            "logic_equipment"
+                        ],
                         "sections": [
                             {
-                                "name": "Bandana",
+                                "name": "Breakable Wall Close to Stairway",
                                 "item_count": 1
                             }
                         ],
@@ -97,10 +109,13 @@
                         ]
                     },
                     {
-                        "name": "Shiitake (Shaft)",
+                        "name": "Bottom of Stairway",
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Shiitake (Shaft)",
+                                "name": "Bottom of Stairway",
                                 "item_count": 1
                             }
                         ],
@@ -118,10 +133,13 @@
                         ]
                     },
                     {
-                        "name": "Shiitake (Cavern)",
+                        "name": "Alcove Next to Drowned Guards",
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Shiitake (Cavern)",
+                                "name": "Alcove Next to Drowned Guards",
                                 "item_count": 1
                             }
                         ],
@@ -142,12 +160,18 @@
                         "name": "Caverns Entrance",
                         "sections": [
                             {
-                                "name": "Toadstool",
-                                "item_count": 1
+                                "name": "Below Stairway",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_full"
+                                ]
                             },
                             {
-                                "name": "Nunchaku",
-                                "item_count": 1
+                                "name": "Air Pocket Item",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_equipment"
+                                ]
                             }
                         ],
                         "map_locations": [
@@ -168,13 +192,16 @@
                         "access_rules": [
                             "holysymbol"
                         ],
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Antivenom",
+                                "name": "Top Underwater Item",
                                 "item_count": 1
                             },
                             {
-                                "name": "Life Vessel",
+                                "name": "Bottom Underwater Item",
                                 "item_count": 1
                             }
                         ],
@@ -192,10 +219,13 @@
                         ]
                     },
                     {
-                        "name": "Pentagram",
+                        "name": "Underwater Stream",
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Pentagram",
+                                "name": "Underwater Stream",
                                 "item_count": 1
                             }
                         ],
@@ -213,15 +243,18 @@
                         ]
                     },
                     {
-                        "name": "Herald Shield",
+                        "name": "Top Left Room From Waterfall",
                         "access_rules": [
                             "leapstone",
                             "$canFly",
                             "$canDash"
                         ],
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Herald Shield",
+                                "name": "Top Left Room From Waterfall",
                                 "item_count": 1
                             }
                         ],
@@ -239,19 +272,22 @@
                         ]
                     },
                     {
-                        "name": "Below Bridge",
+                        "name": "Below Wooden Bridge",
                         "access_rules": [
                             "leapstone",
                             "$canFly",
                             "$canDash"
                         ],
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Life Vessel",
+                                "name": "Left Item",
                                 "item_count": 1
                             },
                             {
-                                "name": "Heart Vessel",
+                                "name": "Right Item",
                                 "item_count": 1
                             }
                         ],
@@ -269,16 +305,19 @@
                         ]
                     },
                     {
-                        "name": "Succubus Area",
+                        "name": "Succubus Side",
                         "access_rules": [
                             "$canFly"
                         ],
                         "children": [
                             {
-                                "name": "Claymore",
+                                "name": "First Red Vase",
+                                "visibility_rules": [
+                                    "logic_full"
+                                ],
                                 "sections": [
                                     {
-                                        "name": "Claymore",
+                                        "name": "First Red Vase",
                                         "item_count": 1
                                     }
                                 ],
@@ -296,15 +335,14 @@
                                 ]
                             },
                             {
-                                "name": "Succubus Approach",
+                                "name": "Red Vases",
+                                "visibility_rules": [
+                                    "logic_full"
+                                ],
                                 "sections": [
                                     {
-                                        "name": "Meal Ticket",
-                                        "item_count": 4
-                                    },
-                                    {
-                                        "name": "Moonstone",
-                                        "item_count": 1
+                                        "name": "Red Vases",
+                                        "item_count": 5
                                     }
                                 ],
                                 "map_locations": [
@@ -321,15 +359,14 @@
                                 ]
                             },
                             {
-                                "name": "Succubus",
+                                "name": "Succubus Item",
+                                "visibility_rules": [
+                                    "logic_relic_prog"
+                                ],
                                 "sections": [
                                     {
-                                        "name": "Gold Ring",
+                                        "name": "Succubus Item",
                                         "item_count": 1
-                                    },
-                                    {
-                                        "name": "Succubus Kill",
-                                        "hosted_item": "succubus"
                                     }
                                 ],
                                 "map_locations": [
@@ -348,233 +385,252 @@
                         ]
                     },
                     {
-                        "name": "Crystal Cloak",
-                        "sections": [
+                        "name": "Scylla Area",
+                        "children": [
                             {
-                                "name": "Crystal Cloak",
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "normal",
-                                "x": 792,
-                                "y": 692
+                                "name": "Scylla Item",
+                                "visibility_rules": [
+                                    "logic_guarded"
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Scylla Item",
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "normal",
+                                        "x": 792,
+                                        "y": 692
+                                    },
+                                    {
+                                        "map": "vertical",
+                                        "x": 792,
+                                        "y": 1677
+                                    }
+                                ]
                             },
                             {
-                                "map": "vertical",
-                                "x": 792,
-                                "y": 1677
+                                "name": "Right Item",
+                                "visibility_rules": [
+                                    "logic_full"
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Right Item",
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "normal",
+                                        "x": 892,
+                                        "y": 712
+                                    },
+                                    {
+                                        "map": "vertical",
+                                        "x": 892,
+                                        "y": 1697
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Left Item",
+                                "visibility_rules": [
+                                    "logic_full"
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Left Item",
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "normal",
+                                        "x": 852,
+                                        "y": 712
+                                    },
+                                    {
+                                        "map": "vertical",
+                                        "x": 852,
+                                        "y": 1697
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Red Vase",
+                                "visibility_rules": [
+                                    "logic_full"
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Red Vase",
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "normal",
+                                        "x": 892,
+                                        "y": 692
+                                    },
+                                    {
+                                        "map": "vertical",
+                                        "x": 892,
+                                        "y": 1677
+                                    }
+                                ]
                             }
                         ]
                     },
                     {
-                        "name": "Scimitar",
-                        "sections": [
+                        "name": "Ice Area",
+                        "children": [
                             {
-                                "name": "Scimitar",
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "normal",
-                                "x": 892,
-                                "y": 712
+                                "name": "Underwater Item 1",
+                                "visibility_rules": [
+                                    "logic_equipment"
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Underwater Item 1",
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "normal",
+                                        "x": 792,
+                                        "y": 772
+                                    },
+                                    {
+                                        "map": "vertical",
+                                        "x": 792,
+                                        "y": 1757
+                                    }
+                                ]
                             },
                             {
-                                "map": "vertical",
-                                "x": 892,
-                                "y": 1697
+                                "name": "Underwater Item 2",
+                                "visibility_rules": [
+                                    "logic_full"
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Underwater Item 2",
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "normal",
+                                        "x": 832,
+                                        "y": 772
+                                    },
+                                    {
+                                        "map": "vertical",
+                                        "x": 832,
+                                        "y": 1757
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "On Alcove",
+                                "access_rules": [
+                                    "mermanstatue",
+                                    "$canJump"
+                                ],
+                                "visibility_rules": [
+                                    "logic_equipment"
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "On Alcove",
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "normal",
+                                        "x": 892,
+                                        "y": 752
+                                    },
+                                    {
+                                        "map": "vertical",
+                                        "x": 892,
+                                        "y": 1737
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Underwater Item 3",
+                                "access_rules": [
+                                    "mermanstatue"
+                                ],
+                                "visibility_rules": [
+                                    "logic_full"
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Underwater Item 3",
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "normal",
+                                        "x": 1032,
+                                        "y": 772
+                                    },
+                                    {
+                                        "map": "vertical",
+                                        "x": 1032,
+                                        "y": 1757
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "After Ferryman",
+                                "access_rules": [
+                                    "mermanstatue"
+                                ],
+                                "visibility_rules": [
+                                    "logic_relic_prog"
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "After Ferryman",
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "normal",
+                                        "x": 1092,
+                                        "y": 752
+                                    },
+                                    {
+                                        "map": "vertical",
+                                        "x": 1092,
+                                        "y": 1737
+                                    }
+                                ]
                             }
                         ]
                     },
                     {
-                        "name": "Resist Ice",
-                        "sections": [
-                            {
-                                "name": "Resist Ice",
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "normal",
-                                "x": 852,
-                                "y": 712
-                            },
-                            {
-                                "map": "vertical",
-                                "x": 852,
-                                "y": 1697
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Pot Roast",
-                        "sections": [
-                            {
-                                "name": "Pot Roast",
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "normal",
-                                "x": 892,
-                                "y": 692
-                            },
-                            {
-                                "map": "vertical",
-                                "x": 892,
-                                "y": 1677
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Scylla",
-                        "sections": [
-                            {
-                                "name": "Scylla kill",
-                                "hosted_item": "scylla"
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "normal",
-                                "x": 812,
-                                "y": 692
-                            },
-                            {
-                                "map": "vertical",
-                                "x": 812,
-                                "y": 1677
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Knuckle Duster",
-                        "sections": [
-                            {
-                                "name": "Knuckle Duster",
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "normal",
-                                "x": 792,
-                                "y": 772
-                            },
-                            {
-                                "map": "vertical",
-                                "x": 792,
-                                "y": 1757
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Life Vessel (Holy Symbol)",
-                        "sections": [
-                            {
-                                "name": "Life Vessel (Holy Symbol)",
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "normal",
-                                "x": 832,
-                                "y": 772
-                            },
-                            {
-                                "map": "vertical",
-                                "x": 832,
-                                "y": 1757
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Onyx",
+                        "name": "Alcove Behind Waterfall",
                         "access_rules": [
-                            "mermanstatue",
                             "$canJump"
                         ],
-                        "sections": [
-                            {
-                                "name": "Onyx",
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "normal",
-                                "x": 892,
-                                "y": 752
-                            },
-                            {
-                                "map": "vertical",
-                                "x": 892,
-                                "y": 1737
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Elixir",
-                        "access_rules": [
-                            "mermanstatue"
+                        "visibility_rules": [
+                            "logic_equipment"
                         ],
                         "sections": [
                             {
-                                "name": "Elixir",
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "normal",
-                                "x": 1032,
-                                "y": 772
-                            },
-                            {
-                                "map": "vertical",
-                                "x": 1032,
-                                "y": 1757
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Holy Symbol",
-                        "access_rules": [
-                            "mermanstatue"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Holy Symbol",
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "normal",
-                                "x": 1092,
-                                "y": 752
-                            },
-                            {
-                                "map": "vertical",
-                                "x": 1092,
-                                "y": 1737
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Secret Boots",
-                        "access_rules": [
-                            "$canJump"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Secret Boots",
+                                "name": "Alcove Behind Waterfall",
                                 "item_count": 1
                             }
                         ],
@@ -592,13 +648,16 @@
                         ]
                     },
                     {
-                        "name": "Shiitake (Waterfall)",
+                        "name": "Waterfall Upper Item",
                         "access_rules": [
                             "$canJump"
                         ],
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Shiitake (Waterfall)",
+                                "name": "Waterfall Upper Item",
                                 "item_count": 1
                             }
                         ],
@@ -621,17 +680,20 @@
                 "name": "Lower Caverns",
                 "access_rules": [
                     "jewelofopen",
-                    "opened_no4"
+                    "open_no4"
                 ],
                 "children": [
                     {
-                        "name": "Toadstool (Waterfall)",
+                        "name": "Waterfall Bottom Item",
                         "access_rules": [
                             "$canJump"
                         ],
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Toadstool (Waterfall)",
+                                "name": "Waterfall Bottom Item",
                                 "item_count": 1
                             }
                         ],
@@ -649,10 +711,13 @@
                         ]
                     },
                     {
-                        "name": "Life Vessel (Behind Waterfall)",
+                        "name": "Hidden Room Behind Waterfall",
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Life Vessel (Behind Waterfall)",
+                                "name": "Hidden Room Behind Waterfall",
                                 "item_count": 1
                             }
                         ],
@@ -670,10 +735,13 @@
                         ]
                     },
                     {
-                        "name": "Shiitake (Near Entrance Passage)",
+                        "name": "Next to Castle Entrance Passage",
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Shiitake (Near Entrance Passage)",
+                                "name": "Next to Castle Entrance Passage",
                                 "item_count": 1
                             }
                         ],
@@ -691,10 +759,13 @@
                         ]
                     },
                     {
-                        "name": "Life Vessel (Entrance Passage)",
+                        "name": "By Underground Caverns Bottom Exit",
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Life Vessel (Entrance Passage)",
+                                "name": "By Underground Caverns Bottom Exit",
                                 "item_count": 1
                             }
                         ],
@@ -712,10 +783,13 @@
                         ]
                     },
                     {
-                        "name": "Merman Statue",
+                        "name": "After Ferryman",
+                        "visibility_rules": [
+                            "logic_relic_prog"
+                        ],
                         "sections": [
                             {
-                                "name": "Merman Statue",
+                                "name": "After Ferryman",
                                 "item_count": 1
                             }
                         ],

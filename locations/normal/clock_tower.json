@@ -6,14 +6,17 @@
         ],
         "children": [
             {
-                "name": "Below Bridge",
+                "name": "Bellow Broken Bridge",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Magic Missile",
+                        "name": "Item 1",
                         "item_count": 1
                     },
                     {
-                        "name": "Pentagram",
+                        "name": "Item 2",
                         "item_count": 1
                     }
                 ],
@@ -31,22 +34,31 @@
                 ]
             },
             {
-                "name": "Pillars",
+                "name": "On Top of Column",
                 "access_rules": [
                     "$canHighJump"
                 ],
                 "sections": [
                     {
-                        "name": "Bekatowa",
-                        "item_count": 1
+                        "name": "Item 1",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     },
                     {
-                        "name": "Shaman Shield",
-                        "item_count": 1
+                        "name": "Item 2",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_equipment"
+                        ]
                     },
                     {
-                        "name": "Ice Mail",
-                        "item_count": 1
+                        "name": "Item 3",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -63,19 +75,28 @@
                 ]
             },
             {
-                "name": "Hidden Room",
+                "name": "Rotating Gears Puzzle Room",
                 "sections": [
                     {
-                        "name": "Star Flail",
-                        "item_count": 1
+                        "name": "Item 1",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     },
                     {
-                        "name": "Gold Plate",
-                        "item_count": 1
+                        "name": "Item 2",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_equipment"
+                        ]
                     },
                     {
-                        "name": "Steel Helm",
-                        "item_count": 1
+                        "name": "Item 3",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -92,10 +113,13 @@
                 ]
             },
             {
-                "name": "Healing Mail",
+                "name": "Behind Breakable Wall Close to Bronze Statue",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Healing Mail",
+                        "name": "Behind Breakable Wall Close to Bronze Statue",
                         "item_count": 1
                     }
                 ],
@@ -113,10 +137,13 @@
                 ]
             },
             {
-                "name": "Life Vessel",
+                "name": "Gears Puzzle Room Breakable Wall Room Left Item",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Life Vessel",
+                        "name": "Gears Puzzle Room Breakable Wall Room Left Item",
                         "item_count": 1
                     }
                 ],
@@ -134,10 +161,13 @@
                 ]
             },
             {
-                "name": "Heart Vessel",
+                "name": "Gears Puzzle Room Breakable Wall Room Right Item",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Heart Vessel",
+                        "name": "Gears Puzzle Room Breakable Wall Room Right Item",
                         "item_count": 1
                     }
                 ],
@@ -155,10 +185,13 @@
                 ]
             },
             {
-                "name": "Pot Roast",
+                "name": "After Rotating Gears Behind Breakable Wall",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Pot Roast",
+                        "name": "After Rotating Gears Behind Breakable Wall",
                         "item_count": 1
                     }
                 ],
@@ -176,18 +209,21 @@
                 ]
             },
             {
-                "name": "Keep Approach",
+                "name": "Before Karasuman Breakable Wall",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Bwaka Knife",
+                        "name": "Item 1",
                         "item_count": 1
                     },
                     {
-                        "name": "Shuriken",
+                        "name": "Item 2",
                         "item_count": 1
                     },
                     {
-                        "name": "TNT",
+                        "name": "Item 3",
                         "item_count": 1
                     }
                 ],
@@ -205,34 +241,16 @@
                 ]
             },
             {
-                "name": "Karasuman",
-                "sections": [
-                    {
-                        "name": "Karasuman kill",
-                        "hosted_item": "karasuman"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "normal",
-                        "x": 792,
-                        "y": 132
-                    },
-                    {
-                        "map": "vertical",
-                        "x": 792,
-                        "y": 1117
-                    }
-                ]
-            },
-            {
-                "name": "Fire of Bat",
+                "name": "Top Right Room in Open Area",
                 "access_rules": [
                     "$canFly"
                 ],
+                "visibility_rules": [
+                    "logic_relic_prog"
+                ],
                 "sections": [
                     {
-                        "name": "Fire of Bat",
+                        "name": "Top Right Room in Open Area",
                         "item_count": 1
                     }
                 ],

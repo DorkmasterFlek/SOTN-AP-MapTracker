@@ -13,12 +13,18 @@
                 ],
                 "sections": [
                     {
-                        "name": "Ankh of Life",
-                        "item_count": 1
+                        "name": "Red Vase on Alcove 4",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_equipment"
+                        ]
                     },
                     {
-                        "name": "TNT",
-                        "item_count": 1
+                        "name": "Red Vase on Alcove 5",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -35,13 +41,16 @@
                 ]
             },
             {
-                "name": "Morningstar",
+                "name": "Upper Alcove",
                 "access_rules": [
                     "$canJump"
                 ],
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Morningstar",
+                        "name": "Upper Alcove",
                         "item_count": 1
                     }
                 ],
@@ -59,13 +68,16 @@
                 ]
             },
             {
-                "name": "Silver Ring",
+                "name": "Item Behind Maria",
                 "access_rules": [
                     "jewelofopen,formofmist,spikebreaker"
                 ],
+                "visibility_rules": [
+                    "logic_relic_prog"
+                ],
                 "sections": [
                     {
-                        "name": "Silver Ring",
+                        "name": "Item Behind Maria",
                         "item_count": 1
                     }
                 ],
@@ -83,10 +95,13 @@
                 ]
             },
             {
-                "name": "Aquamarine",
+                "name": "Bottom Red Vase",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Aquamarine",
+                        "name": "Bottom Red Vase",
                         "item_count": 1
                     }
                 ],
@@ -110,12 +125,18 @@
                 ],
                 "sections": [
                     {
-                        "name": "Mystic Pendant",
-                        "item_count": 1
+                        "name": "Red Vase on Alcove 1",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_equipment"
+                        ]
                     },
                     {
-                        "name": "Magic Missile",
-                        "item_count": 1
+                        "name": "Red Vase on Alcove 2",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -132,13 +153,16 @@
                 ]
             },
             {
-                "name": "Shuriken",
+                "name": "Red Vase on Alcove 3",
                 "access_rules": [
                     "$canJump"
                 ],
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Shuriken",
+                        "name": "Red Vase on Alcove 3",
                         "item_count": 1
                     }
                 ],
@@ -156,13 +180,16 @@
                 ]
             },
             {
-                "name": "Boomerang",
+                "name": "Red Vase on Alcove 6",
                 "access_rules": [
                     "$canJump"
                 ],
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Boomerang",
+                        "name": "Red Vase on Alcove 6",
                         "item_count": 1
                     }
                 ],
@@ -180,10 +207,13 @@
                 ]
             },
             {
-                "name": "Goggles",
+                "name": "Inner Chapel Doorway Roof",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Goggles",
+                        "name": "Inner Chapel Doorway Roof",
                         "item_count": 1
                     }
                 ],
@@ -201,10 +231,13 @@
                 ]
             },
             {
-                "name": "Silver Plate",
+                "name": "Tower 1 - Top Item",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Silver Plate",
+                        "name": "Tower 1 - Top Item",
                         "item_count": 1
                     }
                 ],
@@ -222,10 +255,13 @@
                 ]
             },
             {
-                "name": "Str. Potion",
+                "name": "Tower 1 - Yellow Vase",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Str. Potion",
+                        "name": "Tower 1 - Yellow Vase",
                         "item_count": 1
                     }
                 ],
@@ -243,10 +279,13 @@
                 ]
             },
             {
-                "name": "Life Vessel",
+                "name": "Tower 1 - Red Vase",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Life Vessel",
+                        "name": "Tower 1 - Red Vase",
                         "item_count": 1
                     }
                 ],
@@ -264,10 +303,13 @@
                 ]
             },
             {
-                "name": "Zircon",
+                "name": "Tower 2 - Top Item",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Zircon",
+                        "name": "Tower 2 - Top Item",
                         "item_count": 1
                     }
                 ],
@@ -285,10 +327,13 @@
                 ]
             },
             {
-                "name": "Cutlass",
+                "name": "Tower 3 - Top Item",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Cutlass",
+                        "name": "Tower 3 - Top Item",
                         "item_count": 1
                     }
                 ],
@@ -306,10 +351,13 @@
                 ]
             },
             {
-                "name": "Potion",
+                "name": "Tower 3 - Red Vase",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Potion",
+                        "name": "Tower 3 - Red Vase",
                         "item_count": 1
                     }
                 ],
@@ -327,10 +375,13 @@
                 ]
             },
             {
-                "name": "Knight Shield",
+                "name": "Next to Royal Chapel Passage",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Knight Shield",
+                        "name": "Next to Royal Chapel Passage",
                         "item_count": 1
                     }
                 ],
@@ -344,27 +395,6 @@
                         "map": "vertical",
                         "x": 272,
                         "y": 1357
-                    }
-                ]
-            },
-            {
-                "name": "Hippogryph",
-                "sections": [
-                    {
-                        "name": "Hippogryph kill",
-                        "hosted_item": "hippogryph"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "normal",
-                        "x": 462,
-                        "y": 192
-                    },
-                    {
-                        "map": "vertical",
-                        "x": 462,
-                        "y": 1177
                     }
                 ]
             }

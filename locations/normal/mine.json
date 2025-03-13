@@ -2,7 +2,7 @@
     {
         "name": "Abandoned Mine",
         "access_rules": [
-            "@Underground Caverns/Upper Caverns/Below Bridge"
+            "@Underground Caverns/Upper Caverns/Below Wooden Bridge"
         ],
         "children": [
             {
@@ -12,19 +12,11 @@
                 ],
                 "children": [
                     {
-                        "name": "Demon Button Room",
+                        "name": "Behind Breakable Wall",
                         "sections": [
                             {
-                                "name": "Power of Sire",
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Barley Tea",
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Peanuts",
-                                "item_count": 4
+                                "name": "Behind Breakable Wall",
+                                "item_count": 6
                             }
                         ],
                         "map_locations": [
@@ -41,15 +33,21 @@
                         ]
                     },
                     {
-                        "name": "Demon Button Shaft",
+                        "name": "Demon Side",
                         "sections": [
                             {
-                                "name": "Ring of Ares",
-                                "item_count": 1
+                                "name": "Item on the Floor",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_equipment"
+                                ]
                             },
                             {
-                                "name": "Turkey",
-                                "item_count": 1
+                                "name": "Item on Breakable Wall",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_full"
+                                ]
                             }
                         ],
                         "map_locations": [
@@ -68,15 +66,21 @@
                 ]
             },
             {
-                "name": "Mine Shaft Bottom",
+                "name": "Bottom",
                 "sections": [
                     {
-                        "name": "Karma Coin",
-                        "item_count": 1
+                        "name": "Left Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_equipment"
+                        ]
                     },
                     {
-                        "name": "Combat Knife",
-                        "item_count": 1
+                        "name": "Right Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -93,11 +97,14 @@
                 ]
             },
             {
-                "name": "Mine Shaft Middle",
+                "name": "Bottom Descent",
                 "sections": [
                     {
-                        "name": "Shiitake",
-                        "item_count": 2
+                        "name": "Bottom Descent",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -114,31 +121,13 @@
                 ]
             },
             {
-                "name": "Cerberus",
-                "sections": [
-                    {
-                        "name": "Cerberus kill",
-                        "hosted_item": "cerberus"
-                    }
+                "name": "Middle Descent Left Room",
+                "visibility_rules": [
+                    "logic_relic_prog"
                 ],
-                "map_locations": [
-                    {
-                        "map": "normal",
-                        "x": 602,
-                        "y": 732
-                    },
-                    {
-                        "map": "vertical",
-                        "x": 602,
-                        "y": 1717
-                    }
-                ]
-            },
-            {
-                "name": "Demon Card",
                 "sections": [
                     {
-                        "name": "Demon Card",
+                        "name": "Middle Descent Left Room",
                         "item_count": 1
                     }
                 ],

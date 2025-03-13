@@ -3,23 +3,32 @@
         "name": "Castle Keep",
         "children": [
             {
-                "name": "Keep Bottom",
+                "name": "Open Area Bottom Left",
                 "access_rules": [
                     "$canJump",
                     "jewelofopen"
                 ],
                 "sections": [
                     {
-                        "name": "Turquoise",
-                        "item_count": 1
+                        "name": "On Ledge",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     },
                     {
-                        "name": "Turkey",
-                        "item_count": 1
+                        "name": "On Ledge Breakable Wall",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     },
                     {
-                        "name": "Leap Stone",
-                        "item_count": 1
+                        "name": "Floor Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_relic_prog"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -42,18 +51,24 @@
                 ],
                 "children": [
                     {
-                        "name": "Below Throne",
+                        "name": "Open Area Top Left Alcove",
                         "access_rules": [
                             "$canFly"
                         ],
                         "sections": [
                             {
-                                "name": "Fire Mail",
-                                "item_count": 1
+                                "name": "Breakable Wall",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_full"
+                                ]
                             },
                             {
-                                "name": "Power of Mist",
-                                "item_count": 1
+                                "name": "Floor Item",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_relic_prog"
+                                ]
                             }
                         ],
                         "map_locations": [
@@ -70,10 +85,13 @@
                         ]
                     },
                     {
-                        "name": "Tyrfing",
+                        "name": "Top Right Room by Dual Moving Platforms",
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Tyrfing",
+                                "name": "Top Right Room by Dual Moving Platforms",
                                 "item_count": 1
                             }
                         ],
@@ -91,10 +109,13 @@
                         ]
                     },
                     {
-                        "name": "Falchion",
+                        "name": "Attic by Elevator Surround by Torches",
+                        "visibility_rules": [
+                            "logic_equipment"
+                        ],
                         "sections": [
                             {
-                                "name": "Falchion",
+                                "name": "Attic by Elevator Surround by Torches",
                                 "item_count": 1
                             }
                         ],
@@ -112,13 +133,16 @@
                         ]
                     },
                     {
-                        "name": "Heart Vessel",
+                        "name": "Red Vase Before Richter",
                         "access_rules": [
                             "$canFly"
                         ],
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Heart Vessel",
+                                "name": "Red Vase Before Richter",
                                 "item_count": 1
                             }
                         ],
@@ -136,42 +160,66 @@
                         ]
                     },
                     {
-                        "name": "Above Throne",
+                        "name": "Hidden Stair Room",
                         "access_rules": [
                             "$canFly"
                         ],
                         "sections": [
                             {
-                                "name": "Sirloin",
-                                "item_count": 1
+                                "name": "Left Statue 1",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_full"
+                                ]
                             },
                             {
-                                "name": "Turkey",
-                                "item_count": 1
+                                "name": "Left Statue 2",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_full"
+                                ]
                             },
                             {
-                                "name": "Pot Roast",
-                                "item_count": 1
+                                "name": "Left Yellow Vase 1",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_full"
+                                ]
                             },
                             {
-                                "name": "Frankfurter",
-                                "item_count": 1
+                                "name": "Left Yellow Vase 2",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_full"
+                                ]
                             },
                             {
-                                "name": "Resist Stone",
-                                "item_count": 1
+                                "name": "Right Yellow Vase 1",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_full"
+                                ]
                             },
                             {
-                                "name": "Resist Dark",
-                                "item_count": 1
+                                "name": "Right Yellow Vase 2",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_full"
+                                ]
                             },
                             {
-                                "name": "Resist Holy",
-                                "item_count": 1
+                                "name": "Right Statue 1",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_full"
+                                ]
                             },
                             {
-                                "name": "Platinum Mail",
-                                "item_count": 1
+                                "name": "Right Statue 2",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_equipment"
+                                ]
                             }
                         ],
                         "map_locations": [
@@ -188,22 +236,24 @@
                         ]
                     },
                     {
-                        "name": "Viewing Room",
+                        "name": "Open Area Top Right Room",
                         "access_rules": [
                             "$canFly"
                         ],
                         "sections": [
                             {
-                                "name": "Life Vessel",
-                                "item_count": 2
+                                "name": "Items 1-4",
+                                "item_count": 4,
+                                "visibility_rules": [
+                                    "logic_full"
+                                ]
                             },
                             {
-                                "name": "Heart Vessel",
-                                "item_count": 2
-                            },
-                            {
-                                "name": "Ghost Card",
-                                "item_count": 1
+                                "name": "Item 5",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_relic_prog"
+                                ]
                             }
                         ],
                         "map_locations": [

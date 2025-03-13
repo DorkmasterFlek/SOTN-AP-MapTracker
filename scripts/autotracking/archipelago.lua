@@ -21,13 +21,12 @@ ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
-LOCAL_ITEMS = {}
-GLOBAL_ITEMS = {}
 
 
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
+        print(string.format("called onClear, PlayerNumber: %s, slot_data:\n%s",
+                Archipelago.PlayerNumber, dump_table(slot_data)))
     end
     SLOT_DATA = slot_data
     CUR_INDEX = -1
@@ -74,16 +73,14 @@ function onClear(slot_data)
             end
         end
     end
-    LOCAL_ITEMS = {}
-    GLOBAL_ITEMS = {}
-
-    -- Update slot based info.
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print("Checking slot data.")
-    end
 
     -- Opened back doors, if server populates them.
-    for _, v in ipairs({ "opened_no4", "opened_no2", "opened_are" }) do
+    -- There are now two Underground Caverns back door flags (normal and before Death) so we need to check both.
+    if slot_data["early_open_no4"] == 1 then
+        slot_data["open_no4"] = 1
+    end
+
+    for _, v in ipairs({ "open_no4", "open_are" }) do
         local flag = slot_data[v]
         if flag ~= nil then
             local obj = Tracker:FindObjectForCode(v)
@@ -101,8 +98,22 @@ function onClear(slot_data)
         end
     end
 
+    -- Check which extension (location set) we're using.
+    local obj = Tracker:FindObjectForCode("extension")
+    if obj then
+        local flag = slot_data["extension"]
+        if flag ~= nil then
+            -- Full is 0, but we want to put them in increasing order so move everything down by 1.
+            obj.CurrentStage = (flag - 1) % 4
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print("onClear: could not find slot data for code extension")
+        end
+    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print("onClear: could not find object for code extension")
+    end
+
     -- Number of bosses needed.
-    local obj = Tracker:FindObjectForCode("bosses_need")
+    obj = Tracker:FindObjectForCode("bosses_need")
     if obj then
         if slot_data["bosses_need"] then
             obj.AcquiredCount = slot_data["bosses_need"]
@@ -117,6 +128,11 @@ end
 
 
 function onItem(index, item_id, item_name, player_number)
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("called onItem: index %s, item_id %s, item_name %s, player_number %s",
+                index, item_id, item_name, player_number))
+    end
+
     if index <= CUR_INDEX then
         return
     end
@@ -125,47 +141,41 @@ function onItem(index, item_id, item_name, player_number)
     local is_local = player_number == Archipelago.PlayerNumber
     local v = ITEM_MAPPING[item_id]
     if not v then
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onItem: could not find item_id %s", item_id))
+        end
         return
     end
 
-    local obj = Tracker:FindObjectForCode(v[1])
-    if obj then
-        if v[2] == "toggle" then
-            obj.Active = true
-        elseif v[2] == "progressive" then
-            if obj.Active then
-                obj.CurrentStage = obj.CurrentStage + 1
-            else
-                obj.Active = true
-            end
-        elseif v[2] == "consumable" then
-            obj.AcquiredCount = obj.AcquiredCount + obj.Increment
-        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
-        end
-    end
-
     if is_local then
-        if LOCAL_ITEMS[v[1]] then
-            LOCAL_ITEMS[v[1]] = LOCAL_ITEMS[v[1]] + 1
-        else
-            LOCAL_ITEMS[v[1]] = 1
-        end
-    else
-        if GLOBAL_ITEMS[v[1]] then
-            GLOBAL_ITEMS[v[1]] = GLOBAL_ITEMS[v[1]] + 1
-        else
-            GLOBAL_ITEMS[v[1]] = 1
+        local obj = Tracker:FindObjectForCode(v[1])
+        if obj then
+            if v[2] == "toggle" then
+                obj.Active = true
+            elseif v[2] == "progressive" then
+                if obj.Active then
+                    obj.CurrentStage = obj.CurrentStage + 1
+                else
+                    obj.Active = true
+                end
+            elseif v[2] == "consumable" then
+                obj.AcquiredCount = obj.AcquiredCount + obj.Increment
+            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
+            end
         end
     end
 end
 
 
 function onLocation(location_id, location_name)
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("called onLocation: location_id %s, location_name %s", location_id, location_name))
+    end
+
     local code = LOCATIONS_MAPPING[location_id]
     if not code then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("called onLocation: location_id %s, location_name %s", location_id, location_name))
             print(string.format("onLocation: could not find location_id %s", location_id))
         end
         return

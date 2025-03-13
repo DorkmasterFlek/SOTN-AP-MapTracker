@@ -89,20 +89,36 @@
         ]
     },
     "settings_grid": {
-        "type": "itemgrid",
-        "item_margin": "10,5",
-        "h_alignment": "left",
-        "item_size": 70,
-        "rows": [
-            [
-                "opened_no4",
-                "opened_are",
-                "opened_no2"
-            ],
-            [
-                "bosses_need",
-                "bosses_killed"
-            ]
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "group",
+                "header": "Underground Caverns Backdoor",
+                "content": {
+                    "type": "item",
+                    "margin": "10,0,10,10",
+                    "item": "open_no4"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Colosseum Backdoor",
+                "content": {
+                    "type": "item",
+                    "margin": "10,0,10,10",
+                    "item": "open_are"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Extension",
+                "content": {
+                    "type": "item",
+                    "margin": "10,0,10,10",
+                    "item": "extension"
+                }
+            }
         ]
     }
 }

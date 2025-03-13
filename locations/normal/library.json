@@ -3,10 +3,13 @@
         "name": "Long Library",
         "children": [
             {
-                "name": "Bronze Cuirass",
+                "name": "Item Below Librarian",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Bronze Cuirass",
+                        "name": "Item Below Librarian",
                         "item_count": 1
                     }
                 ],
@@ -24,22 +27,31 @@
                 ]
             },
             {
-                "name": "Top Level",
+                "name": "Top Left Room",
                 "access_rules": [
                     "$canJump"
                 ],
                 "sections": [
                     {
-                        "name": "Potion",
-                        "item_count": 1
+                        "name": "Item 1",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_relic_prog"
+                        ]
                     },
                     {
-                        "name": "Antivenom",
-                        "item_count": 1
+                        "name": "Item 2",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     },
                     {
-                        "name": "Faerie Card",
-                        "item_count": 1
+                        "name": "Item 3",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -56,10 +68,13 @@
                 ]
             },
             {
-                "name": "Faerie Scroll",
+                "name": "Top Right Floor",
+                "visibility_rules": [
+                    "logic_relic_prog"
+                ],
                 "sections": [
                     {
-                        "name": "Faerie Scroll",
+                        "name": "Top Right Floor",
                         "item_count": 1
                     }
                 ],
@@ -77,10 +92,13 @@
                 ]
             },
             {
-                "name": "Jewel of Open",
+                "name": "Librarian Shop Item",
+                "visibility_rules": [
+                    "logic_relic_prog"
+                ],
                 "sections": [
                     {
-                        "name": "Jewel of Open",
+                        "name": "Librarian Shop Item",
                         "item_count": 1
                     }
                 ],
@@ -98,16 +116,19 @@
                 ]
             },
             {
-                "name": "Back of Library",
+                "name": "Deeper Library",
                 "access_rules": [
                     "$canJump"
                 ],
                 "children": [
                     {
-                        "name": "Stone Mask",
+                        "name": "Upper Part Flame on Table",
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Stone Mask",
+                                "name": "Upper Part Flame on Table",
                                 "item_count": 1
                             }
                         ],
@@ -125,15 +146,21 @@
                         ]
                     },
                     {
-                        "name": "Behind Bookcase",
+                        "name": "Deeper Library Behind Bookshelf",
                         "sections": [
                             {
-                                "name": "Holy Rod",
-                                "item_count": 1
+                                "name": "Item 1",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_full"
+                                ]
                             },
                             {
-                                "name": "Topaz Circlet",
-                                "item_count": 1
+                                "name": "Item 2",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_equipment"
+                                ]
                             }
                         ],
                         "map_locations": [
@@ -150,19 +177,28 @@
                         ]
                     },
                     {
-                        "name": "Dead End",
+                        "name": "Deeper Library Lower Part",
                         "sections": [
                             {
-                                "name": "Takemitsu",
-                                "item_count": 1
+                                "name": "Statue 1",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_full"
+                                ]
                             },
                             {
-                                "name": "Onyx",
-                                "item_count": 1
+                                "name": "Statue 2",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_equipment"
+                                ]
                             },
                             {
-                                "name": "Frankfurter",
-                                "item_count": 1
+                                "name": "Red Vase",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "logic_full"
+                                ]
                             }
                         ],
                         "map_locations": [
@@ -179,34 +215,16 @@
                         ]
                     },
                     {
-                        "name": "Lesser Demon",
-                        "sections": [
-                            {
-                                "name": "Lesser Demon kill",
-                                "hosted_item": "lesserdemon"
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "normal",
-                                "x": 902,
-                                "y": 332
-                            },
-                            {
-                                "map": "vertical",
-                                "x": 902,
-                                "y": 1317
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Soul of Bat",
+                        "name": "Deeper Library Behind Mist Crate",
                         "access_rules": [
                             "mist"
                         ],
+                        "visibility_rules": [
+                            "logic_relic_prog"
+                        ],
                         "sections": [
                             {
-                                "name": "Soul of Bat",
+                                "name": "Deeper Library Behind Mist Crate",
                                 "item_count": 1
                             }
                         ],

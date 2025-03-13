@@ -6,10 +6,13 @@
         ],
         "children": [
             {
-                "name": "Boomerang",
+                "name": "Red Vase Alcove 2",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Boomerang",
+                        "name": "Red Vase Alcove 2",
                         "item_count": 1
                     }
                 ],
@@ -27,10 +30,13 @@
                 ]
             },
             {
-                "name": "Diamond",
+                "name": "Red Vase Alcove 3",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Diamond",
+                        "name": "Red Vase Alcove 3",
                         "item_count": 1
                     }
                 ],
@@ -48,10 +54,13 @@
                 ]
             },
             {
-                "name": "Fire Boomerang",
+                "name": "Bottom Yellow Vase",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Fire Boomerang",
+                        "name": "Bottom Yellow Vase",
                         "item_count": 1
                     }
                 ],
@@ -69,14 +78,17 @@
                 ]
             },
             {
-                "name": "Twilight Cloak",
+                "name": "After Spiked Tunnel",
                 "access_rules": [
                     "formofmist,spikebreaker",
                     "formofmist,powerofmist"
                 ],
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Twilight Cloak",
+                        "name": "After Spiked Tunnel",
                         "item_count": 1
                     }
                 ],
@@ -94,10 +106,13 @@
                 ]
             },
             {
-                "name": "Zircon",
+                "name": "Red Vase at Top",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Zircon",
+                        "name": "Red Vase at Top",
                         "item_count": 1
                     }
                 ],
@@ -115,10 +130,13 @@
                 ]
             },
             {
-                "name": "Shuriken",
+                "name": "Red Vase Alcove 5",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Shuriken",
+                        "name": "Red Vase Alcove 5",
                         "item_count": 1
                     }
                 ],
@@ -136,10 +154,13 @@
                 ]
             },
             {
-                "name": "Heart Vessel (Stairs)",
+                "name": "Red Vase Alcove 6",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Heart Vessel (Stairs)",
+                        "name": "Red Vase Alcove 6",
                         "item_count": 1
                     }
                 ],
@@ -157,10 +178,13 @@
                 ]
             },
             {
-                "name": "Heart Vessel (Next to Stairs)",
+                "name": "Next to Upper Save Point",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Heart Vessel (Next to Stairs)",
+                        "name": "Next to Upper Save Point",
                         "item_count": 1
                     }
                 ],
@@ -178,10 +202,13 @@
                 ]
             },
             {
-                "name": "TNT",
+                "name": "Red Vase Alcove 4",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "TNT",
+                        "name": "Red Vase Alcove 4",
                         "item_count": 1
                     }
                 ],
@@ -199,10 +226,13 @@
                 ]
             },
             {
-                "name": "Javelin",
+                "name": "Red Vase Alcove 1",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Javelin",
+                        "name": "Red Vase Alcove 1",
                         "item_count": 1
                     }
                 ],
@@ -220,10 +250,13 @@
                 ]
             },
             {
-                "name": "Manna Prism",
+                "name": "Tower 3 - Bottom Item",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Manna Prism",
+                        "name": "Tower 3 - Bottom Item",
                         "item_count": 1
                     }
                 ],
@@ -241,10 +274,13 @@
                 ]
             },
             {
-                "name": "Smart Potion",
+                "name": "Tower 3 - Yellow Vase",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Smart Potion",
+                        "name": "Tower 3 - Yellow Vase",
                         "item_count": 1
                     }
                 ],
@@ -262,10 +298,13 @@
                 ]
             },
             {
-                "name": "Life Vessel",
+                "name": "Tower 3 - Red Vase",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Life Vessel",
+                        "name": "Tower 3 - Red Vase",
                         "item_count": 1
                     }
                 ],
@@ -283,10 +322,13 @@
                 ]
             },
             {
-                "name": "Talwar",
+                "name": "Tower 2 - Bottom Item",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Talwar",
+                        "name": "Tower 2 - Bottom Item",
                         "item_count": 1
                     }
                 ],
@@ -304,10 +346,13 @@
                 ]
             },
             {
-                "name": "Bwaka Knife",
+                "name": "Tower 1 - Bottom Item",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Bwaka Knife",
+                        "name": "Tower 1 - Bottom Item",
                         "item_count": 1
                     }
                 ],
@@ -325,10 +370,13 @@
                 ]
             },
             {
-                "name": "Magic Missile",
+                "name": "Tower 1 - Red Vase",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Magic Missile",
+                        "name": "Tower 1 - Red Vase",
                         "item_count": 1
                     }
                 ],
@@ -346,14 +394,13 @@
                 ]
             },
             {
-                "name": "Medusa",
+                "name": "Medusa Kill Item",
+                "visibility_rules": [
+                    "logic_relic_prog"
+                ],
                 "sections": [
                     {
-                        "name": "Medusa kill",
-                        "hosted_item": "medusa"
-                    },
-                    {
-                        "name": "Heart of Vlad",
+                        "name": "Medusa Kill Item",
                         "item_count": 1
                     }
                 ],

@@ -83,369 +83,358 @@ def process_location(location, prefix):
             HOSTED_ITEMS[section.location_id] = section.hosted_item
 
 
-def boss_location(name, code, map, x, y, location_id, **kwargs):
-    return Location(name, map_locations=[map.location(x, y)], sections=[
-        Section(name + ' kill', hosted_item=code, location_id=location_id),
-    ], **kwargs)
-
-
 # *** Normal castle
 
 # Entrance
 entrance = Area('Castle Entrance', children=[
-    normal.simple_location('Heart Vessel (Above Death)', 17, 34, location_id=127110000),
-    normal.simple_location('Life Vessel (Below Shield Potion)', 18, 32, access_rules=['$canJump'], location_id=127110001),
-    Location('Hidden Room', map_locations=[normal.location(8, 36)], access_rules=['soulofbat,soulofwolf'], sections=[
-        Section('Life Apple', location_id=127110002),
-        Section('Jewel sword', location_id=127110009),
+    normal.simple_location('Above First Encounter With Death', 17, 34, visibility_rules=['logic_full'], location_id=108),
+    normal.simple_location('Right Alcove in Cube of Zoe Room', 18, 32, access_rules=['$canJump'], visibility_rules=['logic_full'], location_id=109),
+    Location('Wolf-Bat Secret Room', map_locations=[normal.location(8, 36)], access_rules=['soulofbat,soulofwolf'], sections=[
+        Section('Left Item', visibility_rules=['logic_equipment'], location_id=116),
+        Section('Right Item', visibility_rules=['logic_full'], location_id=110),
     ]),
-    normal.simple_location('Shield Potion', 17, 31, location_id=127110004),
-    normal.simple_location('Holy mail', 3, 33, access_rules=['$canFly'], location_id=127110005),
-    normal.simple_location('Heart Vessel (Teleport exit)', 15, 33, location_id=127110007),
-    Location('Above Entrance', map_locations=[normal.location(0.5, 33)], access_rules=['$canFly'], sections=[
-        Section('Life Vessel', location_id=127110008),
-        Section('Power of Wolf', location_id=127113113),
+    normal.simple_location('Behind Stone Wall in Cube of Zoe Room', 17, 31, visibility_rules=['logic_full'], location_id=111),
+    normal.simple_location('Attic Above Mermans', 3, 33, access_rules=['$canFly'], visibility_rules=['logic_full'], location_id=112),
+    normal.simple_location('Castle Entrance Teleport Exit', 15, 33, visibility_rules=['logic_full'], location_id=114),
+    Location('Attic Near Start Gate', map_locations=[normal.location(0.5, 33)], access_rules=['$canFly'], sections=[
+        Section('Left Item', visibility_rules=['logic_relic_prog'], location_id=120),
+        Section('Right Item', visibility_rules=['logic_full'], location_id=115),
     ]),
-    normal.simple_location('Pot Roast', 10, 35, location_id=127113110),
-    normal.simple_location('Turkey', 17, 35, location_id=127113111),
-    normal.simple_location('Cube of Zoe', 16, 31, location_id=127113112),
+    normal.simple_location('Breakable Wall Above Merman', 10, 35, visibility_rules=['logic_full'], location_id=117),
+    normal.simple_location('Breakable Ledge Before Death', 17, 35, visibility_rules=['logic_full'], location_id=118),
+    normal.simple_location('Pedestal in Cube of Zoe Room', 16, 31, visibility_rules=['logic_relic_prog'], location_id=119),
 ])
 
 # Alchemy Laboratory
 alchemy_lab = Area('Alchemy Laboratory', children=[
-    normal.simple_location('Hide Cuirass', 12, 31, location_id=127140000),
-    normal.simple_location('Heart Vessel', 9, 29, location_id=127140001),
-    normal.simple_location('Cloth Cape', 8, 24, location_id=127140002),
-    normal.simple_location('Life Vessel', 10, 31, location_id=127140003),
-    normal.simple_location('Sunglasses', 14, 26, location_id=127140006),
-    normal.simple_location('Resist Thunder', 9, 27, location_id=127140007),
-    normal.simple_location('Leather Shield', 11, 30, location_id=127140008),
-    normal.simple_location('Basilard', 14, 29, location_id=127140009),
-    normal.simple_location('Potion', 17, 22, location_id=127140010),
-    boss_location('Slogra & Gaibon', 'slogragaibon', normal, 8.5, 22.5, location_id=127143140),
-    normal.simple_location('Skill of Wolf', 13, 28, access_rules=['$canHighJump'], location_id=127143141),
-    normal.simple_location('Bat Card', 11, 22, access_rules=['$canHighJump'], location_id=127143142),
+    normal.simple_location('Globe by the Bottom Entrance', 12, 31, visibility_rules=['logic_full'], location_id=157),
+    normal.simple_location('Globe in Hidden Room Behind Breakable Wall', 9, 29, visibility_rules=['logic_full'], location_id=158),
+    normal.simple_location('Globe After Spike Puzzle', 8, 24, visibility_rules=['logic_equipment'], location_id=159),
+    normal.simple_location('Tank in Hidden Basement on Breakable Floor', 10, 31, visibility_rules=['logic_full'], location_id=160),
+    normal.simple_location('Globe on Middle Elevator Shaft Room', 14, 26, visibility_rules=['logic_equipment'], location_id=161),
+    normal.simple_location('Flame on Table Middle Way Up', 9, 27, visibility_rules=['logic_full'], location_id=162),
+    normal.simple_location('Flame Near Spike Switch', 11, 30, visibility_rules=['logic_full'], location_id=163),
+    normal.simple_location('Item by Cannon', 14, 29, visibility_rules=['logic_equipment'], location_id=164),
+    normal.simple_location('Globe in Big Room With Axe Lord and Spittle Bone', 17, 22, visibility_rules=['logic_full'], location_id=165),
+    normal.simple_location('Globe in Attic With Powerup Tanks', 13, 28, access_rules=['$canHighJump'],
+                           visibility_rules=['logic_relic_prog'], location_id=166),
+    normal.simple_location('Globe in Upper-left Room of Slogra and Gaibon', 11, 22, access_rules=['$canHighJump'],
+                           visibility_rules=['logic_relic_prog'], location_id=167),
 ])
 
 # Marble Gallery
 marble_gallery = Area('Marble Gallery', children=[
-    normal.simple_location('Life Vessel (Left Clock)', 29, 20, access_rules=['$canJump', 'opened_are,jewelofopen'], location_id=127080000),
+    normal.simple_location("Left Clock Before Olrox's Quarters", 29, 20, access_rules=['$canJump', 'open_are,jewelofopen'],
+                           visibility_rules=['logic_full'], location_id=70),
     # Need Cube of Zoe to get stop watch from candles!
     Location('Right Clock', map_locations=[normal.location(31.5, 20)], access_rules=['cubeofzoe,$canJump'], sections=[
-        Section('Heart Vessel', location_id=127080002),
-        Section('Alucart shield', location_id=127080001),
-        Section('Alucart mail', location_id=127080006),
-        Section('Alucart sword', location_id=127080007),
+        Section('Item 1', visibility_rules=['logic_full'], location_id=71),
+        Section('Item 2', visibility_rules=['logic_full'], location_id=72),
+        Section('Item 3', visibility_rules=['logic_full'], location_id=76),
+        Section('Item 4', visibility_rules=['logic_equipment'], location_id=77),
     ]),
-    Location('Middle Clock', map_locations=[normal.location(28.5, 18)], access_rules=['$canFly'], sections=[
-        Section('Life apple', location_id=127080003),
-        Section('Hammer', location_id=127080004),
-        Section('Potion', location_id=127080005),
+    Location('Middle Clock Left', map_locations=[normal.location(28.5, 18)], access_rules=['$canFly'], visibility_rules=['logic_full'], sections=[
+        Section('Left Item 1', location_id=73),
+        Section('Left Item 2', location_id=74),
+        Section('Left Item 3', location_id=75),
     ]),
     Area('Inside Clock', access_rules=['silverring,goldring'], children=[
-        Location('Right Side', map_locations=[normal.location(31, 22)], sections=[
-            Section('Life Vessel', location_id=127080008),
-            Section('Heart Vessel', location_id=127080009),
+        Location('Inside Clock', map_locations=[normal.location(31, 22)], visibility_rules=['logic_full'], sections=[
+            Section('Left Item', location_id=78),
+            Section('Right Item', location_id=79),
         ]),
-        normal.simple_location('Holy Glasses', 30, 26, location_id=127083080),
+        normal.simple_location('Item Given by Maria', 30, 26, visibility_rules=['logic_relic_prog'], location_id=84),
     ]),
-    Location('Under Floor', map_locations=[normal.location(42, 21)], access_rules=['jewelofopen'], sections=[
-        Section('Library Card', location_id=127080010),
-        Section('Attack Potion', location_id=127080011),
+    Location('Below Red Trap Door', map_locations=[normal.location(42, 21)], access_rules=['jewelofopen'], visibility_rules=['logic_full'], sections=[
+        Section('Left Item', location_id=81),
+        Section('Right Item', location_id=80),
     ]),
-    normal.simple_location('Hammer(Spirit)', 24, 25, access_rules=['$canHighJump'], location_id=127080012),
-    normal.simple_location('Str. Potion', 24, 23, access_rules=['$canHighJump'], location_id=127080013),
-    normal.simple_location('Spirit Orb', 23, 26, location_id=127083081),
-    normal.simple_location('Gravity Boots', 32, 18, access_rules=['$canFly'], location_id=127083082),
+    normal.simple_location('Descend to Entrance Item 1', 24, 23, access_rules=['$canHighJump'], visibility_rules=['logic_full'], location_id=83),
+    normal.simple_location('Descend to Entrance Item 2', 24, 25, access_rules=['$canHighJump'], visibility_rules=['logic_full'], location_id=82),
+    normal.simple_location('Descend to Entrance Item 3', 23, 26, visibility_rules=['logic_relic_prog'], location_id=85),
+    normal.simple_location('Middle Clock Right Item', 32, 18, access_rules=['$canFly'], visibility_rules=['logic_relic_prog'], location_id=86),
 ])
 
 # Outer Wall
 outer_wall = Area('Outer Wall', children=[
-    Location('Behind Grate', map_locations=[normal.location(57, 22)], sections=[
-        Section('Jewel Knuckles', location_id=127090000),
-        Section('Mirror Cuirass', location_id=127090001),
+    Location('Behind Mist Grate', map_locations=[normal.location(57, 22)], sections=[
+        Section('Item 1', visibility_rules=['logic_equipment'], location_id=87),
+        Section('Item 2', visibility_rules=['logic_full'], location_id=88),
     ]),
-    normal.simple_location('Heart Vessel', 58, 10, location_id=127090002),
-    normal.simple_location('Garnet', 59, 19, access_rules=['$canJump'], location_id=127090003),
-    normal.simple_location('Gladius', 57, 18, location_id=127090004),
-    normal.simple_location('Life Vessel', 59, 18, location_id=127090005),
-    normal.simple_location('Zircon', 59, 20, location_id=127090006),
-    normal.simple_location('Pot Roast', 57, 21, location_id=127093090),
-    boss_location('Doppleganger 10', 'doppleganger10', normal, 55.5, 18, location_id=127093091),
-    normal.simple_location('Soul of Wolf', 59, 13, location_id=127093092),
+    normal.simple_location('Red Vase Near Elevator Switch', 58, 10, visibility_rules=['logic_full'], location_id=89),
+    normal.simple_location('Yellow Vase on High Ledge', 59, 19, access_rules=['$canJump'], visibility_rules=['logic_full'], location_id=90),
+    normal.simple_location('Item After Doppleganger 10', 57, 18, visibility_rules=['logic_equipment'], location_id=91),
+    normal.simple_location('Red Vase After Doppleganger 10', 59, 18, visibility_rules=['logic_full'], location_id=92),
+    normal.simple_location('Red Vase Near Marble Gallery Door', 59, 20, visibility_rules=['logic_full'], location_id=93),
+    normal.simple_location('Breakable Wall in Room Behind Armor Lord', 57, 21, visibility_rules=['logic_full'], location_id=94),
+    normal.simple_location('Inside of Elevator', 59, 13, visibility_rules=['logic_relic_prog'], location_id=95),
 ])
 
 # Long Library
 library = Area('Long Library', children=[
-    normal.simple_location('Bronze Cuirass', 47, 16, location_id=127070004),
-    Location('Top Level', map_locations=[normal.location(50, 13)], access_rules=['$canJump'], sections=[
-        Section('Potion', location_id=127070008),
-        Section('Antivenom', location_id=127070009),
-        Section('Faerie Card', location_id=127073075),
+    normal.simple_location('Item Below Librarian', 47, 16, visibility_rules=['logic_equipment'], location_id=59),
+    Location('Top Left Room', map_locations=[normal.location(50, 13)], access_rules=['$canJump'], sections=[
+        Section('Item 1', visibility_rules=['logic_relic_prog'], location_id=68),
+        Section('Item 2', visibility_rules=['logic_full'], location_id=63),
+        Section('Item 3', visibility_rules=['logic_full'], location_id=64),
     ]),
-    normal.simple_location('Faerie Scroll', 57, 13, location_id=127073073),
-    normal.simple_location('Jewel of Open', 47, 15, location_id=127073074),
-    Area('Back of Library', access_rules=['$canJump'], children=[
-        normal.simple_location('Stone Mask', 47, 13, location_id=127070001),
-        Location('Behind Bookcase', map_locations=[normal.location(48, 13)], sections=[
-            Section('Holy Rod', location_id=127070002),
-            Section('Topaz Circlet', location_id=127070010),
+    normal.simple_location('Top Right Floor', 57, 13, visibility_rules=['logic_relic_prog'], location_id=67),
+    normal.simple_location('Librarian Shop Item', 47, 15, visibility_rules=['logic_relic_prog'], location_id=69),
+    Area('Deeper Library', access_rules=['$canJump'], children=[
+        normal.simple_location('Upper Part Flame on Table', 47, 13, visibility_rules=['logic_full'], location_id=57),
+        Location('Deeper Library Behind Bookshelf', map_locations=[normal.location(48, 13)], sections=[
+            Section('Item 1', visibility_rules=['logic_full'], location_id=65),
+            Section('Item 2', visibility_rules=['logic_equipment'], location_id=58),
         ]),
-        Location('Dead End', map_locations=[normal.location(44, 16)], sections=[
-            Section('Takemitsu', location_id=127070005),
-            Section('Onyx', location_id=127070006),
-            Section('Frankfurter', location_id=127070007),
+        Location('Deeper Library Lower Part', map_locations=[normal.location(44, 16)], sections=[
+            Section('Statue 1', visibility_rules=['logic_full'], location_id=60),
+            Section('Statue 2', visibility_rules=['logic_equipment'], location_id=61),
+            Section('Red Vase', visibility_rules=['logic_full'], location_id=62),
         ]),
-        boss_location('Lesser Demon', 'lesserdemon', normal, 43.5, 15, location_id=127073070),
-        normal.simple_location('Soul of Bat', 46, 16, access_rules=['mist'], location_id=127073072),
+        normal.simple_location('Deeper Library Behind Mist Crate', 46, 16, access_rules=['mist'],
+                               visibility_rules=['logic_relic_prog'], location_id=66),
     ]),
 ])
 
 # Royal Chapel
 chapel = Area('Royal Chapel', access_rules=['jewelofopen', '$canJump'], children=[
     Location('Middle of Stairs', map_locations=[normal.location(4, 18)], access_rules=['$canJump'], sections=[
-        Section('Ankh of Life', location_id=127050000),
-        Section('TNT', location_id=127050007),
+        Section('Red Vase on Alcove 4', visibility_rules=['logic_equipment'], location_id=41),
+        Section('Red Vase on Alcove 5', visibility_rules=['logic_full'], location_id=48),
     ]),
-    normal.simple_location('Morningstar', 7, 16, access_rules=['$canJump'], location_id=127050001),
-    normal.simple_location('Silver Ring', 6, 10, access_rules=['jewelofopen,formofmist,spikebreaker'], location_id=127050002),
-    normal.simple_location('Aquamarine', 0, 22, location_id=127050003),
+    normal.simple_location('Upper Alcove', 7, 16, access_rules=['$canJump'], visibility_rules=['logic_equipment'], location_id=42),
+    normal.simple_location('Item Behind Maria', 6, 10, access_rules=['jewelofopen,formofmist,spikebreaker'],
+                           visibility_rules=['logic_relic_prog'], location_id=43),
+    normal.simple_location('Bottom Red Vase', 0, 22, visibility_rules=['logic_full'], location_id=44),
     Location('Bottom of Stairs', map_locations=[normal.location(2, 20)], access_rules=['$canJump'], sections=[
-        Section('Mystic Pendant', location_id=127050004),
-        Section('Magic Missile', location_id=127050005),
+        Section('Red Vase on Alcove 1', visibility_rules=['logic_equipment'], location_id=45),
+        Section('Red Vase on Alcove 2', visibility_rules=['logic_full'], location_id=46),
     ]),
-    normal.simple_location('Shuriken', 3, 19, access_rules=['$canJump'], location_id=127050006),
-    normal.simple_location('Boomerang', 5, 17, access_rules=['$canJump'], location_id=127050008),
-    normal.simple_location('Goggles', 8, 16, location_id=127050009),
-    normal.simple_location('Silver Plate', 12, 7, location_id=127050010),
-    normal.simple_location('Str. Potion', 13, 8, location_id=127050011),
-    normal.simple_location('Life Vessel', 12, 8, location_id=127050012),
-    normal.simple_location('Zircon', 17, 6, location_id=127050013),
-    normal.simple_location('Cutlass', 25, 5, location_id=127050014),
-    normal.simple_location('Potion', 25, 6, location_id=127050015),
+    normal.simple_location('Red Vase on Alcove 3', 3, 19, access_rules=['$canJump'], visibility_rules=['logic_full'], location_id=47),
+    normal.simple_location('Red Vase on Alcove 6', 5, 17, access_rules=['$canJump'], visibility_rules=['logic_full'], location_id=49),
+    normal.simple_location('Inner Chapel Doorway Roof', 8, 16, visibility_rules=['logic_equipment'], location_id=50),
+    normal.simple_location('Tower 1 - Top Item', 12, 7, visibility_rules=['logic_equipment'], location_id=51),
+    normal.simple_location('Tower 1 - Yellow Vase', 13, 8, visibility_rules=['logic_full'], location_id=52),
+    normal.simple_location('Tower 1 - Red Vase', 12, 8, visibility_rules=['logic_full'], location_id=53),
+    normal.simple_location('Tower 2 - Top Item', 17, 6, visibility_rules=['logic_full'], location_id=54),
+    normal.simple_location('Tower 3 - Top Item', 25, 5, visibility_rules=['logic_equipment'], location_id=55),
+    normal.simple_location('Tower 3 - Red Vase', 25, 6, visibility_rules=['logic_full'], location_id=56),
     # Technically in Colosseum but on the other side of the back door from Chapel!
-    normal.simple_location('Knight Shield', 12, 17, location_id=127010004),
-    boss_location('Hippogryph', 'hippogryph', normal, 21.5, 8, location_id=127053050),
+    normal.simple_location('Next to Royal Chapel Passage', 12, 17, visibility_rules=['logic_equipment'], location_id=3),
 ])
 
 # Underground Caverns
 caverns = Area('Underground Caverns', children=[
     # Upper Caverns needs flight if entering from the back door from the start.
-    Area('Upper Caverns', access_rules=['jewelofopen', 'opened_no4,$canFly'], children=[
-        normal.simple_location('Zircon', 37, 21, access_rules=['$canJump'], location_id=127130009),
-        normal.simple_location('Heart Vessel', 34, 22, location_id=127130000),
-        normal.simple_location('Life Vessel', 35, 27, location_id=127130001),
-        normal.simple_location('Bandana', 33, 22, location_id=127130011),
-        normal.simple_location('Shiitake (Shaft)', 36, 31, location_id=127130012),
-        normal.simple_location('Shiitake (Cavern)', 35, 32, location_id=127130027),
+    Area('Upper Caverns', access_rules=['jewelofopen', 'open_no4,$canFly'], children=[
+        normal.simple_location('Red Vase on Ledge Next to Marble Gallery', 37, 21, access_rules=['$canJump'],
+                               visibility_rules=['logic_full'], location_id=128),
+        normal.simple_location('Wooden Stand Close to Stairway', 34, 22, visibility_rules=['logic_full'], location_id=121),
+        normal.simple_location('Middle of Stairway Room', 35, 27, visibility_rules=['logic_full'], location_id=122),
+        normal.simple_location('Breakable Wall Close to Stairway', 33, 22, visibility_rules=['logic_equipment'], location_id=130),
+        normal.simple_location('Bottom of Stairway', 36, 31, visibility_rules=['logic_full'], location_id=131),
+        normal.simple_location('Alcove Next to Drowned Guards', 35, 32, visibility_rules=['logic_full'], location_id=146),
         Location('Caverns Entrance', map_locations=[normal.location(36, 32)], sections=[
-            Section('Toadstool', location_id=127130026),
-            Section('Nunchaku', location_id=127130036),
+            Section('Below Stairway', visibility_rules=['logic_full'], location_id=145),
+            Section('Air Pocket Item', visibility_rules=['logic_equipment'], location_id=154),
         ]),
-        Location('Underwater', map_locations=[normal.location(28, 33)], access_rules=['holysymbol'], sections=[
-            Section('Antivenom', location_id=127130004),
-            Section('Life Vessel', location_id=127130005),
+        Location('Underwater', map_locations=[normal.location(28, 33)], access_rules=['holysymbol'], visibility_rules=['logic_full'], sections=[
+            Section('Top Underwater Item', location_id=124),
+            Section('Bottom Underwater Item', location_id=125),
         ]),
-        normal.simple_location('Pentagram', 23, 32, location_id=127130030),
-        normal.simple_location('Herald Shield', 20, 32, access_rules=['leapstone', '$canFly', '$canDash'], location_id=127130007),
-        Location('Below Bridge', map_locations=[normal.location(27, 32)], access_rules=['leapstone', '$canFly', '$canDash'], sections=[
-            Section('Life Vessel', location_id=127130028),
-            Section('Heart Vessel', location_id=127130029),
+        normal.simple_location('Underwater Stream', 23, 32, visibility_rules=['logic_full'], location_id=149),
+        normal.simple_location('Top Left Room From Waterfall', 20, 32, access_rules=['leapstone', '$canFly', '$canDash'],
+                               visibility_rules=['logic_full'], location_id=127),
+        Location('Below Wooden Bridge', map_locations=[normal.location(27, 32)], access_rules=['leapstone', '$canFly', '$canDash'],
+                 visibility_rules=['logic_full'], sections=[
+            Section('Left Item', location_id=147),
+            Section('Right Item', location_id=148),
         ]),
-        Area('Succubus Area', access_rules=['$canFly'], children=[
-            normal.simple_location('Claymore', 41, 24, location_id=127130013),
-            Location('Succubus Approach', map_locations=[normal.location(42, 27.5)], sections=[
-                Section('Meal Ticket', location_id=[127130014, 127130015, 127130016, 127130017]),
-                Section('Moonstone', location_id=127130018),
+        Area('Succubus Side', access_rules=['$canFly'], children=[
+            normal.simple_location('First Red Vase', 41, 24, visibility_rules=['logic_full'], location_id=132),
+            Location('Red Vases', map_locations=[normal.location(42, 27.5)], visibility_rules=['logic_full'], sections=[
+                Section('Red Vases', location_id=[133, 134, 135, 136, 137]),
             ]),
-            Location('Succubus', map_locations=[normal.location(43, 28)], sections=[
-                Section('Gold Ring', location_id=127130010),
-                Section('Succubus Kill', hosted_item='succubus', location_id=127133131),
-            ]),
+            normal.simple_location('Succubus Item', 43, 28, visibility_rules=['logic_relic_prog'], location_id=129),
         ]),
-        normal.simple_location('Crystal Cloak', 38, 33, location_id=127130002),
-        normal.simple_location('Scimitar', 43, 34, location_id=127130019),
-        normal.simple_location('Resist Ice', 41, 34, location_id=127130020),
-        normal.simple_location('Pot Roast', 43, 33, location_id=127130021),
-        boss_location("Scylla", "scylla", normal, 39, 33, location_id=127133130),
-        normal.simple_location('Knuckle Duster', 38, 37, location_id=127130023),
-        normal.simple_location('Life Vessel (Holy Symbol)', 40, 37, location_id=127130024),
-        normal.simple_location('Onyx', 43, 36, access_rules=['mermanstatue', '$canJump'], location_id=127130022),
-        normal.simple_location('Elixir', 50, 37, access_rules=['mermanstatue'], location_id=127130025),
-        normal.simple_location('Holy Symbol', 53, 36, access_rules=['mermanstatue'], location_id=127133132),
-        normal.simple_location('Secret Boots', 22, 34, access_rules=['$canJump'], location_id=127130031),
-        normal.simple_location('Shiitake (Waterfall)', 21, 35, access_rules=['$canJump'], location_id=127130032),
+        Area('Scylla Area', children=[
+            normal.simple_location('Scylla Item', 38, 33, visibility_rules=['logic_guarded'], location_id=123),
+            normal.simple_location('Right Item', 43, 34, visibility_rules=['logic_full'], location_id=138),
+            normal.simple_location('Left Item', 41, 34, visibility_rules=['logic_full'], location_id=139),
+            normal.simple_location('Red Vase', 43, 33, visibility_rules=['logic_full'], location_id=140),
+        ]),
+        Area('Ice Area', children=[
+            normal.simple_location('Underwater Item 1', 38, 37, visibility_rules=['logic_equipment'], location_id=142),
+            normal.simple_location('Underwater Item 2', 40, 37, visibility_rules=['logic_full'], location_id=143),
+            normal.simple_location('On Alcove', 43, 36, access_rules=['mermanstatue', '$canJump'],
+                                   visibility_rules=['logic_equipment'], location_id=141),
+            normal.simple_location('Underwater Item 3', 50, 37, access_rules=['mermanstatue'],
+                                   visibility_rules=['logic_full'], location_id=144),
+            normal.simple_location('After Ferryman', 53, 36, access_rules=['mermanstatue'],
+                                   visibility_rules=['logic_relic_prog'], location_id=155),
+        ]),
+        normal.simple_location('Alcove Behind Waterfall', 22, 34, access_rules=['$canJump'], visibility_rules=['logic_equipment'], location_id=150),
+        normal.simple_location('Waterfall Upper Item', 21, 35, access_rules=['$canJump'], visibility_rules=['logic_full'], location_id=151),
     ]),
-    Area('Lower Caverns', access_rules=['jewelofopen', 'opened_no4'], children=[
-        normal.simple_location('Toadstool (Waterfall)', 21, 37, access_rules=['$canJump'], location_id=127130033),
-        normal.simple_location('Life Vessel (Behind Waterfall)', 23, 37, location_id=127130006),
-        normal.simple_location('Shiitake (Near Entrance Passage)', 15, 36, location_id=127130035),
+    Area('Lower Caverns', access_rules=['jewelofopen', 'open_no4'], children=[
+        normal.simple_location('Waterfall Bottom Item', 21, 37, access_rules=['$canJump'], visibility_rules=['logic_full'], location_id=152),
+        normal.simple_location('Hidden Room Behind Waterfall', 23, 37, visibility_rules=['logic_full'], location_id=126),
+        normal.simple_location('Next to Castle Entrance Passage', 15, 36, visibility_rules=['logic_full'], location_id=153),
         # Technically in Entrance but on the other side of the back door from Caverns!
-        normal.simple_location('Life Vessel (Entrance Passage)', 12, 36, location_id=127110006),
-        normal.simple_location('Merman Statue', 6, 37, location_id=127133133),
+        normal.simple_location('By Underground Caverns Bottom Exit', 12, 36, visibility_rules=['logic_full'], location_id=113),
+        normal.simple_location('After Ferryman', 6, 37, visibility_rules=['logic_relic_prog'], location_id=156),
     ]),
 ])
 
 # Abandoned Mine
 mine = Area('Abandoned Mine', access_rules=[
-        '@Underground Caverns/Upper Caverns/Below Bridge',
+        '@Underground Caverns/Upper Caverns/Below Wooden Bridge',
     ], children=[
     Area('Behind Demon Button', access_rules=['demoncard'], children=[
-        Location('Demon Button Room', map_locations=[normal.location(34, 36)], sections=[
-            Section('Power of Sire', location_id=127040000),
-            Section('Barley Tea', location_id=127040008),
-            Section('Peanuts', location_id=[127040009, 127040010, 127040011, 127040012]),
+        Location('Behind Breakable Wall', map_locations=[normal.location(34, 36)], sections=[
+            Section('Behind Breakable Wall', location_id=[28, 34, 35, 36, 37, 38]),
         ]),
-        Location('Demon Button Shaft', map_locations=[normal.location(35, 36)], sections=[
-            Section('Ring of Ares', location_id=127040004),
-            Section('Turkey', location_id=127043040),
+        Location('Demon Side', map_locations=[normal.location(35, 36)], sections=[
+            Section('Item on the Floor', visibility_rules=['logic_equipment'], location_id=30),
+            Section('Item on Breakable Wall', visibility_rules=['logic_full'], location_id=39),
         ]),
     ]),
-    Location('Mine Shaft Bottom', map_locations=[normal.location(29, 43)], sections=[
-        Section('Karma Coin', location_id=127040001),
-        Section('Combat Knife', location_id=127040005),
+    Location('Bottom', map_locations=[normal.location(29, 43)], sections=[
+        Section('Left Item', visibility_rules=['logic_equipment'], location_id=31),
+        Section('Right Item', visibility_rules=['logic_full'], location_id=29),
     ]),
-    Location('Mine Shaft Middle', map_locations=[normal.location(30, 41)], sections=[
-        Section('Shiitake', location_id=[127040006, 127040007]),
+    Location('Bottom Descent', map_locations=[normal.location(30, 41)], sections=[
+        Section('Bottom Descent', visibility_rules=['logic_full'], location_id=[32, 33]),
     ]),
-    boss_location('Cerberus', 'cerberus', normal, 28.5, 35, location_id=127043041),
-    normal.simple_location('Demon Card', 27, 39, location_id=127043042),
+    normal.simple_location('Middle Descent Left Room', 27, 39, visibility_rules=['logic_relic_prog'], location_id=40),
 ])
 
 # Catacombs
 catacombs = Area('Catacombs', access_rules=['@Abandoned Mine'], children=[
-    Location('Catacombs Entrance', map_locations=[normal.location(26, 45)], sections=[
-        Section('Cat-Eye Circlet', location_id=127020000),
-        Section('Bloodstone', location_id=127020008),
-    ]),
-    normal.simple_location('Icebrand', 22, 45, access_rules=['$canHighJump'], location_id=127020001),
-    normal.simple_location('Walk Armor', 21, 45, location_id=127020002),
-    normal.simple_location('Mormegil', 15, 45, location_id=127020003),
-    Location('Lava Bridge', map_locations=[normal.location(24, 45)], access_rules=['$canHighJump'], sections=[
-        Section('Heart Vessel', location_id=127020006),
-        Section('Ballroom mask', location_id=127020007),
-    ]),
-    Location('Crypt', map_locations=[normal.location(30, 46)], sections=[
-        Section('Life Vessel', location_id=127020009),
-        Section('Heart Vessel', location_id=127020010),
-    ]),
-    Location('Sarcophagus', map_locations=[normal.location(31.5, 46)], sections=[
-        Section('Monster Vial 3', location_id=[127020017, 127020018, 127020019, 127020020]),
-    ]),
-    boss_location('Granfaloon', 'granfaloon', normal, 16.5, 45.5, location_id=127023020),
-    Area('Beyond Spike Maze', access_rules=['soulofbat,echoofbat', 'spikebreaker,$canJump'], children=[
-        Location('Spike Hallway', map_locations=[normal.location(46, 45)], sections=[
-            Section('Cross Shuriken', location_id=[127020011, 127020012]),
-            Section('Karma Coin', location_id=[127020013, 127020014]),
+    Area('Catacombs Upper', children=[
+        Location('After Save Point', map_locations=[normal.location(26, 45)], sections=[
+            Section('Breakable Wall', visibility_rules=['logic_full'], location_id=8),
+            Section('On Floor', visibility_rules=['logic_equipment'], location_id=15),
         ]),
-        normal.simple_location('Pork Bun', 46, 46, location_id=127020015),
+        normal.simple_location('Above Discus Lord Breakable Wall Room', 22, 45, access_rules=['$canHighJump'],
+                               visibility_rules=['logic_equipment'], location_id=9),
+    ]),
+    Area('Catacombs Bottom', children=[
+        normal.simple_location('After Save Point', 21, 45, visibility_rules=['logic_equipment'], location_id=10),
+        normal.simple_location('After Granfaloon', 15, 45, visibility_rules=['logic_guarded'], location_id=11),
+        Location('Above Discus Lord', map_locations=[normal.location(24, 45)], access_rules=['$canHighJump'], visibility_rules=['logic_full'], sections=[
+            Section('Red Vase 1', location_id=14),
+            Section('Red Vase 2', location_id=13),
+        ]),
+        Location('After Crypt', map_locations=[normal.location(30, 46)], visibility_rules=['logic_full'], sections=[
+            Section('Left Item', location_id=16),
+            Section('Right Item', location_id=17),
+        ]),
+        Location('Sarcophagus', map_locations=[normal.location(31.5, 46)], visibility_rules=['logic_full'], sections=[
+            Section('Sarcophagus', location_id=[24, 25, 26, 27]),
+        ]),
+    ]),
+    Area('After Dark Spiked Area', access_rules=['soulofbat,echoofbat', 'spikebreaker,$canJump'], children=[
+        Location('Red Vases', map_locations=[normal.location(46, 45)], visibility_rules=['logic_full'], sections=[
+            Section('Red Vases', location_id=[18, 19, 20, 21]),
+        ]),
+        normal.simple_location('Bottom Right Item', 46, 46, visibility_rules=['logic_full'], location_id=22),
         Location('Spike Breaker Room', map_locations=[normal.location(39, 46)], sections=[
-            Section('Library Card', location_id=127020004),
-            Section('Spike Breaker', location_id=127020016),
+            Section('Bottom Left Breakable', visibility_rules=['logic_full'], location_id=12),
+            Section('Bottom Left Item', visibility_rules=['logic_relic_prog'], location_id=23),
         ]),
     ]),
 ])
 
 # Olrox's Quarters
-olrox = Area("Olrox's Quarters", access_rules=['opened_no2,jewelofopen', 'opened_are,jewelofopen', '$canJump'], children=[
-    Area('Front Quarters', access_rules=[
-        '$canJump',
-        'opened_are,@Royal Chapel',
-        'opened_no2,jewelofopen,$canFly',
-    ], children=[
-        Location('Secret Hallway', map_locations=[normal.location(30, 17)], sections=[
-            Section('Broadsword', location_id=127100004),
-            Section('Onyx', location_id=127100005),
-            Section('Cheese', location_id=127100006),
+olrox = Area("Olrox's Quarters", access_rules=['open_are,jewelofopen', '$canJump'], children=[
+    Area('Front Quarters', access_rules=['$canJump', 'open_are,@Royal Chapel'], children=[
+        Location('Room Behind Breakable Wall', map_locations=[normal.location(30, 17)], sections=[
+            Section('Vase 1', visibility_rules=['logic_full'], location_id=99),
+            Section('Vase 2', visibility_rules=['logic_full'], location_id=98),
+            Section('Vase 3', visibility_rules=['logic_equipment'], location_id=97),
         ]),
-        normal.simple_location('Manna Prism', 33, 15, access_rules=['$canHighJump'], location_id=127100007),
-        normal.simple_location('Resist Fire', 33, 14, access_rules=['$canFly'], location_id=127100008),
-        normal.simple_location('Luck Potion', 33, 12, access_rules=['$canFly'], location_id=127100009),
-        normal.simple_location('Estoc', 28, 10, access_rules=['$canFly'], location_id=127100010),
+        normal.simple_location('Ascent Shaft Red Vase 1', 33, 15, access_rules=['$canHighJump'], visibility_rules=['logic_full'], location_id=100),
+        normal.simple_location('Ascent Shaft Red Vase 2', 33, 14, access_rules=['$canFly'], visibility_rules=['logic_full'], location_id=101),
+        normal.simple_location('Ascent Shaft Red Vase 3', 33, 12, access_rules=['$canFly'], visibility_rules=['logic_full'], location_id=102),
+        normal.simple_location('Ledge Before Drop to Courtyard', 28, 10, access_rules=['$canFly'], visibility_rules=['logic_equipment'], location_id=103),
     ]),
-    Area('Back Quarters', access_rules=[
-        '$canFly',
-        'opened_no2,jewelofopen',
-    ], children=[
-        normal.simple_location('Heart Vessel', 19, 14, location_id=127100001),
-        normal.simple_location('Iron Ball', 20, 11, access_rules=['$canFly'], location_id=127100011),
-        normal.simple_location('Garnet', 31, 13, access_rules=['$canFly'], location_id=127100012),
-        normal.simple_location('Echo of Bat', 14, 11, access_rules=['$canFly,$canTransform'], location_id=127103101),
-        normal.simple_location('Sword Card', 18, 13, access_rules=['$canHighJump'], location_id=127103102),
-        boss_location('Olrox', 'olrox', normal, 17.5, 11.5, access_rules=['$canFly,$canTransform'], location_id=127103100),
+    Area('Back Quarters', access_rules=['$canFly'], children=[
+        normal.simple_location('On Wooden Display', 19, 14, visibility_rules=['logic_full'], location_id=96),
+        normal.simple_location('Hole Before Olrox', 20, 11, access_rules=['$canFly'], visibility_rules=['logic_full'], location_id=104),
+        normal.simple_location('Right Room', 31, 13, access_rules=['$canFly'], visibility_rules=['logic_equipment'], location_id=105),
+        normal.simple_location('After Olrox', 14, 11, access_rules=['$canFly,$canTransform'], visibility_rules=['logic_relic_prog'], location_id=106),
+        normal.simple_location('Hidden Attic', 18, 13, access_rules=['$canHighJump'], visibility_rules=['logic_relic_prog'], location_id=107),
     ]),
 ])
 
 # Colosseum
-colosseum = Area('Colosseum', access_rules=['opened_are,jewelofopen', '$canJump'], children=[
-    normal.simple_location('Heart Vessel', 24, 19, location_id=127010000),
-    normal.simple_location('Shield Rod', 11, 19, location_id=127010001),
-    normal.simple_location('Blood Cloak', 18, 19, location_id=127010003),
-    normal.simple_location('Library Card', 16, 17, location_id=127010005),
-    normal.simple_location('Green Tea', 17, 19, location_id=127010006),
-    normal.simple_location('Holy Sword', 17, 15, access_rules=['$canHighJump'], location_id=127010007),
-    boss_location('Minotaurus & Werewolf', 'minotauruswerewolf', normal, 17.5, 17, location_id=127013010),
-    normal.simple_location('Form of Mist', 19, 17, location_id=127013011),
+colosseum = Area('Colosseum', access_rules=['open_are,jewelofopen', '$canJump'], children=[
+    normal.simple_location('Second Part - Bottom Right Room', 24, 19, visibility_rules=['logic_full'], location_id=0),
+    normal.simple_location('First Part - Bottom Left Room', 11, 19, visibility_rules=['logic_equipment'], location_id=1),
+    normal.simple_location('Second Part - Bottom Left Room', 18, 19, visibility_rules=['logic_equipment'], location_id=2),
+    normal.simple_location('Before Minotaurus & Werewolf', 16, 17, visibility_rules=['logic_full'], location_id=4),
+    normal.simple_location('First Part - Bottom Right Room', 17, 19, visibility_rules=['logic_full'], location_id=5),
+    normal.simple_location('Attic', 17, 15, access_rules=['$canHighJump'], visibility_rules=['logic_full'], location_id=6),
+    normal.simple_location('Behind Mist Crate', 19, 17, visibility_rules=['logic_relic_prog'], location_id=7),
 ])
 
 # Clock Tower
 clock_tower = Area('Clock Tower', access_rules=['$canJump'], children=[
-    Location('Below Bridge', map_locations=[normal.location(53, 9)], sections=[
-        Section('Magic Missile', location_id=127150000),
-        Section('Pentagram', location_id=127150001),
+    Location('Bellow Broken Bridge', map_locations=[normal.location(53, 9)], visibility_rules=['logic_full'], sections=[
+        Section('Item 1', location_id=169),
+        Section('Item 2', location_id=168),
     ]),
-    Location('Pillars', map_locations=[normal.location(52, 8)], access_rules=['$canHighJump'], sections=[
-        Section('Bekatowa', location_id=127150007),
-        Section('Shaman Shield', location_id=127150008),
-        Section('Ice Mail', location_id=127150009),
+    Location('On Top of Column', map_locations=[normal.location(52, 8)], access_rules=['$canHighJump'], sections=[
+        Section('Item 1', visibility_rules=['logic_full'], location_id=175),
+        Section('Item 2', visibility_rules=['logic_equipment'], location_id=174),
+        Section('Item 3', visibility_rules=['logic_full'], location_id=176),
     ]),
-    Location('Hidden Room', map_locations=[normal.location(47, 9)], sections=[
-        Section('Star Flail', location_id=127150003),
-        Section('Gold Plate', location_id=127150004),
-        Section('Steel Helm', location_id=127150005),
+    Location('Rotating Gears Puzzle Room', map_locations=[normal.location(47, 9)], sections=[
+        Section('Item 1', visibility_rules=['logic_full'], location_id=170),
+        Section('Item 2', visibility_rules=['logic_equipment'], location_id=171),
+        Section('Item 3', visibility_rules=['logic_full'], location_id=172),
     ]),
-    normal.simple_location('Healing Mail', 40, 6, location_id=127150006),
-    normal.simple_location('Life Vessel', 48, 4, location_id=127150010),
-    normal.simple_location('Heart Vessel', 50, 4, location_id=127150011),
-    normal.simple_location('Pot Roast', 46, 5, location_id=127153151),
-    Location('Keep Approach', map_locations=[normal.location(40, 5)], sections=[
-        Section('Bwaka Knife', location_id=127153150),
-        Section('Shuriken', location_id=127153152),
-        Section('TNT', location_id=127153153),
+    normal.simple_location('Behind Breakable Wall Close to Bronze Statue', 40, 6, visibility_rules=['logic_full'], location_id=173),
+    normal.simple_location('Gears Puzzle Room Breakable Wall Room Left Item', 48, 4, visibility_rules=['logic_full'], location_id=177),
+    normal.simple_location('Gears Puzzle Room Breakable Wall Room Right Item', 50, 4, visibility_rules=['logic_full'], location_id=178),
+    normal.simple_location('After Rotating Gears Behind Breakable Wall', 46, 5, visibility_rules=['logic_full'], location_id=180),
+    Location('Before Karasuman Breakable Wall', map_locations=[normal.location(40, 5)], visibility_rules=['logic_full'], sections=[
+        Section('Item 1', location_id=181),
+        Section('Item 2', location_id=179),
+        Section('Item 3', location_id=182),
     ]),
-    boss_location('Karasuman', 'karasuman', normal, 38, 5, location_id=127153154),
-    normal.simple_location('Fire of Bat', 57, 6, access_rules=['$canFly'], location_id=127153155),
+    normal.simple_location('Top Right Room in Open Area', 57, 6, access_rules=['$canFly'], visibility_rules=['logic_relic_prog'], location_id=183),
 ])
 
 # Castle Keep
 keep = Area('Castle Keep', children=[
-    Location('Keep Bottom', map_locations=[normal.location(29, 6)], access_rules=['$canJump', 'jewelofopen'], sections=[
-        Section('Turquoise', location_id=127160000),
-        Section('Turkey', location_id=127160001),
-        Section('Leap Stone', location_id=127163160),
+    Location('Open Area Bottom Left', map_locations=[normal.location(29, 6)], access_rules=['$canJump', 'jewelofopen'], sections=[
+        Section('On Ledge', visibility_rules=['logic_full'], location_id=184),
+        Section('On Ledge Breakable Wall', visibility_rules=['logic_full'], location_id=185),
+        Section('Floor Item', visibility_rules=['logic_relic_prog'], location_id=203),
     ]),
     Area('Main Keep', access_rules=['$canJump'], children=[
-        Location('Below Throne', map_locations=[normal.location(29, 4)], access_rules=['$canFly'], sections=[
-            Section('Fire Mail', location_id=127160002),
-            Section('Power of Mist', location_id=127163161),
+        Location('Open Area Top Left Alcove', map_locations=[normal.location(29, 4)], access_rules=['$canFly'], sections=[
+            Section('Breakable Wall', visibility_rules=['logic_full'], location_id=186),
+            Section('Floor Item', visibility_rules=['logic_relic_prog'], location_id=203),
         ]),
-        normal.simple_location('Tyrfing', 37, 6, location_id=127160003),
-        normal.simple_location('Falchion', 37, 3, location_id=127160012),
-        normal.simple_location('Heart Vessel', 33, 3, access_rules=['$canFly'], location_id=127160018),
-        Location('Above Throne', map_locations=[normal.location(32, 1)], access_rules=['$canFly'], sections=[
-            Section('Sirloin', location_id=127160004),
-            Section('Turkey', location_id=127160005),
-            Section('Pot Roast', location_id=127160006),
-            Section('Frankfurter', location_id=127160007),
-            Section('Resist Stone', location_id=127160008),
-            Section('Resist Dark', location_id=127160009),
-            Section('Resist Holy', location_id=127160010),
-            Section('Platinum Mail', location_id=127160011),
+        normal.simple_location('Top Right Room by Dual Moving Platforms', 37, 6, visibility_rules=['logic_full'], location_id=187),
+        normal.simple_location('Attic by Elevator Surround by Torches', 37, 3, visibility_rules=['logic_equipment'], location_id=196),
+        normal.simple_location('Red Vase Before Richter', 33, 3, access_rules=['$canFly'], visibility_rules=['logic_full'], location_id=201),
+        Location('Hidden Stair Room', map_locations=[normal.location(32, 1)], access_rules=['$canFly'], sections=[
+            Section('Left Statue 1', visibility_rules=['logic_full'], location_id=188),
+            Section('Left Statue 2', visibility_rules=['logic_full'], location_id=189),
+            Section('Left Yellow Vase 1', visibility_rules=['logic_full'], location_id=190),
+            Section('Left Yellow Vase 2', visibility_rules=['logic_full'], location_id=191),
+            Section('Right Yellow Vase 1', visibility_rules=['logic_full'], location_id=192),
+            Section('Right Yellow Vase 2', visibility_rules=['logic_full'], location_id=193),
+            Section('Right Statue 1', visibility_rules=['logic_full'], location_id=194),
+            Section('Right Statue 2', visibility_rules=['logic_equipment'], location_id=195),
         ]),
-        Location('Viewing Room', map_locations=[normal.location(36.5, 1)], access_rules=['$canFly'], sections=[
-            Section('Life Vessel', location_id=[127160013, 127160014]),
-            Section('Heart Vessel', location_id=[127160015, 127160016]),
-            Section('Ghost Card', location_id=127163162),
+        Location('Open Area Top Right Room', map_locations=[normal.location(36.5, 1)], access_rules=['$canFly'], sections=[
+            Section('Items 1-4', visibility_rules=['logic_full'], location_id=[197, 198, 199, 200]),
+            Section('Item 5', visibility_rules=['logic_relic_prog'], location_id=204),
         ]),
     ]),
 ])
@@ -454,309 +443,300 @@ keep = Area('Castle Keep', children=[
 
 # Reverse Entrance
 reverse_entrance = Area("Reverse Entrance", access_rules=['$canAccessInvertedCastle'], children=[
-    inverted.simple_location("Life Vessel", 42, 12, location_id=127270008),
-    inverted.simple_location("Talisman", 41, 14, location_id=127270009),
-    Location("Hidden Room", map_locations=[inverted.location(51, 10)], access_rules=['soulofbat,soulofwolf'], sections=[
-        Section("Zircon", location_id=127270004),
-        Section("Opal", location_id=127270005),
-        Section("Beryl Circlet", location_id=127270006),
+    inverted.simple_location("Middle Room in Open Area Before Main Corridor", 42, 12, visibility_rules=['logic_full'], location_id=309),
+    inverted.simple_location("Room by Nova Skeleton on the Ledge", 41, 14, visibility_rules=['logic_equipment'], location_id=310),
+    Location("Wolf-Bat Secret Room", map_locations=[inverted.location(51, 10)], access_rules=['soulofbat,soulofwolf'], sections=[
+        Section("Left Item", visibility_rules=['logic_full'], location_id=305),
+        Section("Middle Item", visibility_rules=['logic_full'], location_id=306),
+        Section("Right Item", visibility_rules=['logic_equipment'], location_id=307),
     ]),
-    inverted.simple_location("Heart Vessel", 42, 15, location_id=127270003),
-    inverted.simple_location("Fire Boomerang", 56, 13, location_id=127270007),
-    Location("Below Entrance", map_locations=[inverted.location(58.5, 13)], sections=[
-        Section("Hammer", location_id=127270000),
-        Section("Antivenom", location_id=127270001),
+    inverted.simple_location("Bellow Stone Pedestal", 42, 15, visibility_rules=['logic_full'], location_id=304),
+    inverted.simple_location("Hole in Main Corridor Back Item", 56, 13, visibility_rules=['logic_full'], location_id=308),
+    Location("Main Gate Bottom", map_locations=[inverted.location(58.5, 13)], visibility_rules=['logic_full'], sections=[
+        Section("Left Item", location_id=301),
+        Section("Right Item", location_id=302),
     ]),
-    inverted.simple_location("Pot Roast", 49, 11, location_id=127273270),
-    inverted.simple_location("High Potion", 42, 11, location_id=127270002),
+    inverted.simple_location("Breakable Big Rock in Main Corridor", 49, 11, visibility_rules=['logic_full'], location_id=311),
+    inverted.simple_location("Breakable Ledge on Main Corridor", 42, 11, visibility_rules=['logic_full'], location_id=303),
 ])
 
 # Necromancy Laboratory
 necromancy_lab = Area("Necromancy Laboratory", access_rules=['$canAccessInvertedCastle'], children=[
-    inverted.simple_location("Resist Dark", 47, 15, location_id=127290009),
-    inverted.simple_location("Heart Vessel", 50, 17, location_id=127290001),
-    inverted.simple_location("Life Vessel", 51, 22, location_id=127290002),
-    inverted.simple_location("Katana", 49, 15, location_id=127290005),
-    inverted.simple_location("Goddess Shield", 45, 20, location_id=127290003),
-    inverted.simple_location("Manna Prism", 48, 16, location_id=127290004),
-    inverted.simple_location("Turquoise", 42, 24, location_id=127290007),
-    inverted.simple_location("High Potion", 46, 18, location_id=127290006),
-    inverted.simple_location("Ring of Arcana", 48, 24, location_id=127290008),
-    boss_location('Beelzebub', 'beelzebub', inverted, 50.5, 23.5, location_id=127293290),
+    inverted.simple_location("Globe in the Room With Lesser Demons and Ctulhu", 47, 15, visibility_rules=['logic_full'], location_id=348),
+    inverted.simple_location("Breakable Wall on Tunnel Right of Elevator Shaft", 50, 17, visibility_rules=['logic_full'], location_id=340),
+    inverted.simple_location("Bottom Room From Spike Traps", 51, 22, visibility_rules=['logic_full'], location_id=341),
+    inverted.simple_location("Breakable Ceiling on Tunnel Right of Elevator Shaft", 49, 15, visibility_rules=['logic_equipment'], location_id=344),
+    inverted.simple_location("Middle Room on Elevator Shaft", 45, 20, visibility_rules=['logic_equipment'], location_id=342),
+    inverted.simple_location("Blue Flame in Room With Lesser and Fire Demons", 48, 16, visibility_rules=['logic_full'], location_id=343),
+    inverted.simple_location("Globe in Bitterfly Room", 42, 24, visibility_rules=['logic_full'], location_id=346),
+    inverted.simple_location("Hole in Room With Lesser and Fire Demons", 46, 18, visibility_rules=['logic_full'], location_id=345),
+    inverted.simple_location("Bottom Left Room From Beezelbub", 48, 24, visibility_rules=['logic_guarded'], location_id=347),
 ])
 
 # Black Marble Gallery
 black_marble_gallery = Area("Black Marble Gallery", access_rules=['$canAccessInvertedCastle'], children=[
-    inverted.simple_location("Library Card", 35, 17, location_id=127240000),
-    Location("Left Clock", map_locations=[inverted.location(27.5, 26)], sections=[
-        Section("Resist Dark", location_id=127240005),
-        Section("Resist Holy", location_id=127240006),
-        Section("Resist Thunder", location_id=127240007),
-        Section("Resist Fire", location_id=127240008),
+    inverted.simple_location("Corridor to Entrance Item on Spike Trap", 35, 17, visibility_rules=['logic_full'], location_id=266),
+    Location("Left Clock", map_locations=[inverted.location(27.5, 26)], visibility_rules=['logic_full'], sections=[
+        Section("First Room Item on Left", location_id=273),
+        Section("First Room Item on Right", location_id=274),
+        Section("Second Room Item on Left", location_id=271),
+        Section("Second Room Item on Right", location_id=272),
     ]),
-    inverted.simple_location("Life Vessel", 31, 28, location_id=127240003),
-    inverted.simple_location("Heart Vessel", 27, 28, location_id=127240004),
-    inverted.simple_location("Iron Ball", 17, 25, location_id=127240010),
-    inverted.simple_location("Meal Ticket", 15, 27, access_rules=['jewelofopen'], location_id=127240009),
-    inverted.simple_location("Antivenom", 36, 22, location_id=127240002),
-    inverted.simple_location("Potion", 36, 20, location_id=127240001),
+    inverted.simple_location("Middle Clock Right Item", 31, 28, visibility_rules=['logic_full'], location_id=269),
+    inverted.simple_location("Middle Clock Left Item", 27, 28, visibility_rules=['logic_full'], location_id=270),
+    inverted.simple_location("Hole on the Ceiling", 17, 25, visibility_rules=['logic_full'], location_id=276),
+    inverted.simple_location("Behind Magic Blue Door", 15, 27, access_rules=['jewelofopen'], visibility_rules=['logic_full'], location_id=275),
+    inverted.simple_location("Ascend to Entrance Item on Floor 1", 36, 22, visibility_rules=['logic_full'], location_id=268),
+    inverted.simple_location("Ascend to Entrance Item on Floor 2", 36, 20, visibility_rules=['logic_full'], location_id=267),
     Area("Inside Clock", access_rules=['$canFightDracula'], children=[
-        inverted.simple_location("Heart Refresh", 28, 24, location_id=127240011),
+        inverted.simple_location("Item Inside the Clock", 28, 24, visibility_rules=['logic_full'], location_id=277),
         inverted.simple_location("Kill Dracula", 29, 20),
     ]),
 ])
 
 # Reverse Outer Wall
 reverse_outer_wall = Area("Reverse Outer Wall", access_rules=['$canAccessInvertedCastle'], children=[
-    Location("Behind Grate", map_locations=[inverted.location(2, 24)], access_rules=['formofmist'], sections=[
-        Section("Shotel", location_id=127250001),
-        Section("Hammer", location_id=127250002),
+    Location("Mist Crate Room", map_locations=[inverted.location(2, 24)], access_rules=['formofmist'], sections=[
+        Section("Left Item", visibility_rules=['logic_full'], location_id=279),
+        Section("Right Item", visibility_rules=['logic_equipment'], location_id=280),
     ]),
-    inverted.simple_location("Garnet", 1, 36, location_id=127250007),
-    inverted.simple_location("Luck Potion", 0, 27, location_id=127250004),
-    inverted.simple_location("Shield Potion", 2, 28, location_id=127250005),
-    inverted.simple_location("High Potion", 0, 28, location_id=127250006),
-    inverted.simple_location("Life Vessel", 0, 26, location_id=127250003),
-    inverted.simple_location("Dim Sum Set", 2, 25, location_id=127253250),
-    Location("The Creature", map_locations=[inverted.location(3.5, 28)], sections=[
-        Section('Creature kill', hosted_item='creature', location_id=127253251),
-        Section('Tooth of Vlad', location_id=127253252),
-    ]),
-    inverted.simple_location("Heart Vessel", 0, 23, location_id=127250000),
+    inverted.simple_location("Bottom Red Vase Near Elevator Machinery", 1, 36, visibility_rules=['logic_full'], location_id=285),
+    inverted.simple_location("Yellow Vase on Alcove Near Creature", 0, 27, visibility_rules=['logic_full'], location_id=282),
+    inverted.simple_location("Item on the Floor Near Creature", 2, 28, visibility_rules=['logic_full'], location_id=283),
+    inverted.simple_location("Red Vase Near Creature", 0, 28, visibility_rules=['logic_full'], location_id=284),
+    inverted.simple_location("Red Vase Near Door to BMG", 0, 26, visibility_rules=['logic_full'], location_id=281),
+    inverted.simple_location("Breakable Wall on Room Below Mist Crate", 2, 25, visibility_rules=['logic_full'], location_id=286),
+    inverted.simple_location("Creature Kill Item", 3.5, 28, visibility_rules=['logic_relic_prog'], location_id=287),
+    inverted.simple_location("Item at the Top", 0, 23, visibility_rules=['logic_full'], location_id=278),
 ])
 
 # Forbidden Library
 reverse_library = Area("Forbidden Library", access_rules=['$canAccessInvertedCastle'], children=[
-    inverted.simple_location("Neutron Bomb", 12, 33, location_id=127230006),
-    inverted.simple_location("Badelaire", 11, 33, location_id=127230007),
-    Location("Side Room", map_locations=[inverted.location(9, 33)], sections=[
-        Section("Resist Fire", location_id=127230003),
-        Section("Resist Ice", location_id=127230004),
-        Section("Resist Stone", location_id=127230005),
+    inverted.simple_location("Bottom Left Room Green Candle", 12, 33, visibility_rules=['logic_full'], location_id=263),
+    inverted.simple_location("Bottom Left Room Behind Bookshelf", 11, 33, visibility_rules=['logic_equipment'], location_id=264),
+    Location("Bottom Right Room", map_locations=[inverted.location(9, 33)], visibility_rules=['logic_full'], sections=[
+        Section("Left Item", location_id=260),
+        Section("Middle Item", location_id=261),
+        Section("Right Item", location_id=262),
     ]),
-    inverted.simple_location("Staurolite", 13, 30, access_rules=['formofmist'], location_id=127230008),
-    Location("Reverse Librarian", map_locations=[inverted.location(12, 31)], sections=[
-        Section('Turquoise', location_id=127230000),
-        Section('Opal', location_id=127230001),
-        Section('Library Card', location_id=127230002),
+    inverted.simple_location("Behind Mist Crate", 13, 30, access_rules=['formofmist'], visibility_rules=['logic_equipment'], location_id=265),
+    Location("Inner Study", map_locations=[inverted.location(12, 31)], visibility_rules=['logic_full'], sections=[
+        Section('Red Vase', location_id=257),
+        Section('Left Statue', location_id=258),
+        Section('Right Statue', location_id=259),
     ]),
 ])
 
 # Anti-Chapel
 anti_chapel = Area("Anti-Chapel", access_rules=['$canAccessInvertedCastle'], children=[
-    inverted.simple_location("Boomerang", 55, 28, location_id=127220008),
-    inverted.simple_location("Diamond", 55, 27, location_id=127220003),
-    inverted.simple_location("Fire Boomerang", 52, 30, location_id=127220002),
-    inverted.simple_location("Twilight Cloak", 52, 36, access_rules=[
+    inverted.simple_location("Red Vase Alcove 2", 55, 28, visibility_rules=['logic_full'], location_id=246),
+    inverted.simple_location("Red Vase Alcove 3", 55, 27, visibility_rules=['logic_full'], location_id=241),
+    inverted.simple_location("Bottom Yellow Vase", 52, 30, visibility_rules=['logic_full'], location_id=240),
+    inverted.simple_location("After Spiked Tunnel", 52, 36, access_rules=[
         'formofmist,spikebreaker',
         'formofmist,powerofmist',
-    ], location_id=127220016),
-    inverted.simple_location("Zircon", 59, 24, location_id=127220004),
-    inverted.simple_location("Shuriken", 57, 26, location_id=127220006),
-    inverted.simple_location("Heart Vessel (Stairs)", 57, 25, location_id=127220005),
-    inverted.simple_location("Heart Vessel (Next to Stairs)", 58, 23, location_id=127220017),
-    inverted.simple_location("TNT", 56, 27, location_id=127220007),
-    inverted.simple_location("Javelin", 54, 29, location_id=127220009),
-    inverted.simple_location("Manna Prism", 47, 39, location_id=127220010),
-    inverted.simple_location("Smart Potion", 46, 38, location_id=127220011),
-    inverted.simple_location("Life Vessel", 47, 37, location_id=127220012),
-    inverted.simple_location("Talwar", 42, 40, location_id=127220013),
-    inverted.simple_location("Bwaka Knife", 34, 41, location_id=127220014),
-    inverted.simple_location("Magic Missile", 34, 40, location_id=127220015),
-    Location("Medusa", map_locations=[inverted.location(37.5, 38)], sections=[
-        Section('Medusa kill', hosted_item='medusa', location_id=127223220),
-        Section('Heart of Vlad', location_id=127223221),
-    ]),
+    ], visibility_rules=['logic_equipment'], location_id=254),
+    inverted.simple_location("Red Vase at Top", 59, 24, visibility_rules=['logic_full'], location_id=242),
+    inverted.simple_location("Red Vase Alcove 5", 57, 26, visibility_rules=['logic_full'], location_id=244),
+    inverted.simple_location("Red Vase Alcove 6", 57, 25, visibility_rules=['logic_full'], location_id=243),
+    inverted.simple_location("Next to Upper Save Point", 58, 23, visibility_rules=['logic_full'], location_id=255),
+    inverted.simple_location("Red Vase Alcove 4", 56, 27, visibility_rules=['logic_full'], location_id=245),
+    inverted.simple_location("Red Vase Alcove 1", 54, 29, visibility_rules=['logic_full'], location_id=247),
+    inverted.simple_location("Tower 3 - Bottom Item", 47, 39, visibility_rules=['logic_full'], location_id=248),
+    inverted.simple_location("Tower 3 - Yellow Vase", 46, 38, visibility_rules=['logic_full'], location_id=249),
+    inverted.simple_location("Tower 3 - Red Vase", 47, 37, visibility_rules=['logic_full'], location_id=250),
+    inverted.simple_location("Tower 2 - Bottom Item", 42, 40, visibility_rules=['logic_equipment'], location_id=251),
+    inverted.simple_location("Tower 1 - Bottom Item", 34, 41, visibility_rules=['logic_full'], location_id=252),
+    inverted.simple_location("Tower 1 - Red Vase", 34, 40, visibility_rules=['logic_full'], location_id=253),
+    inverted.simple_location("Medusa Kill Item", 37.5, 38, visibility_rules=['logic_relic_prog'], location_id=256),
 ])
 
 # Reverse Caverns
 reverse_caverns = Area("Reverse Caverns", access_rules=['$canAccessInvertedCastle'], children=[
-    inverted.simple_location("Life Vessel", 25, 24, location_id=127280012),
-    inverted.simple_location("Opal", 24, 19, location_id=127280011),
-    inverted.simple_location("Dark Blade", 21, 13, location_id=127280023),
-    Location("Underwater", map_locations=[inverted.location(31, 13)], access_rules=['gravityboots'], sections=[
-        Section('Life Vessel', location_id=127280006),
-        Section('Potion', location_id=127280008),
+    inverted.simple_location("Stairs - Bottom Item", 25, 24, visibility_rules=['logic_full'], location_id=324),
+    inverted.simple_location("Stairs - Middle Room", 24, 19, visibility_rules=['logic_equipment'], location_id=323),
+    inverted.simple_location("Bottom Area Right Room", 21, 13, visibility_rules=['logic_guarded'], location_id=335),
+    Location("Underwater", map_locations=[inverted.location(31, 13)], access_rules=['gravityboots'], visibility_rules=['logic_full'], sections=[
+        Section('Top Item', location_id=318),
+        Section('Bottom Item', location_id=320),
     ]),
-    inverted.simple_location("Osafune Katana", 36, 9, access_rules=[
+    inverted.simple_location("Behind Waterfall Room", 36, 9, access_rules=[
         'soulofbat',
         'gravityboots,leapstone',
-    ], location_id=127280026),
-    inverted.simple_location("Garnet", 39, 14, location_id=127280004),
-    inverted.simple_location("Zircon (Vase)", 22, 25, location_id=127280014),
-    inverted.simple_location("Diamond", 26, 24, location_id=127280013),
-    inverted.simple_location("Heart Vessel (Air Pocket)", 23, 13, access_rules=['gravityboots,holysymbol'], location_id=127280007),
-    inverted.simple_location("Heart Vessel (Succubus Side)", 18, 22, location_id=127280015),
-    Location("Succubus Side", map_locations=[inverted.location(17, 18.5)], sections=[
-        Section("Meal Ticket", location_id=[127280016, 127280017, 127280018, 127280019, 127280020]),
+    ], visibility_rules=['logic_equipment'], location_id=338),
+    inverted.simple_location("Waterfall - Bottom Right Room", 39, 14, visibility_rules=['logic_equipment'], location_id=316),
+    inverted.simple_location("Red Vase Near Exit", 22, 25, visibility_rules=['logic_full'], location_id=326),
+    inverted.simple_location("Bottom Item Behind Breakable Wall", 26, 24, visibility_rules=['logic_equipment'], location_id=325),
+    inverted.simple_location("Item on Air Pocket", 23, 13, access_rules=['gravityboots,holysymbol'],
+                             visibility_rules=['logic_full'], location_id=319),
+    inverted.simple_location("First Red Vase", 18, 22, visibility_rules=['logic_full'], location_id=327),
+    Location("Succubus Side", map_locations=[inverted.location(17, 18.5)], visibility_rules=['logic_full'], sections=[
+        Section("Red Vases", location_id=[328, 329, 330, 331, 332]),
     ]),
-    inverted.simple_location("Zircon (Doppleganger)", 18, 12, location_id=127280021),
-    inverted.simple_location("Pot Roast", 16, 13, location_id=127280022),
-    inverted.simple_location("Elixir", 16, 10, location_id=127280025),
-    inverted.simple_location("Manna Prism", 19, 9, location_id=127280024),
-    inverted.simple_location("Shiitake (Near Air Pocket)", 23.5, 14, location_id=[127280009, 127280010]),
-    inverted.simple_location("Bat Pentagram", 36, 14, access_rules=['leapstone', 'soulofbat'], location_id=127280005),
-    inverted.simple_location("Shiitake (Waterfall)", 38, 11, location_id=127280003),
-    inverted.simple_location("Toadstool", 38, 10, location_id=127280002),
-    inverted.simple_location("Shiitake (Near Entrance Passage)", 44, 10, location_id=127280001),
-    boss_location('Doppleganger40', 'doppleganger40', inverted, 21, 12, location_id=127283280),
-    inverted.simple_location("Force of Echo", 6, 10, location_id=127283281),
-    inverted.simple_location("Alucard Shield", 53, 9, location_id=127280000),
+    inverted.simple_location("Item on Alcove", 18, 12, visibility_rules=['logic_full'], location_id=333),
+    inverted.simple_location("Bottom Area Left Red Vase", 16, 13, visibility_rules=['logic_full'], location_id=334),
+    inverted.simple_location("Inside Cave", 16, 10, visibility_rules=['logic_full'], location_id=337),
+    inverted.simple_location("Underwater Alcove Item", 19, 9, visibility_rules=['logic_full'], location_id=336),
+    inverted.simple_location("Alcove Near Water Leak", 24, 14, visibility_rules=['logic_full'], location_id=321),
+    inverted.simple_location("Near Stairs Hole", 23, 14, visibility_rules=['logic_full'], location_id=322),
+    inverted.simple_location("Underwater Stream", 36, 14, access_rules=['leapstone', 'soulofbat'],
+                             visibility_rules=['logic_full'], location_id=317),
+    inverted.simple_location("Waterfall - Alcove 1", 38, 10, visibility_rules=['logic_full'], location_id=314),
+    inverted.simple_location("Waterfall - Alcove 2", 38, 11, visibility_rules=['logic_full'], location_id=315),
+    inverted.simple_location("Near Exit", 44, 10, visibility_rules=['logic_full'], location_id=313),
+    inverted.simple_location("Ice Area - At End", 6, 10, visibility_rules=['logic_relic_prog'], location_id=339),
+    inverted.simple_location("End of Cavern", 53, 9, visibility_rules=['logic_equipment'], location_id=312),
 ])
 
 # Cave
 cave = Area("Cave", access_rules=['$canAccessInvertedCastle'], children=[
-    Location("Demon Button Room", map_locations=[inverted.location(25, 10)], access_rules=['demoncard'], sections=[
-        Section("Power of Sire", location_id=127210000),
-        Section("Life Apple", location_id=127210001),
+    Location("Breakable Wall Room", map_locations=[inverted.location(25, 10)], access_rules=['demoncard'], visibility_rules=['logic_full'], sections=[
+        Section("Left Item", location_id=232),
+        Section("Right Item", location_id=233),
     ]),
-    inverted.simple_location("Green Tea", 24, 10, access_rules=['demoncard'], location_id=127210003),
-    inverted.simple_location("Power of Sire", 30, 3, location_id=127210004),
-    inverted.simple_location("Shiitake", 29, 5, location_id=[127210006, 127210007]),
-    inverted.simple_location("Alucard Sword", 32, 7, location_id=127210002),
-    Location("Death", map_locations=[inverted.location(30.5, 11)], sections=[
-        Section("Death kill", hosted_item='death', location_id=127213210),
-        Section("Eye of Vlad", location_id=127213211),
-    ]),
+    inverted.simple_location("Upper Right Room Left Item", 24, 10, access_rules=['demoncard'], visibility_rules=['logic_full'], location_id=235),
+    inverted.simple_location("Upper Right Room Right Item", 30, 3, visibility_rules=['logic_full'], location_id=236),
+    inverted.simple_location("Upper Ascent", 29, 5, visibility_rules=['logic_full'], location_id=[237, 238]),
+    inverted.simple_location("Middle Ascent Right Item", 32, 7, visibility_rules=['logic_equipment'], location_id=234),
+    inverted.simple_location("Death Item", 30.5, 11, visibility_rules=['logic_relic_prog'], location_id=239),
 ])
 
 # Floating Catacombs
 floating_catacombs = Area("Floating Catacombs", access_rules=['$canAccessInvertedCastle'], children=[
-    Location("Catacombs Entrance", map_locations=[inverted.location(33, 1)], sections=[
-        Section("Magic Missile", location_id=127190000),
-        Section("Buffalo Star", location_id=127190001),
+    Location("After Save Point", map_locations=[inverted.location(33, 1)], visibility_rules=['logic_full'], sections=[
+        Section("Item", location_id=213),
+        Section("Breakable Wall", location_id=214),
     ]),
-    inverted.simple_location("Necklace of J", 37, 1, location_id=127190013),
-    inverted.simple_location("Diamond", 38, 1, location_id=127190014),
-    Location("After Galamoth", map_locations=[inverted.location(44, 0)], sections=[
-        Section("Heart Vessel", location_id=127190015),
-        Section("Life Vessel", location_id=127190016),
+    inverted.simple_location("After Crypt Breakable Wall Room", 37, 1, visibility_rules=['logic_equipment'], location_id=226),
+    inverted.simple_location("Before Galamoth Save Point", 38, 1, visibility_rules=['logic_equipment'], location_id=227),
+    Location("After Galamoth", map_locations=[inverted.location(44, 0)], visibility_rules=['logic_full'], sections=[
+        Section("Left Item", location_id=228),
+        Section("Right Item", location_id=229),
     ]),
-    Location("Gas Cloud Room", map_locations=[inverted.location(44, 1)], sections=[
-        Section("Ruby Circlet", location_id=127190017),
-        Section("Gas Cloud", location_id=127193191),
+    Location("After Galamoth Deeper Room", map_locations=[inverted.location(44, 1)], sections=[
+        Section("Right Item", visibility_rules=['logic_full'], location_id=230),
+        Section("Left Item", visibility_rules=['logic_relic_prog'], location_id=231),
     ]),
-    Location("Lava Bridge", map_locations=[inverted.location(35, 1)], sections=[
-        Section("Shield Potion", location_id=127190011),
-        Section("Attack Potion", location_id=127190012),
+    Location("After Crypt Cave", map_locations=[inverted.location(35, 1)], visibility_rules=['logic_full'], sections=[
+        Section("Upper Red Vase", location_id=224),
+        Section("Bottom Red Vase", location_id=225),
     ]),
-    Location("Crypt", map_locations=[inverted.location(29, 0)], sections=[
-        Section("Life Vessel", location_id=127190009),
-        Section("Heart Vessel)", location_id=127190010),
+    Location("Start of Crypt", map_locations=[inverted.location(29, 0)], visibility_rules=['logic_full'], sections=[
+        Section("Left Item", location_id=222),
+        Section("Right Item)", location_id=223),
     ]),
-    Area('Beyond Spike Maze', access_rules=[
+    Area('After Spike Tunnel', access_rules=[
         'soulofbat',
         'formofmist,powerofmist',
         'spikebreaker,leapstone',
         'spikebreaker,gravityboots',
     ], children=[
-        Location("Spike Hallway", map_locations=[inverted.location(13, 1)], sections=[
-            Section("Resist Thunder", location_id=127190002),
-            Section("Resist Fire", location_id=127190003),
-            Section("Karma Coin", location_id=[127190004, 127190005]),
+        Location("Spike Hallway", map_locations=[inverted.location(13, 1)], visibility_rules=['logic_full'], sections=[
+            Section("Top Left Vase", location_id=215),
+            Section("Top Right Vase", location_id=216),
+            Section("Bottom Left Vase", location_id=217),
+            Section("Bottom Right Vase", location_id=218),
         ]),
-        inverted.simple_location("Red Bean Bun", 13, 0, location_id=127190006),
-        Location("Spike Breaker Room", map_locations=[inverted.location(20, 0)], sections=[
-            Section("Elixir", location_id=127190007),
-            Section("Library Card", location_id=127190008),
+        inverted.simple_location("Deep Left Item", 13, 0, visibility_rules=['logic_full'], location_id=219),
+        Location("Deep Right", map_locations=[inverted.location(20, 0)], visibility_rules=['logic_full'], sections=[
+            Section("Item", location_id=220),
+            Section("Breakable Wall Item", location_id=221),
         ]),
     ]),
-    boss_location("Galamoth", "galamoth", inverted, 42.5, 0.5, location_id=127193190),
 ])
 
 # Death Wing's Lair
 death_wing = Area("Death Wing's Lair", access_rules=['$canAccessInvertedCastle'], children=[
-    inverted.simple_location("Life Vessel", 40, 32, location_id=127260008),
-    Location("Secret Hallway", map_locations=[inverted.location(29, 29)], sections=[
-        Section("Opal", location_id=127260000),
-        Section("Sword of Hador", location_id=127260001),
-        Section("High Potion", location_id=127260002),
+    inverted.simple_location("Bellow Wooden Pedestal", 40, 32, visibility_rules=['logic_full'], location_id=296),
+    Location("Room Behind Breakable Wall", map_locations=[inverted.location(29, 29)], sections=[
+        Section("Left Red Vase", visibility_rules=['logic_equipment'], location_id=288),
+        Section("Middle Red Vase", visibility_rules=['logic_full'], location_id=289),
+        Section("Right Red Vase", visibility_rules=['logic_full'], location_id=290),
     ]),
-    Location("Middle Shaft", map_locations=[inverted.location(26, 32)], sections=[
-        Section("Shield Potion", location_id=127260003),
-        Section("Luck Potion", location_id=127260004),
+    Location("Shaft", map_locations=[inverted.location(26, 32)], visibility_rules=['logic_full'], sections=[
+        Section("Top Red Vase", location_id=291),
+        Section("Middle Red Vase", location_id=292),
     ]),
-    inverted.simple_location("Manna Prism", 26, 34, location_id=127260005),
-    inverted.simple_location("Aquamarine", 31, 36, location_id=127260006),
-    inverted.simple_location("Shuriken", 39, 35, location_id=127260010),
-    inverted.simple_location("Alucard Mail", 28, 33, location_id=127260007),
-    inverted.simple_location("Heart Vessel", 45, 35, access_rules=['$canTransform'], location_id=127260011),
-    inverted.simple_location("Heart Refresh", 41, 33, location_id=127260009),
-    Location("Akmodan II", map_locations=[inverted.location(41.5, 34.5)], access_rules=['$canTransform'], sections=[
-        Section("Akmodan II kill", hosted_item='akmodan', location_id=127263260),
-        Section("Rib of Vlad", location_id=127263261),
-    ]),
+    inverted.simple_location("Bottom Red Vase on Shaft", 26, 34, visibility_rules=['logic_full'], location_id=293),
+    inverted.simple_location("Red Vase Next to Path to Courtyard", 31, 36, visibility_rules=['logic_full'], location_id=294),
+    inverted.simple_location("Attic Before Akmodan II", 39, 35, visibility_rules=['logic_full'], location_id=298),
+    inverted.simple_location("Top Left Room", 28, 33, visibility_rules=['logic_equipment'], location_id=295),
+    inverted.simple_location("After Akmodan II", 45, 35, access_rules=['$canTransform'], visibility_rules=['logic_full'], location_id=299),
+    inverted.simple_location("Breakable Floor Room", 41, 33, visibility_rules=['logic_full'], location_id=297),
+    inverted.simple_location("Akmodan II Item", 41.5, 34.5, visibility_rules=['logic_relic_prog'], location_id=300),
 ])
 
 # Reverse Colosseum
 reverse_colosseum = Area("Reverse Colosseum", access_rules=['$canAccessInvertedCastle'], children=[
-    inverted.simple_location("Fury Plate", 42, 31, location_id=127180000),
-    inverted.simple_location("Zircon", 48, 27, location_id=127180001),
-    inverted.simple_location("Buffalo Star", 42, 27, location_id=127180002),
-    inverted.simple_location("Gram", 41, 27, location_id=127180003),
-    inverted.simple_location("Aquamarine", 35, 27, location_id=127180004),
-    Location("Passage", map_locations=[inverted.location(38, 28)], sections=[
-        Section('Heart Vessel', location_id=[127180005, 127180007]),
-        Section('Life Vessel', location_id=127180006),
+    inverted.simple_location("Breakable Floor Room", 42, 31, visibility_rules=['logic_equipment'], location_id=205),
+    inverted.simple_location("Right Part - Top Right Room", 48, 27, visibility_rules=['logic_full'], location_id=206),
+    inverted.simple_location("Right Part - Top Left Room", 42, 27, visibility_rules=['logic_full'], location_id=207),
+    inverted.simple_location("Left Part - Top Right Room", 41, 27, visibility_rules=['logic_equipment'], location_id=208),
+    inverted.simple_location("Left Part - Top Left Room", 35, 27, visibility_rules=['logic_full'], location_id=209),
+    Location("Left Part", map_locations=[inverted.location(38, 28)], visibility_rules=['logic_full'], sections=[
+        Section('Left Item on Floor', location_id=210),
+        Section('Middle Item on Floor', location_id=211),
+        Section('Right Item on Floor', location_id=212),
     ]),
-    boss_location('Fake Trevor & Grant & Sypha', 'faketrio', inverted, 41.5, 29, location_id=127183180),
+    inverted.simple_location("Trio Item", 41.5, 29, visibility_rules=['logic_relic_prog'], location_id=385),
 ])
 
 # Reverse Clock Tower
 reverse_clock_tower = Area("Reverse Clock Tower", access_rules=['$canAccessInvertedCastle'], children=[
-    Location("Above Bridge", map_locations=[inverted.location(6, 37)], sections=[
-        Section("Magic Missile", location_id=127300000),
-        Section("Karma Coin", location_id=127300001),
+    Location("Above Stone Bridge", map_locations=[inverted.location(6, 37)], visibility_rules=['logic_full'], sections=[
+        Section("Left Item", location_id=349),
+        Section("Right Item", location_id=350),
     ]),
-    Location("Pillars", map_locations=[inverted.location(7, 38)], sections=[
-        Section("Str. Potion", location_id=127300002),
-        Section("Luminus", location_id=127300003),
-        Section("Smart Potion", location_id=127300004),
+    Location("Columns", map_locations=[inverted.location(7, 38)], sections=[
+        Section("Left Column", visibility_rules=['logic_full'], location_id=351),
+        Section("Middle Column", visibility_rules=['logic_equipment'], location_id=352),
+        Section("Right Column", visibility_rules=['logic_full'], location_id=353),
     ]),
-    inverted.simple_location("Dragon Helm", 2, 40, location_id=127300005),
-    Location("Hidden Room", map_locations=[inverted.location(12, 37)], sections=[
-        Section("Diamond", location_id=127300006),
-        Section("Life Apple", location_id=127300007),
-        Section("Sunstone", location_id=127300008),
+    inverted.simple_location("Bottom Left Room", 2, 40, visibility_rules=['logic_equipment'], location_id=354),
+    Location("Gears Puzzle Room", map_locations=[inverted.location(12, 37)], sections=[
+        Section("Left Item", visibility_rules=['logic_full'], location_id=355),
+        Section("Middle Item", visibility_rules=['logic_full'], location_id=356),
+        Section("Right Item", visibility_rules=['logic_equipment'], location_id=357),
     ]),
-    inverted.simple_location("Moon Rod", 19, 40, location_id=127300011),
-    inverted.simple_location("Heart Vessel", 11, 42, location_id=127300010),
-    inverted.simple_location("Life Vessel", 9, 42, location_id=127300009),
-    inverted.simple_location("Turkey", 13, 40, location_id=127303301),
-    Location("Keep Approach", map_locations=[inverted.location(19, 41)], sections=[
-        Section("Bwaka Knife", location_id=127303300),
-        Section("Shuriken", location_id=127303302),
-        Section("TNT", location_id=127303303),
+    inverted.simple_location("Behind Breakable Wall Next to Bronze Statue", 19, 40, visibility_rules=['logic_equipment'], location_id=360),
+    inverted.simple_location("Room Behind Bottom Left Breakable Wall Left Item", 9, 42, visibility_rules=['logic_full'], location_id=358),
+    inverted.simple_location("Room Behind Bottom Left Breakable Wall Right Item", 11, 42, visibility_rules=['logic_full'], location_id=359),
+    inverted.simple_location("Breakable Wall Item on Brackets", 13, 40, visibility_rules=['logic_full'], location_id=362),
+    Location("Near Darkwing Bat", map_locations=[inverted.location(19, 41)], visibility_rules=['logic_full'], sections=[
+        Section("Left Breakable Wall", location_id=364),
+        Section("Middle Breakable Wall", location_id=361),
+        Section("Right Breakable Wall", location_id=363),
     ]),
-    Location("Darkwing Bat", map_locations=[inverted.location(21, 41)], sections=[
-        Section("Darkwing Bat kill", hosted_item='darkwingbat', location_id=127303304),
-        Section("Ring of Vlad", location_id=127303305),
-    ]),
+    inverted.simple_location("Darkwing Bat Item", 21, 41, visibility_rules=['logic_relic_prog'], location_id=365),
 ])
 
 # Reverse Castle Keep
 reverse_keep = Area("Reverse Castle Keep", access_rules=['$canAccessInvertedCastle'], children=[
-    Location("Keep Top", map_locations=[inverted.location(30, 40)], sections=[
-        Section("Sword of Dawn", location_id=127310000),
-        Section("Garnet", location_id=127310022),
+    Location("Open Area Top Right", map_locations=[inverted.location(30, 40)], sections=[
+        Section("Breakable Wall", visibility_rules=['logic_full'], location_id=366),
+        Section("Ledge", visibility_rules=['logic_equipment'], location_id=382),
     ]),
-    inverted.simple_location("Iron Ball", 30, 42, location_id=127310001),
-    inverted.simple_location("Lightning Mail", 22, 40, location_id=127310023),
-    Location("Below Throne", map_locations=[inverted.location(27, 45)], sections=[
-        Section("Bastard Sword", location_id=127310004),
-        Section("Life Vessel", location_id=[127310005, 127310007, 127310009]),
-        Section("Heart Vessel", location_id=[127310006, 127310008, 127310010]),
-        Section("Royal Cloak", location_id=127310011),
+    inverted.simple_location("Open Area Bottom Left Underpass Breakable Wall", 30, 42, visibility_rules=['logic_full'], location_id=367),
+    inverted.simple_location("Bottom Left Room on Dual Elevator Area", 22, 40, visibility_rules=['logic_equipment'], location_id=383),
+    Location("Bellow Stairs", map_locations=[inverted.location(27, 45)], sections=[
+        Section("Left Statue 1", visibility_rules=['logic_full'], location_id=375),
+        Section("Left Statue 2", visibility_rules=['logic_equipment'], location_id=376),
+        Section("Left Yellow Vase 1", visibility_rules=['logic_full'], location_id=374),
+        Section("Left Yellow Vase 2", visibility_rules=['logic_full'], location_id=373),
+        Section("Right Yellow Vase 1", visibility_rules=['logic_full'], location_id=372),
+        Section("Right Yellow Vase 2", visibility_rules=['logic_full'], location_id=371),
+        Section("Right Statue 1", visibility_rules=['logic_full'], location_id=370),
+        Section("Right Statue 2", visibility_rules=['logic_equipment'], location_id=369),
     ]),
-    inverted.simple_location("Library Card", 22, 43, location_id=127310024),
-    Location("Viewing Room", map_locations=[inverted.location(22.5, 45)], sections=[
-        Section("Resist Fire", location_id=127310017),
-        Section("Resist Ice", location_id=127310018),
-        Section("Resist Thunder", location_id=127310019),
-        Section("Resist Stone", location_id=127310020),
-        Section("High Potion", location_id=127310021),
+    inverted.simple_location("Bellow Save Point", 22, 43, visibility_rules=['logic_full'], location_id=384),
+    Location("Open Area Bottom Right Room", map_locations=[inverted.location(22.5, 45)], visibility_rules=['logic_full'], sections=[
+        Section("Item 1", location_id=377),
+        Section("Item 2", location_id=378),
+        Section("Item 3", location_id=380),
+        Section("Item 4", location_id=379),
+        Section("Window Item", location_id=381),
     ]),
-    inverted.simple_location("Zircon", 27, 43, location_id=127310002),
+    inverted.simple_location("Red Vase After Entering", 27, 43, visibility_rules=['logic_full'], location_id=368),
 ])
 
 # *** Write out files.

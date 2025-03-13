@@ -3,10 +3,13 @@
         "name": "Castle Entrance",
         "children": [
             {
-                "name": "Heart Vessel (Above Death)",
+                "name": "Above First Encounter With Death",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Heart Vessel (Above Death)",
+                        "name": "Above First Encounter With Death",
                         "item_count": 1
                     }
                 ],
@@ -24,13 +27,16 @@
                 ]
             },
             {
-                "name": "Life Vessel (Below Shield Potion)",
+                "name": "Right Alcove in Cube of Zoe Room",
                 "access_rules": [
                     "$canJump"
                 ],
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Life Vessel (Below Shield Potion)",
+                        "name": "Right Alcove in Cube of Zoe Room",
                         "item_count": 1
                     }
                 ],
@@ -48,18 +54,24 @@
                 ]
             },
             {
-                "name": "Hidden Room",
+                "name": "Wolf-Bat Secret Room",
                 "access_rules": [
                     "soulofbat,soulofwolf"
                 ],
                 "sections": [
                     {
-                        "name": "Life Apple",
-                        "item_count": 1
+                        "name": "Left Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_equipment"
+                        ]
                     },
                     {
-                        "name": "Jewel sword",
-                        "item_count": 1
+                        "name": "Right Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -76,10 +88,13 @@
                 ]
             },
             {
-                "name": "Shield Potion",
+                "name": "Behind Stone Wall in Cube of Zoe Room",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Shield Potion",
+                        "name": "Behind Stone Wall in Cube of Zoe Room",
                         "item_count": 1
                     }
                 ],
@@ -97,13 +112,16 @@
                 ]
             },
             {
-                "name": "Holy mail",
+                "name": "Attic Above Mermans",
                 "access_rules": [
                     "$canFly"
                 ],
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Holy mail",
+                        "name": "Attic Above Mermans",
                         "item_count": 1
                     }
                 ],
@@ -121,10 +139,13 @@
                 ]
             },
             {
-                "name": "Heart Vessel (Teleport exit)",
+                "name": "Castle Entrance Teleport Exit",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Heart Vessel (Teleport exit)",
+                        "name": "Castle Entrance Teleport Exit",
                         "item_count": 1
                     }
                 ],
@@ -142,18 +163,24 @@
                 ]
             },
             {
-                "name": "Above Entrance",
+                "name": "Attic Near Start Gate",
                 "access_rules": [
                     "$canFly"
                 ],
                 "sections": [
                     {
-                        "name": "Life Vessel",
-                        "item_count": 1
+                        "name": "Left Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_relic_prog"
+                        ]
                     },
                     {
-                        "name": "Power of Wolf",
-                        "item_count": 1
+                        "name": "Right Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "logic_full"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -170,10 +197,13 @@
                 ]
             },
             {
-                "name": "Pot Roast",
+                "name": "Breakable Wall Above Merman",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Pot Roast",
+                        "name": "Breakable Wall Above Merman",
                         "item_count": 1
                     }
                 ],
@@ -191,10 +221,13 @@
                 ]
             },
             {
-                "name": "Turkey",
+                "name": "Breakable Ledge Before Death",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Turkey",
+                        "name": "Breakable Ledge Before Death",
                         "item_count": 1
                     }
                 ],
@@ -212,10 +245,13 @@
                 ]
             },
             {
-                "name": "Cube of Zoe",
+                "name": "Pedestal in Cube of Zoe Room",
+                "visibility_rules": [
+                    "logic_relic_prog"
+                ],
                 "sections": [
                     {
-                        "name": "Cube of Zoe",
+                        "name": "Pedestal in Cube of Zoe Room",
                         "item_count": 1
                     }
                 ],

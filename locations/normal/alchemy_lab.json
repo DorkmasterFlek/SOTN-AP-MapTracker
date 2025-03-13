@@ -3,10 +3,13 @@
         "name": "Alchemy Laboratory",
         "children": [
             {
-                "name": "Hide Cuirass",
+                "name": "Globe by the Bottom Entrance",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Hide Cuirass",
+                        "name": "Globe by the Bottom Entrance",
                         "item_count": 1
                     }
                 ],
@@ -24,10 +27,13 @@
                 ]
             },
             {
-                "name": "Heart Vessel",
+                "name": "Globe in Hidden Room Behind Breakable Wall",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Heart Vessel",
+                        "name": "Globe in Hidden Room Behind Breakable Wall",
                         "item_count": 1
                     }
                 ],
@@ -45,10 +51,13 @@
                 ]
             },
             {
-                "name": "Cloth Cape",
+                "name": "Globe After Spike Puzzle",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Cloth Cape",
+                        "name": "Globe After Spike Puzzle",
                         "item_count": 1
                     }
                 ],
@@ -66,10 +75,13 @@
                 ]
             },
             {
-                "name": "Life Vessel",
+                "name": "Tank in Hidden Basement on Breakable Floor",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Life Vessel",
+                        "name": "Tank in Hidden Basement on Breakable Floor",
                         "item_count": 1
                     }
                 ],
@@ -87,10 +99,13 @@
                 ]
             },
             {
-                "name": "Sunglasses",
+                "name": "Globe on Middle Elevator Shaft Room",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Sunglasses",
+                        "name": "Globe on Middle Elevator Shaft Room",
                         "item_count": 1
                     }
                 ],
@@ -108,10 +123,13 @@
                 ]
             },
             {
-                "name": "Resist Thunder",
+                "name": "Flame on Table Middle Way Up",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Resist Thunder",
+                        "name": "Flame on Table Middle Way Up",
                         "item_count": 1
                     }
                 ],
@@ -129,10 +147,13 @@
                 ]
             },
             {
-                "name": "Leather Shield",
+                "name": "Flame Near Spike Switch",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Leather Shield",
+                        "name": "Flame Near Spike Switch",
                         "item_count": 1
                     }
                 ],
@@ -150,10 +171,13 @@
                 ]
             },
             {
-                "name": "Basilard",
+                "name": "Item by Cannon",
+                "visibility_rules": [
+                    "logic_equipment"
+                ],
                 "sections": [
                     {
-                        "name": "Basilard",
+                        "name": "Item by Cannon",
                         "item_count": 1
                     }
                 ],
@@ -171,10 +195,13 @@
                 ]
             },
             {
-                "name": "Potion",
+                "name": "Globe in Big Room With Axe Lord and Spittle Bone",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Potion",
+                        "name": "Globe in Big Room With Axe Lord and Spittle Bone",
                         "item_count": 1
                     }
                 ],
@@ -192,34 +219,16 @@
                 ]
             },
             {
-                "name": "Slogra & Gaibon",
-                "sections": [
-                    {
-                        "name": "Slogra & Gaibon kill",
-                        "hosted_item": "slogragaibon"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "normal",
-                        "x": 202,
-                        "y": 482
-                    },
-                    {
-                        "map": "vertical",
-                        "x": 202,
-                        "y": 1467
-                    }
-                ]
-            },
-            {
-                "name": "Skill of Wolf",
+                "name": "Globe in Attic With Powerup Tanks",
                 "access_rules": [
                     "$canHighJump"
                 ],
+                "visibility_rules": [
+                    "logic_relic_prog"
+                ],
                 "sections": [
                     {
-                        "name": "Skill of Wolf",
+                        "name": "Globe in Attic With Powerup Tanks",
                         "item_count": 1
                     }
                 ],
@@ -237,13 +246,16 @@
                 ]
             },
             {
-                "name": "Bat Card",
+                "name": "Globe in Upper-left Room of Slogra and Gaibon",
                 "access_rules": [
                     "$canHighJump"
                 ],
+                "visibility_rules": [
+                    "logic_relic_prog"
+                ],
                 "sections": [
                     {
-                        "name": "Bat Card",
+                        "name": "Globe in Upper-left Room of Slogra and Gaibon",
                         "item_count": 1
                     }
                 ],

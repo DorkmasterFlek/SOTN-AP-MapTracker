@@ -6,10 +6,13 @@
         ],
         "children": [
             {
-                "name": "Library Card",
+                "name": "Corridor to Entrance Item on Spike Trap",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Library Card",
+                        "name": "Corridor to Entrance Item on Spike Trap",
                         "item_count": 1
                     }
                 ],
@@ -28,21 +31,24 @@
             },
             {
                 "name": "Left Clock",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Resist Dark",
+                        "name": "First Room Item on Left",
                         "item_count": 1
                     },
                     {
-                        "name": "Resist Holy",
+                        "name": "First Room Item on Right",
                         "item_count": 1
                     },
                     {
-                        "name": "Resist Thunder",
+                        "name": "Second Room Item on Left",
                         "item_count": 1
                     },
                     {
-                        "name": "Resist Fire",
+                        "name": "Second Room Item on Right",
                         "item_count": 1
                     }
                 ],
@@ -60,10 +66,13 @@
                 ]
             },
             {
-                "name": "Life Vessel",
+                "name": "Middle Clock Right Item",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Life Vessel",
+                        "name": "Middle Clock Right Item",
                         "item_count": 1
                     }
                 ],
@@ -81,10 +90,13 @@
                 ]
             },
             {
-                "name": "Heart Vessel",
+                "name": "Middle Clock Left Item",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Heart Vessel",
+                        "name": "Middle Clock Left Item",
                         "item_count": 1
                     }
                 ],
@@ -102,10 +114,13 @@
                 ]
             },
             {
-                "name": "Iron Ball",
+                "name": "Hole on the Ceiling",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Iron Ball",
+                        "name": "Hole on the Ceiling",
                         "item_count": 1
                     }
                 ],
@@ -123,13 +138,16 @@
                 ]
             },
             {
-                "name": "Meal Ticket",
+                "name": "Behind Magic Blue Door",
                 "access_rules": [
                     "jewelofopen"
                 ],
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Meal Ticket",
+                        "name": "Behind Magic Blue Door",
                         "item_count": 1
                     }
                 ],
@@ -147,10 +165,13 @@
                 ]
             },
             {
-                "name": "Antivenom",
+                "name": "Ascend to Entrance Item on Floor 1",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Antivenom",
+                        "name": "Ascend to Entrance Item on Floor 1",
                         "item_count": 1
                     }
                 ],
@@ -168,10 +189,13 @@
                 ]
             },
             {
-                "name": "Potion",
+                "name": "Ascend to Entrance Item on Floor 2",
+                "visibility_rules": [
+                    "logic_full"
+                ],
                 "sections": [
                     {
-                        "name": "Potion",
+                        "name": "Ascend to Entrance Item on Floor 2",
                         "item_count": 1
                     }
                 ],
@@ -195,10 +219,13 @@
                 ],
                 "children": [
                     {
-                        "name": "Heart Refresh",
+                        "name": "Item Inside the Clock",
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
-                                "name": "Heart Refresh",
+                                "name": "Item Inside the Clock",
                                 "item_count": 1
                             }
                         ],
