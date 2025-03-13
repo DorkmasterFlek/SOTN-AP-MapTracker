@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.2.0",
+            "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.2.0/SOTN-AP-MapTracker.zip",
+            "sha256": "29e5fe6b8db4d22b4e65faffd4816f08473ca88c209d6b3044113f4d5ba8a3c4",
+            "changelog": [
+                "Update for v0.8 rework and new extension logic"
+            ]
+        },
+        {
             "package_version": "0.1.13",
             "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.1.13/SOTN-AP-MapTracker.zip",
             "sha256": "9a26b5191769ae1e0c9a25f5aa8de4013a3b6e7868588565e2f02292620da677",
