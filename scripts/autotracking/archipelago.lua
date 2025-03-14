@@ -138,7 +138,6 @@ function onItem(index, item_id, item_name, player_number)
     end
     CUR_INDEX = index;
 
-    local is_local = player_number == Archipelago.PlayerNumber
     local v = ITEM_MAPPING[item_id]
     if not v then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -147,22 +146,20 @@ function onItem(index, item_id, item_name, player_number)
         return
     end
 
-    if is_local then
-        local obj = Tracker:FindObjectForCode(v[1])
-        if obj then
-            if v[2] == "toggle" then
+    local obj = Tracker:FindObjectForCode(v[1])
+    if obj then
+        if v[2] == "toggle" then
+            obj.Active = true
+        elseif v[2] == "progressive" then
+            if obj.Active then
+                obj.CurrentStage = obj.CurrentStage + 1
+            else
                 obj.Active = true
-            elseif v[2] == "progressive" then
-                if obj.Active then
-                    obj.CurrentStage = obj.CurrentStage + 1
-                else
-                    obj.Active = true
-                end
-            elseif v[2] == "consumable" then
-                obj.AcquiredCount = obj.AcquiredCount + obj.Increment
-            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
             end
+        elseif v[2] == "consumable" then
+            obj.AcquiredCount = obj.AcquiredCount + obj.Increment
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
         end
     end
 end
