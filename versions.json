@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.2.3",
+            "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.2.3/SOTN-AP-MapTracker.zip",
+            "sha256": "4ac7207d13440b9728427e750706051154b38c91301658db8f73d855e1498f6a",
+            "changelog": [
+                "Fixed missing location ID for keep bottom left floor item"
+            ]
+        },
+        {
             "package_version": "0.2.2",
             "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.2.2/SOTN-AP-MapTracker.zip",
             "sha256": "0b6ec5f42eda5de012eac6d0cb5ad053673db4c8188bdc9c05229a903fe8cec9",
