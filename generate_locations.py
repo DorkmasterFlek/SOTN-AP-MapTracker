@@ -415,7 +415,7 @@ keep = Area('Castle Keep', children=[
     Location('Open Area Bottom Left', map_locations=[normal.location(29, 6)], access_rules=['$canJump', 'jewelofopen'], sections=[
         Section('On Ledge', visibility_rules=['logic_full'], location_id=184),
         Section('On Ledge Breakable Wall', visibility_rules=['logic_full'], location_id=185),
-        Section('Floor Item', visibility_rules=['logic_relic_prog'], location_id=203),
+        Section('Floor Item', visibility_rules=['logic_relic_prog'], location_id=202),
     ]),
     Area('Main Keep', access_rules=['$canJump'], children=[
         Location('Open Area Top Left Alcove', map_locations=[normal.location(29, 4)], access_rules=['$canFly'], sections=[

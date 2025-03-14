@@ -96,6 +96,7 @@ LOCATIONS_MAPPING = {
     [127000199] = "@Castle Keep/Main Keep/Open Area Top Right Room/Items 1-4",
     [127000200] = "@Castle Keep/Main Keep/Open Area Top Right Room/Items 1-4",
     [127000201] = "@Castle Keep/Main Keep/Red Vase Before Richter/Red Vase Before Richter",
+    [127000202] = "@Castle Keep/Open Area Bottom Left/Floor Item",
     [127000203] = "@Castle Keep/Main Keep/Open Area Top Left Alcove/Floor Item",
     [127000204] = "@Castle Keep/Main Keep/Open Area Top Right Room/Item 5",
 
