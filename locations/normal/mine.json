@@ -13,6 +13,9 @@
                 "children": [
                     {
                         "name": "Behind Breakable Wall",
+                        "visibility_rules": [
+                            "logic_full"
+                        ],
                         "sections": [
                             {
                                 "name": "Behind Breakable Wall",

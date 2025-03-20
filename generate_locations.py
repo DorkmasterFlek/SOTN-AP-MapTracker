@@ -21,9 +21,6 @@ vertical = Map('vertical', scale=20, offset=32)
 LOCATIONS_MAPPING = {}
 HOSTED_ITEMS = {}
 
-# TODO: Remove this once the next version comes out.
-BASE_LOCATION_ID = 127000000
-
 
 def process_area(area, prefix=''):
     """Process an area and its children recursively .
@@ -79,11 +76,11 @@ def process_location(location, prefix):
             ids = [ids]
 
         for loc_id in ids:
-            LOCATIONS_MAPPING[zone][BASE_LOCATION_ID + loc_id] = code
+            LOCATIONS_MAPPING[zone][loc_id] = code
 
         # If section has a hosted item, record that as well.
         if section.hosted_item:
-            HOSTED_ITEMS[BASE_LOCATION_ID + section.location_id] = section.hosted_item
+            HOSTED_ITEMS[section.location_id] = section.hosted_item
 
 
 # *** Normal castle
@@ -294,7 +291,7 @@ mine = Area('Abandoned Mine', access_rules=[
         '@Underground Caverns/Upper Caverns/Below Wooden Bridge',
     ], children=[
     Area('Behind Demon Button', access_rules=['demoncard'], children=[
-        Location('Behind Breakable Wall', map_locations=[normal.location(34, 36)], sections=[
+        Location('Behind Breakable Wall', map_locations=[normal.location(34, 36)], visibility_rules=['logic_full'], sections=[
             Section('Behind Breakable Wall', location_id=[28, 34, 35, 36, 37, 38]),
         ]),
         Location('Demon Side', map_locations=[normal.location(35, 36)], sections=[
