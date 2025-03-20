@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "0.2.4",
+            "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.2.4/SOTN-AP-MapTracker.zip",
+            "sha256": "1719b1a967c1bf35dd812e8ab6747f4fc890afdaf579b12543577dc01c3cb40d",
+            "changelog": [
+                "Remove location ID prefix to match current apworld",
+                "Fix visibility rule on demon button location"
+            ]
+        },
+        {
             "package_version": "0.2.3",
             "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.2.3/SOTN-AP-MapTracker.zip",
             "sha256": "4ac7207d13440b9728427e750706051154b38c91301658db8f73d855e1498f6a",
