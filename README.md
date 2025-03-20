@@ -4,8 +4,9 @@ This is a PopTracker pack for the Archipelago Symphony of the Night randomizer. 
 
 ## Installation
 
-1. Download the latest release from the releases section.
-2. Place it into the `packs` folder in your PopTracker installation folder and you're all set!
+1. Make sure you have the latest PopTracker installed.  Get the latest release [here](https://github.com/black-sliver/PopTracker/releases).
+1. Download the latest release of this pack from the releases section.
+1. Place it into the `packs` folder in your PopTracker installation folder and you're all set!
 
 ## Connecting to AP
 
