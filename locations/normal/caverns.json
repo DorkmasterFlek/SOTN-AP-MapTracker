@@ -490,6 +490,9 @@
                         "children": [
                             {
                                 "name": "Underwater Item 1",
+                                "access_rules": [
+                                    "holysymbol"
+                                ],
                                 "visibility_rules": [
                                     "logic_equipment"
                                 ],
@@ -514,6 +517,9 @@
                             },
                             {
                                 "name": "Underwater Item 2",
+                                "access_rules": [
+                                    "holysymbol"
+                                ],
                                 "visibility_rules": [
                                     "logic_full"
                                 ],
@@ -540,7 +546,7 @@
                                 "name": "On Alcove",
                                 "access_rules": [
                                     "mermanstatue",
-                                    "$canJump"
+                                    "$canFly"
                                 ],
                                 "visibility_rules": [
                                     "logic_equipment"
@@ -567,7 +573,7 @@
                             {
                                 "name": "Underwater Item 3",
                                 "access_rules": [
-                                    "mermanstatue"
+                                    "holysymbol,mermanstatue"
                                 ],
                                 "visibility_rules": [
                                     "logic_full"

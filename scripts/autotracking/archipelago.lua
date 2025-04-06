@@ -85,10 +85,10 @@ function onClear(slot_data)
         if flag ~= nil then
             local obj = Tracker:FindObjectForCode(v)
             if obj then
-                if flag == 1 then
-                    obj.Active = true
+                if flag >= 1 then
+                    obj.CurrentStage = 1
                 else
-                    obj.Active = false
+                    obj.CurrentStage = 0
                 end
             elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                 print(string.format("onClear: could not find object for code %s", v))
@@ -101,12 +101,12 @@ function onClear(slot_data)
     -- Check which extension (location set) we're using.
     local obj = Tracker:FindObjectForCode("extension")
     if obj then
-        local flag = slot_data["extension"]
+        local flag = slot_data["item_pool"]
         if flag ~= nil then
             -- Full is 0, but we want to put them in increasing order so move everything down by 1.
             obj.CurrentStage = (flag - 1) % 4
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print("onClear: could not find slot data for code extension")
+            print("onClear: could not find slot data for code item_pool")
         end
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print("onClear: could not find object for code extension")
