@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "0.2.6",
+            "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.2.6/SOTN-AP-MapTracker.zip",
+            "sha256": "7881c50b5f2b55d5fef4f792eefde171d1d4a6ab6b6ff1b3b805380e730b7eb1",
+            "changelog": [
+                "Fix detecting v0.81 extension logic when autotracking.",
+                "Underwater item logic fixes."
+            ]
+        },
+        {
             "package_version": "0.2.5",
             "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.2.5/SOTN-AP-MapTracker.zip",
             "sha256": "51fa7855d3b8e65717ce5c5df0485190c2040f877387a9a71a1a66232bea78f2",
