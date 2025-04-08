@@ -74,13 +74,8 @@ function onClear(slot_data)
         end
     end
 
-    -- Opened back doors, if server populates them.
-    -- There are now two Underground Caverns back door flags (normal and before Death) so we need to check both.
-    if slot_data["early_open_no4"] == 1 then
-        slot_data["open_no4"] = 1
-    end
-
-    for _, v in ipairs({ "open_no4", "open_are" }) do
+    -- Check extra settings flags from slot data.
+    for _, v in ipairs({ "open_no4", "open_are", "boss_locations", "enemysanity" }) do
         local flag = slot_data[v]
         if flag ~= nil then
             local obj = Tracker:FindObjectForCode(v)
@@ -103,8 +98,7 @@ function onClear(slot_data)
     if obj then
         local flag = slot_data["item_pool"]
         if flag ~= nil then
-            -- Full is 0, but we want to put them in increasing order so move everything down by 1.
-            obj.CurrentStage = (flag - 1) % 4
+            obj.CurrentStage = flag
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print("onClear: could not find slot data for code item_pool")
         end
