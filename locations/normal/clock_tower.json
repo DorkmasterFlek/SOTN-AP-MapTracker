@@ -266,6 +266,30 @@
                         "y": 1137
                     }
                 ]
+            },
+            {
+                "name": "Karasuman",
+                "visibility_rules": [
+                    "boss_locations"
+                ],
+                "sections": [
+                    {
+                        "name": "Karasuman Item",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 792,
+                        "y": 132
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 792,
+                        "y": 1117
+                    }
+                ]
             }
         ]
     }

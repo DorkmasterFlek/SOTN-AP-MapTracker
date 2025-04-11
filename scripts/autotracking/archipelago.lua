@@ -74,13 +74,17 @@ function onClear(slot_data)
         end
     end
 
-    -- Check extra settings flags from slot data.
-    for _, v in ipairs({ "open_no4", "open_are", "boss_locations", "enemysanity" }) do
+    -- Check settings from slot data.
+    for _, v in ipairs({ "open_no4", "open_are", "item_pool", "boss_locations", "enemysanity" }) do
         local flag = slot_data[v]
         if flag ~= nil then
             local obj = Tracker:FindObjectForCode(v)
             if obj then
-                if flag >= 1 then
+                -- For item pool, set the current stage to the flag value.
+                -- For everything else, it's a toggle.
+                if v == "item_pool" then
+                    obj.CurrentStage = flag
+                elseif flag >= 1 then
                     obj.CurrentStage = 1
                 else
                     obj.CurrentStage = 0
@@ -91,19 +95,6 @@ function onClear(slot_data)
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onClear: could not find slot data for code %s", v))
         end
-    end
-
-    -- Check which extension (location set) we're using.
-    local obj = Tracker:FindObjectForCode("extension")
-    if obj then
-        local flag = slot_data["item_pool"]
-        if flag ~= nil then
-            obj.CurrentStage = flag
-        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print("onClear: could not find slot data for code item_pool")
-        end
-    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print("onClear: could not find object for code extension")
     end
 
     -- Number of bosses needed.

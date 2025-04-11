@@ -4,18 +4,21 @@
 # Generate text images for settings in SOTN map tracker using SOTN font and split them up.
 
 import math
+import re
 
 from PIL import Image, ImageDraw, ImageFont
 
 labels = [
-    ('Closed', 'closed'),
-    ('Opened', 'opened'),
-    ('Full', 'full'),
-    ('Relic/Prog', 'relic_prog'),
-    ('Guarded', 'guarded'),
-    ('Equipment', 'equipment'),
+    'Closed',
+    'Opened',
+    'Full',
+    'Relic/Prog',
+    'Guarded',
+    'Equipment',
+    'Enabled',
+    'Disabled',
 ]
-text = '\n'.join(l[0] for l in labels)
+text = '\n'.join(labels)
 text_color = (255, 255, 255, 255)
 # text_color = (0, 0, 0, 255)
 img_colour = (0, 0, 0, 0)
@@ -38,7 +41,10 @@ label_height = math.ceil(img_height / len(labels))
 # print(f"Label size: {label_width} x {label_height}")
 
 # Make new image the same size for each label.
-for i, (label, fname) in enumerate(labels):
+for i, label in enumerate(labels):
+    # Make filename by converting label to lowercase and replacing non-words with underscores.
+    fname = re.sub(r'\W+', '_', label.lower())
+
     img = Image.new("RGBA", (1000, 1000), img_colour)
 
     draw = ImageDraw.Draw(img)
@@ -47,6 +53,7 @@ for i, (label, fname) in enumerate(labels):
 
     bbox = img.getbbox()
     img = img.crop((0, 0, max(bbox[2], label_width), max(bbox[3], label_height)))
-    img.save(f"images/settings/{fname}.png", "PNG")
+    img_fname = f"images/settings/{fname}.png"
+    img.save(img_fname, "PNG")
 
-    print(f"Saved {label} image.")
+    print(f"Saved {img_fname}")

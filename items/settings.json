@@ -30,7 +30,7 @@
         ]
     },
     {
-        "name": "Extension",
+        "name": "Item Pool",
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
@@ -52,6 +52,36 @@
                 "codes": "logic_full"
             }
         ],
-        "codes": "extension"
+        "codes": "item_pool"
+    },
+    {
+        "name": "Include Boss Locations",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/settings/disabled.png"
+            },
+            {
+                "img": "images/settings/enabled.png",
+                "codes": "boss_locations"
+            }
+        ]
+    },
+    {
+        "name": "Enemysanity",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/settings/disabled.png"
+            },
+            {
+                "img": "images/settings/enabled.png",
+                "codes": "enemysanity"
+            }
+        ]
     }
 ]

@@ -294,6 +294,30 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Galamoth",
+                "visibility_rules": [
+                    "boss_locations"
+                ],
+                "sections": [
+                    {
+                        "name": "Galamoth Item",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 882,
+                        "y": 42
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 882,
+                        "y": 42
+                    }
+                ]
             }
         ]
     }

@@ -201,6 +201,30 @@
                                 "y": 1937
                             }
                         ]
+                    },
+                    {
+                        "name": "Granfaloon",
+                        "visibility_rules": [
+                            "boss_locations"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Granfaloon Item",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 362,
+                                "y": 942
+                            },
+                            {
+                                "map": "vertical",
+                                "x": 362,
+                                "y": 1927
+                            }
+                        ]
                     }
                 ]
             },

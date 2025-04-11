@@ -203,6 +203,30 @@
                         "y": 1277
                     }
                 ]
+            },
+            {
+                "name": "Doppleganger 10",
+                "visibility_rules": [
+                    "boss_locations"
+                ],
+                "sections": [
+                    {
+                        "name": "Doppleganger 10 Item",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 1142,
+                        "y": 392
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 1142,
+                        "y": 1377
+                    }
+                ]
             }
         ]
     }

@@ -220,6 +220,30 @@
                         "y": 512
                     }
                 ]
+            },
+            {
+                "name": "Beelzebub",
+                "visibility_rules": [
+                    "boss_locations"
+                ],
+                "sections": [
+                    {
+                        "name": "Beelzebub Item",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 1042,
+                        "y": 502
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 1042,
+                        "y": 502
+                    }
+                ]
             }
         ]
     }

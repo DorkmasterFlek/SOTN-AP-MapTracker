@@ -100,7 +100,7 @@
                                 "type": "layout",
                                 "h_alignment": "center",
                                 "v_alignment": "center",
-                                "key": "shared_item_grid"
+                                "key": "broadcast_item_grid"
                             }
                         },
                         {
@@ -109,7 +109,7 @@
                             "dock": "left",
                             "content": {
                                 "type": "layout",
-                                "key": "settings_grid"
+                                "key": "settings_grid_vertical"
                             }
                         },
                         {
@@ -131,11 +131,29 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Castle",
+                            "title": "Full",
                             "content": {
                                 "type": "map",
                                 "maps": [
                                     "vertical"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Normal Castle",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "normal"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Inverted Castle",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "inverted"
                                 ]
                             }
                         }

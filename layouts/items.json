@@ -88,7 +88,32 @@
             }
         ]
     },
-    "settings_grid": {
+    "settings_grid1": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0,10,0",
+        "content": [
+            {
+                "type": "group",
+                "header": "Item Pool",
+                "content": {
+                    "type": "item",
+                    "margin": "10,0,10,10",
+                    "item": "item_pool"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Boss Locations",
+                "content": {
+                    "type": "item",
+                    "margin": "10,0,10,10",
+                    "item": "boss_locations"
+                }
+            }
+        ]
+    },
+    "settings_grid2": {
         "type": "array",
         "orientation": "vertical",
         "content": [
@@ -109,15 +134,34 @@
                     "margin": "10,0,10,10",
                     "item": "open_are"
                 }
+            }
+        ]
+    },
+    "settings_grid": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "layout",
+                "key": "settings_grid1"
             },
             {
-                "type": "group",
-                "header": "Extension",
-                "content": {
-                    "type": "item",
-                    "margin": "10,0,10,10",
-                    "item": "extension"
-                }
+                "type": "layout",
+                "key": "settings_grid2"
+            }
+        ]
+    },
+    "settings_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "layout",
+                "key": "settings_grid1"
+            },
+            {
+                "type": "layout",
+                "key": "settings_grid2"
             }
         ]
     }

@@ -574,6 +574,30 @@
                         "y": 212
                     }
                 ]
+            },
+            {
+                "name": "Doppleganger 40",
+                "visibility_rules": [
+                    "boss_locations"
+                ],
+                "sections": [
+                    {
+                        "name": "Doppleganger 40 Item",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "inverted",
+                        "x": 452,
+                        "y": 272
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 452,
+                        "y": 272
+                    }
+                ]
             }
         ]
     }

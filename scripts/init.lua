@@ -1,7 +1,7 @@
 -- Entry point for all lua code of the pack
 -- More info on the Lua API: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#lua-interface
 
-ENABLE_DEBUG_LOG = false
+ENABLE_DEBUG_LOG = true  -- FIXME
 
 -- get current variant
 local variant = Tracker.ActiveVariantUID

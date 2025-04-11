@@ -397,6 +397,30 @@
                         "y": 1357
                     }
                 ]
+            },
+            {
+                "name": "Hippogryph",
+                "visibility_rules": [
+                    "boss_locations"
+                ],
+                "sections": [
+                    {
+                        "name": "Hippogryph Item",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 462,
+                        "y": 192
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 462,
+                        "y": 1177
+                    }
+                ]
             }
         ]
     }

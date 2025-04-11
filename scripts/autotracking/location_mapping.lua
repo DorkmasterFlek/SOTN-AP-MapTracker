@@ -29,6 +29,7 @@ LOCATIONS_MAPPING = {
     [166] = "@Alchemy Laboratory/Globe in Big Room With Axe Lord and Spittle Bone/Globe in Big Room With Axe Lord and Spittle Bone",
     [167] = "@Alchemy Laboratory/Globe in Attic With Powerup Tanks/Globe in Attic With Powerup Tanks",
     [168] = "@Alchemy Laboratory/Globe in Upper-left Room of Slogra and Gaibon/Globe in Upper-left Room of Slogra and Gaibon",
+    [387] = "@Alchemy Laboratory/Slogra & Gaibon/Slogra & Gaibon Item",
 
     -- Anti-Chapel
     [241] = "@Anti-Chapel/Bottom Yellow Vase/Bottom Yellow Vase",
@@ -121,6 +122,7 @@ LOCATIONS_MAPPING = {
     [26] = "@Catacombs/Catacombs Bottom/Sarcophagus/Sarcophagus",
     [27] = "@Catacombs/Catacombs Bottom/Sarcophagus/Sarcophagus",
     [28] = "@Catacombs/Catacombs Bottom/Sarcophagus/Sarcophagus",
+    [396] = "@Catacombs/Catacombs Bottom/Granfaloon/Granfaloon Item",
 
     -- Cave
     [233] = "@Cave/Breakable Wall Room/Left Item",
@@ -149,6 +151,7 @@ LOCATIONS_MAPPING = {
     [182] = "@Clock Tower/Before Karasuman Breakable Wall/Item 1",
     [183] = "@Clock Tower/Before Karasuman Breakable Wall/Item 3",
     [184] = "@Clock Tower/Top Right Room in Open Area/Top Right Room in Open Area",
+    [390] = "@Clock Tower/Karasuman/Karasuman Item",
 
     -- Colosseum
     [1] = "@Colosseum/Second Part - Bottom Right Room/Second Part - Bottom Right Room",
@@ -158,6 +161,7 @@ LOCATIONS_MAPPING = {
     [6] = "@Colosseum/First Part - Bottom Right Room/First Part - Bottom Right Room",
     [7] = "@Colosseum/Attic/Attic",
     [8] = "@Colosseum/Behind Mist Crate/Behind Mist Crate",
+    [392] = "@Colosseum/Minotaur & Werewolf/Minotaur & Werewolf Item",
 
     -- Death Wing's Lair
     [289] = "@Death Wing's Lair/Room Behind Breakable Wall/Left Red Vase",
@@ -194,6 +198,7 @@ LOCATIONS_MAPPING = {
     [230] = "@Floating Catacombs/After Galamoth/Right Item",
     [231] = "@Floating Catacombs/After Galamoth Deeper Room/Right Item",
     [232] = "@Floating Catacombs/After Galamoth Deeper Room/Left Item",
+    [398] = "@Floating Catacombs/Galamoth/Galamoth Item",
 
     -- Forbidden Library
     [258] = "@Forbidden Library/Inner Study/Red Vase",
@@ -220,6 +225,7 @@ LOCATIONS_MAPPING = {
     [68] = "@Long Library/Top Right Floor/Top Right Floor",
     [69] = "@Long Library/Top Left Room/Item 1",
     [70] = "@Long Library/Librarian Shop Item/Librarian Shop Item",
+    [389] = "@Long Library/Deeper Library/Lesser Demon/Lesser Demon Item",
 
     -- Marble Gallery
     [71] = "@Marble Gallery/Left Clock Before Olrox's Quarters/Left Clock Before Olrox's Quarters",
@@ -250,6 +256,7 @@ LOCATIONS_MAPPING = {
     [347] = "@Necromancy Laboratory/Globe in Bitterfly Room/Globe in Bitterfly Room",
     [348] = "@Necromancy Laboratory/Bottom Left Room From Beezelbub/Bottom Left Room From Beezelbub",
     [349] = "@Necromancy Laboratory/Globe in the Room With Lesser Demons and Ctulhu/Globe in the Room With Lesser Demons and Ctulhu",
+    [399] = "@Necromancy Laboratory/Beelzebub/Beelzebub Item",
 
     -- Olrox's Quarters
     [97] = "@Olrox's Quarters/Back Quarters/On Wooden Display/On Wooden Display",
@@ -264,6 +271,7 @@ LOCATIONS_MAPPING = {
     [106] = "@Olrox's Quarters/Back Quarters/Right Room/Right Room",
     [107] = "@Olrox's Quarters/Back Quarters/After Olrox/After Olrox",
     [108] = "@Olrox's Quarters/Back Quarters/Hidden Attic/Hidden Attic",
+    [393] = "@Olrox's Quarters/Back Quarters/Olrox/Olrox Item",
 
     -- Outer Wall
     [88] = "@Outer Wall/Behind Mist Grate/Item 1",
@@ -275,6 +283,7 @@ LOCATIONS_MAPPING = {
     [94] = "@Outer Wall/Red Vase Near Marble Gallery Door/Red Vase Near Marble Gallery Door",
     [95] = "@Outer Wall/Breakable Wall in Room Behind Armor Lord/Breakable Wall in Room Behind Armor Lord",
     [96] = "@Outer Wall/Inside of Elevator/Inside of Elevator",
+    [388] = "@Outer Wall/Doppleganger 10/Doppleganger 10 Item",
 
     -- Reverse Castle Keep
     [367] = "@Reverse Castle Keep/Open Area Top Right/Breakable Wall",
@@ -326,6 +335,7 @@ LOCATIONS_MAPPING = {
     [338] = "@Reverse Caverns/Inside Cave/Inside Cave",
     [339] = "@Reverse Caverns/Behind Waterfall Room/Behind Waterfall Room",
     [340] = "@Reverse Caverns/Ice Area - At End/Ice Area - At End",
+    [397] = "@Reverse Caverns/Doppleganger 40/Doppleganger 40 Item",
 
     -- Reverse Clock Tower
     [350] = "@Reverse Clock Tower/Above Stone Bridge/Left Item",
@@ -400,6 +410,7 @@ LOCATIONS_MAPPING = {
     [55] = "@Royal Chapel/Tower 2 - Top Item/Tower 2 - Top Item",
     [56] = "@Royal Chapel/Tower 3 - Top Item/Tower 3 - Top Item",
     [57] = "@Royal Chapel/Tower 3 - Red Vase/Tower 3 - Red Vase",
+    [391] = "@Royal Chapel/Hippogryph/Hippogryph Item",
 
     -- Underground Caverns
     [114] = "@Underground Caverns/Lower Caverns/By Underground Caverns Bottom Exit/By Underground Caverns Bottom Exit",

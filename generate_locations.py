@@ -83,9 +83,22 @@ def process_location(location, prefix):
             HOSTED_ITEMS[section.location_id] = section.hosted_item
 
 
-def boss_location(name, code, map, x, y, location_id, **kwargs):
-    return Location(name, map_locations=[map.location(x, y)], sections=[
-        Section(name + ' kill', hosted_item=code, location_id=location_id),
+def boss_location(name, map, x, y, location_id, **kwargs):
+    """Make a boss location.
+
+    Args:
+        name (str): The name of the boss location.
+        map (Map): The map to use for the location.
+        x (int|float): The x coordinate of the location.
+        y (int|float): The y coordinate of the location.
+        location_id (int): The ID of the location.
+        **kwargs: Additional keyword arguments for the Location object.
+
+    Returns:
+        Location: The boss location.
+    """
+    return Location(name, map_locations=[map.location(x, y)], visibility_rules=['boss_locations'], sections=[
+        Section(name + ' Item', location_id=location_id),
     ], **kwargs)
 
 
@@ -126,7 +139,7 @@ alchemy_lab = Area('Alchemy Laboratory', children=[
                            visibility_rules=['logic_relic_prog'], location_id=167),
     normal.simple_location('Globe in Upper-left Room of Slogra and Gaibon', 11, 22, access_rules=['$canHighJump'],
                            visibility_rules=['logic_relic_prog'], location_id=168),
-    # normal.simple_location('Slogra & Gaibon Item', 8.5, 22.5, visibility_rules=['boss_locations'], location_id=387),
+    boss_location('Slogra & Gaibon', normal, 8.5, 22.5, location_id=387),
 ])
 
 # Marble Gallery
@@ -175,6 +188,7 @@ outer_wall = Area('Outer Wall', children=[
     normal.simple_location('Red Vase Near Marble Gallery Door', 59, 20, visibility_rules=['logic_full'], location_id=94),
     normal.simple_location('Breakable Wall in Room Behind Armor Lord', 57, 21, visibility_rules=['logic_full'], location_id=95),
     normal.simple_location('Inside of Elevator', 59, 13, visibility_rules=['logic_relic_prog'], location_id=96),
+    boss_location('Doppleganger 10', normal, 55.5, 18, location_id=388),
 ])
 
 # Long Library
@@ -198,6 +212,7 @@ library = Area('Long Library', children=[
             Section('Statue 2', visibility_rules=['logic_equipment'], location_id=62),
             Section('Red Vase', visibility_rules=['logic_full'], location_id=63),
         ]),
+        boss_location('Lesser Demon', normal, 43.5, 15, location_id=389),
         normal.simple_location('Deeper Library Behind Mist Crate', 46, 16, access_rules=['mist'],
                                visibility_rules=['logic_relic_prog'], location_id=67),
     ]),
@@ -228,6 +243,7 @@ chapel = Area('Royal Chapel', access_rules=['jewelofopen', '$canJump'], children
     normal.simple_location('Tower 3 - Red Vase', 25, 6, visibility_rules=['logic_full'], location_id=57),
     # Technically in Colosseum but on the other side of the back door from Chapel!
     normal.simple_location('Next to Royal Chapel Passage', 12, 17, visibility_rules=['logic_equipment'], location_id=4),
+    boss_location('Hippogryph', normal, 21.5, 8, location_id=391),
 ])
 
 # Underground Caverns
@@ -340,6 +356,7 @@ catacombs = Area('Catacombs', access_rules=['@Abandoned Mine'], children=[
         Location('Sarcophagus', map_locations=[normal.location(31.5, 46)], visibility_rules=['logic_full'], sections=[
             Section('Sarcophagus', location_id=[25, 26, 27, 28]),
         ]),
+        boss_location('Granfaloon', normal, 16.5, 45.5, location_id=396),
     ]),
     Area('After Dark Spiked Area', access_rules=['soulofbat,echoofbat', 'spikebreaker,$canJump'], children=[
         Location('Red Vases', map_locations=[normal.location(46, 45)], visibility_rules=['logic_full'], sections=[
@@ -372,6 +389,7 @@ olrox = Area("Olrox's Quarters", access_rules=['open_are,jewelofopen', '$canJump
         normal.simple_location('Right Room', 31, 13, access_rules=['$canFly'], visibility_rules=['logic_equipment'], location_id=106),
         normal.simple_location('After Olrox', 14, 11, access_rules=['$canFly,$canTransform'], visibility_rules=['logic_relic_prog'], location_id=107),
         normal.simple_location('Hidden Attic', 18, 13, access_rules=['$canHighJump'], visibility_rules=['logic_relic_prog'], location_id=108),
+        boss_location('Olrox', normal, 17.5, 11.5, access_rules=['$canFly,$canTransform'], location_id=393),
     ]),
 ])
 
@@ -384,6 +402,7 @@ colosseum = Area('Colosseum', access_rules=['open_are,jewelofopen', '$canJump'],
     normal.simple_location('First Part - Bottom Right Room', 17, 19, visibility_rules=['logic_full'], location_id=6),
     normal.simple_location('Attic', 17, 15, access_rules=['$canHighJump'], visibility_rules=['logic_full'], location_id=7),
     normal.simple_location('Behind Mist Crate', 19, 17, visibility_rules=['logic_relic_prog'], location_id=8),
+    boss_location('Minotaur & Werewolf', normal, 17.5, 17, location_id=392),
 ])
 
 # Clock Tower
@@ -412,6 +431,7 @@ clock_tower = Area('Clock Tower', access_rules=['$canJump'], children=[
         Section('Item 3', location_id=183),
     ]),
     normal.simple_location('Top Right Room in Open Area', 57, 6, access_rules=['$canFly'], visibility_rules=['logic_relic_prog'], location_id=184),
+    boss_location('Karasuman', normal, 38, 5, location_id=390),
 ])
 
 # Castle Keep
@@ -478,6 +498,7 @@ necromancy_lab = Area("Necromancy Laboratory", access_rules=['$canAccessInverted
     inverted.simple_location("Globe in Bitterfly Room", 42, 24, visibility_rules=['logic_full'], location_id=347),
     inverted.simple_location("Hole in Room With Lesser and Fire Demons", 46, 18, visibility_rules=['logic_full'], location_id=346),
     inverted.simple_location("Bottom Left Room From Beezelbub", 48, 24, visibility_rules=['logic_guarded'], location_id=348),
+    boss_location('Beelzebub', inverted, 50.5, 23.5, location_id=399),
 ])
 
 # Black Marble Gallery
@@ -593,6 +614,7 @@ reverse_caverns = Area("Reverse Caverns", access_rules=['$canAccessInvertedCastl
     inverted.simple_location("Near Exit", 44, 10, visibility_rules=['logic_full'], location_id=314),
     inverted.simple_location("Ice Area - At End", 6, 10, visibility_rules=['logic_relic_prog'], location_id=340),
     inverted.simple_location("End of Cavern", 53, 9, visibility_rules=['logic_equipment'], location_id=313),
+    boss_location('Doppleganger 40', inverted, 21, 12, location_id=397),
 ])
 
 # Cave
@@ -650,6 +672,7 @@ floating_catacombs = Area("Floating Catacombs", access_rules=['$canAccessInverte
             Section("Breakable Wall Item", location_id=222),
         ]),
     ]),
+    boss_location("Galamoth", inverted, 42.5, 0.5, location_id=398),
 ])
 
 # Death Wing's Lair

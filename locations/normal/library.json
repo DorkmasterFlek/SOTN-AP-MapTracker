@@ -215,6 +215,30 @@
                         ]
                     },
                     {
+                        "name": "Lesser Demon",
+                        "visibility_rules": [
+                            "boss_locations"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Lesser Demon Item",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 902,
+                                "y": 332
+                            },
+                            {
+                                "map": "vertical",
+                                "x": 902,
+                                "y": 1317
+                            }
+                        ]
+                    },
+                    {
                         "name": "Deeper Library Behind Mist Crate",
                         "access_rules": [
                             "mist"

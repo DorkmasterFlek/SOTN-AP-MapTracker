@@ -176,6 +176,30 @@
                         "y": 1357
                     }
                 ]
+            },
+            {
+                "name": "Minotaur & Werewolf",
+                "visibility_rules": [
+                    "boss_locations"
+                ],
+                "sections": [
+                    {
+                        "name": "Minotaur & Werewolf Item",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 382,
+                        "y": 372
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 382,
+                        "y": 1357
+                    }
+                ]
             }
         ]
     }
