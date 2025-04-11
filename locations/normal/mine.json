@@ -146,6 +146,30 @@
                         "y": 1797
                     }
                 ]
+            },
+            {
+                "name": "Cerberus",
+                "visibility_rules": [
+                    "boss_locations"
+                ],
+                "sections": [
+                    {
+                        "name": "Cerberus Item",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 602,
+                        "y": 732
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 602,
+                        "y": 1717
+                    }
+                ]
             }
         ]
     }

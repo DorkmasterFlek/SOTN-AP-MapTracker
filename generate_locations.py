@@ -330,6 +330,7 @@ mine = Area('Abandoned Mine', access_rules=[
         Section('Bottom Descent', visibility_rules=['logic_full'], location_id=[33, 34]),
     ]),
     normal.simple_location('Middle Descent Left Room', 27, 39, visibility_rules=['logic_relic_prog'], location_id=41),
+    boss_location('Cerberus', normal, 28.5, 35, location_id=395),
 ])
 
 # Catacombs

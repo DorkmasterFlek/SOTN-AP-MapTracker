@@ -16,6 +16,7 @@ LOCATIONS_MAPPING = {
     [39] = "@Abandoned Mine/Behind Demon Button/Behind Breakable Wall/Behind Breakable Wall",
     [40] = "@Abandoned Mine/Behind Demon Button/Demon Side/Item on Breakable Wall",
     [41] = "@Abandoned Mine/Middle Descent Left Room/Middle Descent Left Room",
+    [395] = "@Abandoned Mine/Cerberus/Cerberus Item",
 
     -- Alchemy Laboratory
     [158] = "@Alchemy Laboratory/Globe by the Bottom Entrance/Globe by the Bottom Entrance",
