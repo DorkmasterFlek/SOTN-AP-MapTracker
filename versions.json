@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.2.9",
+            "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.2.9/SOTN-AP-MapTracker.zip",
+            "sha256": "a31f0a77540eeebac47ec7d676241caeffeb9727459ef77e7d8b25f32f7940c3",
+            "changelog": [
+                "Add missing Cerberus boss location"
+            ]
+        },
+        {
             "package_version": "0.2.8",
             "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.2.8/SOTN-AP-MapTracker.zip",
             "sha256": "ce82740646cded931c2cd88e505d20cd294f624da53f3ebc0ac62ff54203b903",
