@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.2.8",
+            "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.2.8/SOTN-AP-MapTracker.zip",
+            "sha256": "ce82740646cded931c2cd88e505d20cd294f624da53f3ebc0ac62ff54203b903",
+            "changelog": [
+                "Add boss locations back again for v0.811"
+            ]
+        },
+        {
             "package_version": "0.2.7",
             "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.2.7/SOTN-AP-MapTracker.zip",
             "sha256": "5f89dc7233897d42a9864739a0deea8626d1f4b493e6335559b604f9a9bc1e42",
