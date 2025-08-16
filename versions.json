@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "0.2.10",
+            "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.2.10/SOTN-AP-MapTracker.zip",
+            "sha256": "15a549d6380eaa84031d6dbba396411a93a398af70e8fc7d9dab7d5c8220bb68",
+            "changelog": [
+                "Fixed incorrect inverted caverns item location",
+                "Added enemysanity flag to settings"
+            ]
+        },
+        {
             "package_version": "0.2.9",
             "download_url": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/download/v0.2.9/SOTN-AP-MapTracker.zip",
             "sha256": "a31f0a77540eeebac47ec7d676241caeffeb9727459ef77e7d8b25f32f7940c3",
