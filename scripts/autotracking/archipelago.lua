@@ -97,17 +97,14 @@ function onClear(slot_data)
         end
     end
 
-    -- Number of bosses needed.
-    obj = Tracker:FindObjectForCode("bosses_need")
-    if obj then
-        if slot_data["bosses_need"] then
-            obj.AcquiredCount = slot_data["bosses_need"]
-        else
-            obj.AcquiredCount = 0
-        end
-    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print("onClear: could not find object for code bosses_need")
-    end
+    -- Ask server for zone and room data storage values when they change, and get initial values.
+    -- Commented out for now as this isn't implemented but may be in the future.
+    --local notify_keys = {
+    --    string.format("sotn_zone_%s", Archipelago.PlayerNumber),
+    --    string.format("sotn_room_%s", Archipelago.PlayerNumber),
+    --}
+    --Archipelago:SetNotify(notify_keys)
+    --Archipelago:Get(notify_keys)
 
 end
 
@@ -185,6 +182,14 @@ function onLocation(location_id, location_name)
 end
 
 
+function onReply(key, value, old_value)
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("called onReply: key %s, value %s, old_value %s", key, value, old_value))
+    end
+end
+
+
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
+Archipelago:AddSetReplyHandler("reply handler", onReply)

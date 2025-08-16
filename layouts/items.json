@@ -110,6 +110,15 @@
                     "margin": "10,0,10,10",
                     "item": "boss_locations"
                 }
+            },
+            {
+                "type": "group",
+                "header": "Enemysanity",
+                "content": {
+                    "type": "item",
+                    "margin": "10,0,10,10",
+                    "item": "enemysanity"
+                }
             }
         ]
     },

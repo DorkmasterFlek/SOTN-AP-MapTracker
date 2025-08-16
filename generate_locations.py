@@ -624,8 +624,10 @@ cave = Area("Cave", access_rules=['$canAccessInvertedCastle'], children=[
         Section("Left Item", location_id=233),
         Section("Right Item", location_id=234),
     ]),
-    inverted.simple_location("Upper Right Room Left Item", 24, 10, access_rules=['demoncard'], visibility_rules=['logic_full'], location_id=236),
-    inverted.simple_location("Upper Right Room Right Item", 30, 3, visibility_rules=['logic_full'], location_id=237),
+    Location("Upper Right Room", map_locations=[inverted.location(30, 3)], visibility_rules=['logic_full'], sections=[
+        Section("Left Item", location_id=236),
+        Section("Right Item", location_id=237),
+    ]),
     inverted.simple_location("Upper Ascent", 29, 5, visibility_rules=['logic_full'], location_id=[238, 239]),
     inverted.simple_location("Middle Ascent Right Item", 32, 7, visibility_rules=['logic_equipment'], location_id=235),
     inverted.simple_location("Death Item", 30.5, 11, visibility_rules=['logic_relic_prog'], location_id=240),

@@ -37,40 +37,17 @@
                 ]
             },
             {
-                "name": "Upper Right Room Left Item",
-                "access_rules": [
-                    "demoncard"
-                ],
+                "name": "Upper Right Room",
                 "visibility_rules": [
                     "logic_full"
                 ],
                 "sections": [
                     {
-                        "name": "Upper Right Room Left Item",
+                        "name": "Left Item",
                         "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "inverted",
-                        "x": 512,
-                        "y": 232
                     },
                     {
-                        "map": "vertical",
-                        "x": 512,
-                        "y": 232
-                    }
-                ]
-            },
-            {
-                "name": "Upper Right Room Right Item",
-                "visibility_rules": [
-                    "logic_full"
-                ],
-                "sections": [
-                    {
-                        "name": "Upper Right Room Right Item",
+                        "name": "Right Item",
                         "item_count": 1
                     }
                 ],
